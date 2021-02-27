@@ -75,7 +75,7 @@ get_header();
 $(function() {
 
     $(window).load(function() {
-        $('.inner-msg-div-inner-div').height($('.inner-msg-div-outer').height());
+        $('.inner-msg-div-inner-div').height(300);
 
     })
 })
