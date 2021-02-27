@@ -38,14 +38,19 @@ get_header();
             </li>
             <li><a href="javascript:void(0);">聯絡我們</a>
             </li>
+
+            <li>
+
+                <div class="lang-div">
+                    <a href="javascript:void(0);">繁</a>/
+                    <a href="javascript:void(0);">簡</a>/
+                    <a href="javascript:void(0);">ENGLISH</a>
+
+                </div>
+            </li>
         </ul>
 
-        <div class="lang-div">
-            <a href="javascript:void(0);">繁</a>/
-            <a href="javascript:void(0);">簡</a>/
-            <a href="javascript:void(0);">ENGLISH</a>
 
-        </div>
     </div>
 
 
