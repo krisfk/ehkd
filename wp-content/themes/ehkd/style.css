@@ -108,3 +108,8 @@ Twenty Twenty-One is distributed under the terms of the GNU GPL.
 .top-menu li {
     display: inline-block;
 }
+
+.top-menu li a {
+    color: #0033a1;
+    font-size: 24px;
+}
