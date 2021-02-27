@@ -16,5 +16,9 @@
 
 get_header();
 
-echo 123;
+?>
+<div class="container">
+    fsdf
+</div>
+<?php
 get_footer();
