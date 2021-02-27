@@ -22,7 +22,9 @@ get_header();
 
 <div class="container">
 
-    <img src="<?php echo get_template_directory_uri();?>/assets/images/ehkd-logo.png" alt="">
+    <a href=""><img class="ehkd-logo" src="<?php echo get_template_directory_uri();?>/assets/images/ehkd-logo.png"
+            alt=""></a>
+
 </div>
 <?php
 get_footer();
