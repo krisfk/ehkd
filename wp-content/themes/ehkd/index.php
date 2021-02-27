@@ -87,7 +87,9 @@ $(function() {
 })
 
 window.onload = function() {
-    $('.inner-msg-div-inner-div').height($('.inner-msg-div-outer').height());
+    $('.inner-msg-div-inner-div').height($('.inner-msg-div-outer').height()).css({
+        'opacity': '1'
+    });
 }
 </script>
 
