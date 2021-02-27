@@ -53,7 +53,14 @@ get_header();
 
     </div>
 </div>
-<div class="main-banner"><img src="<?php echo get_template_directory_uri();?>/assets/images/home-banner.jpg" alt="">
+<div class="main-banner">
+
+    <div class="home-main-banner-inner-div">
+        <img class="home-banner-innner-img"
+            src="<?php echo get_template_directory_uri();?>/assets/images/home-banner-innner-img.png" alt="">
+
+    </div>
+    <img src="<?php echo get_template_directory_uri();?>/assets/images/home-banner.jpg" alt="">
 </div>
 
 
