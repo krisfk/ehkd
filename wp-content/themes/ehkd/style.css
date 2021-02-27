@@ -102,3 +102,9 @@ Twenty Twenty-One is distributed under the terms of the GNU GPL.
 .ehkd-logo {
     width: 655px;
 }
+
+.top-menu {}
+
+.top-menu li {
+    display: inline-block;
+}
