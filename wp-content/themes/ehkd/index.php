@@ -74,7 +74,10 @@ get_header();
 <script type="text/javascript">
 $(function() {
 
-    $('.inner-msg-div-inner-div').height($('.inner-msg-div-outer').height());
+    $(window).load(function() {
+        $('.inner-msg-div-inner-div').height($('.inner-msg-div-outer').height());
+
+    })
 })
 </script>
 
