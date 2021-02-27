@@ -62,7 +62,7 @@ get_header();
         <div class="inner-msg-div-outer">
             <div class="inner-msg-div">
 
-                <div class="inner-msg-div-inner-div"></div>
+                <div class="inner-msg-div-inner-div container"></div>
             </div>
         </div>
     </div>
