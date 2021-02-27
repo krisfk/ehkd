@@ -76,3 +76,12 @@ Twenty Twenty-One is distributed under the terms of the GNU GPL.
     max-width: 1920px;
     width: 100%;
 }
+
+.main-banner {
+    display: block;
+    width: 100%;
+}
+
+.main-banner img {
+    width: 100%;
+}

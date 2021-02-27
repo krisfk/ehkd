@@ -55,8 +55,9 @@ get_header();
 
 
 
-</div>
-<div><img src="<?php echo get_template_directory_uri();?>/assets/images/home-banner.jpg" alt=""></div>
 
-<?php
+    <div class="main-banner"><img src="<?php echo get_template_directory_uri();?>/assets/images/home-banner.jpg" alt="">
+    </div>
+
+    <?php
 get_footer();
