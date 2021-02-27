@@ -75,13 +75,12 @@ get_header();
 $(function() {
 
     // $(window).load(function() {
-    $('.inner-msg-div-inner-div').height(300);
 
     // })
 })
 
 window.onload = function() {
-    alert(6);
+    $('.inner-msg-div-inner-div').height($('.inner-msg-div-outer').height());
 }
 </script>
 
