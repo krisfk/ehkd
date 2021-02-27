@@ -124,4 +124,8 @@ Twenty Twenty-One is distributed under the terms of the GNU GPL.
 
 .home-point-icon {
     width: 250px;
+    margin: 0 auto;
+    display: table;
+    position: relative;
+    left: 15px;
 }
