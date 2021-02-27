@@ -52,12 +52,14 @@ get_header();
 
 
     </div>
+</div>
+<div class="main-banner"><img src="<?php echo get_template_directory_uri();?>/assets/images/home-banner.jpg" alt="">
+</div>
 
 
 
 
-    <div class="main-banner"><img src="<?php echo get_template_directory_uri();?>/assets/images/home-banner.jpg" alt="">
-    </div>
 
-    <?php
+
+<?php
 get_footer();
