@@ -112,15 +112,20 @@ get_header();
 
     <div class="col-3 g-0">
         <img class="rect-img" src="<?php echo get_template_directory_uri();?>/assets/images/home-rect-img-1.jpg" alt="">
+        <div>業主私人貸款</div>
     </div>
     <div class="col-3 g-0">
         <img class="rect-img" src="<?php echo get_template_directory_uri();?>/assets/images/home-rect-img-2.jpg" alt="">
+
+        <div>公務員低息貨款</div>
     </div>
     <div class="col-3 g-0">
         <img class="rect-img" src="<?php echo get_template_directory_uri();?>/assets/images/home-rect-img-3.jpg" alt="">
+        <div>物業貸款</div>
     </div>
     <div class="col-3 g-0">
         <img class="rect-img" src="<?php echo get_template_directory_uri();?>/assets/images/home-rect-img-4.jpg" alt="">
+        <div>數字貨幣抵押貸款</div>
     </div>
 
 </div>
