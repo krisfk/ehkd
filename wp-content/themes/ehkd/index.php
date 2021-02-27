@@ -60,9 +60,9 @@ get_header();
             src="<?php echo get_template_directory_uri();?>/assets/images/home-banner-innner-img.png" alt=""> -->
 
         <div class="inner-msg-div-outer">
-            <div class="inner-msg-div">
+            <div class="inner-msg-div container">
 
-                <div class="inner-msg-div-inner-div container">fdsfs</div>
+                <div class="inner-msg-div-inner-div">fdsfs</div>
             </div>
         </div>
     </div>

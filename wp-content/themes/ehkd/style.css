@@ -104,4 +104,6 @@ Twenty Twenty-One is distributed under the terms of the GNU GPL.
 
 .inner-msg-div {}
 
-.inner-msg-div-inner-div {}
+.inner-msg-div-inner-div {
+    display: table-cell;
+}
