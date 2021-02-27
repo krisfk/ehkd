@@ -67,7 +67,8 @@ get_header();
                         src="<?php echo get_template_directory_uri();?>/assets/images/home-banner-innner-img.png"
                         alt="">
 
-                    <a href="javascript:void(0);" class="apply-now-btn">立即申請</a>
+                    <div> <a href="javascript:void(0);" class="apply-now-btn">立即申請</a>
+                    </div>
                 </div>
             </div>
         </div>
