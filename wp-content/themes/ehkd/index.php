@@ -39,6 +39,14 @@ get_header();
             <li><a href="javascript:void(0);">聯絡我們</a>
             </li>
         </ul>
+
+        <div class="lang-div">
+            <a href="">繁</a>/
+            <a href="">簡</a>/
+
+            <a href="">ENGLISH</a>
+
+        </div>
     </div>
 
 
