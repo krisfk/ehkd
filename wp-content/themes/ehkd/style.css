@@ -144,3 +144,9 @@ Twenty Twenty-One is distributed under the terms of the GNU GPL.
 .rect-img {
     width: 100%;
 }
+
+.rect-img-txt {
+    text-align: center;
+    color: #fff;
+    background: #00a7e1;
+}
