@@ -17,8 +17,12 @@
 get_header();
 
 ?>
+
+
+
 <div class="container">
-    fsdf
+
+    <img src="<?php echo get_template_directory_uri();?>/assets/images/ehkd-logo.png" alt="">
 </div>
 <?php
 get_footer();
