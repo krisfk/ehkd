@@ -110,7 +110,9 @@ Twenty Twenty-One is distributed under the terms of the GNU GPL.
 }
 
 .apply-now-btn {
-    display: inline-block;
     background: #00a7e1;
     color: #fff;
+    font-size: 36px;
+    text-decoration: none;
+    padding: 10px 20px;
 }
