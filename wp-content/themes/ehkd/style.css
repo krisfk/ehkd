@@ -122,4 +122,6 @@ Twenty Twenty-One is distributed under the terms of the GNU GPL.
     color: #fff;
 }
 
-.home-point-icon {}
+.home-point-icon {
+    width: 250px;
+}
