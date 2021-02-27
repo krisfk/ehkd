@@ -24,8 +24,8 @@ get_header();
 
 
     <div class="top-div">
-        <a href=""><img class="ehkd-logo" src="<?php echo get_template_directory_uri();?>/assets/images/ehkd-logo.png"
-                alt=""></a>
+        <a href="javascript:void(0);" class="ehkd-logo-a"><img class="ehkd-logo"
+                src="<?php echo get_template_directory_uri();?>/assets/images/ehkd-logo.png" alt=""></a>
 
         <ul class="top-menu">
             <li><a href="javascript:void(0);">關於我們</a>
