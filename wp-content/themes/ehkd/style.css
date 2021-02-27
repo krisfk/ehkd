@@ -94,4 +94,14 @@ Twenty Twenty-One is distributed under the terms of the GNU GPL.
 
 .home-main-banner-inner-div {}
 
-.inner-msg-div-outer {}
+.inner-msg-div-outer {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.inner-msg-div {}
+
+.inner-msg-div-inner-div {}
