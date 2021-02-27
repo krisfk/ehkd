@@ -27,6 +27,7 @@ Twenty Twenty-One is distributed under the terms of the GNU GPL.
     display: inline-block;
     float: right;
     /* height: 100%; */
+    margin: 88px 0 0 0;
 }
 
 .top-menu li {
@@ -43,6 +44,10 @@ Twenty Twenty-One is distributed under the terms of the GNU GPL.
     height: 225px;
     vertical-align: middle;
     width: 100%;
+    border: 1px solid;
 }
 
-.ehkd-logo-a {}
+.ehkd-logo-a {
+    float: left;
+    margin: 45px 0 0 0;
+}
