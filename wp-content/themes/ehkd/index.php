@@ -74,11 +74,15 @@ get_header();
 <script type="text/javascript">
 $(function() {
 
-    $(window).load(function() {
-        $('.inner-msg-div-inner-div').height(300);
+    // $(window).load(function() {
+    $('.inner-msg-div-inner-div').height(300);
 
-    })
+    // })
 })
+
+window.onload = function() {
+    alert(6);
+}
 </script>
 
 
