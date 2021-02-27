@@ -56,8 +56,8 @@ get_header();
 <div class="main-banner">
 
     <div class="home-main-banner-inner-div">
-        <img class="home-banner-innner-img"
-            src="<?php echo get_template_directory_uri();?>/assets/images/home-banner-innner-img.png" alt="">
+        <!-- <img class="home-banner-innner-img"
+            src="<?php echo get_template_directory_uri();?>/assets/images/home-banner-innner-img.png" alt=""> -->
 
         <div class="inner-msg-div-outer">
             <div class="inner-msg-div">
