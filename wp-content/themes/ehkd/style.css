@@ -37,11 +37,11 @@ Twenty Twenty-One is distributed under the terms of the GNU GPL.
 
 .top-menu li a {
     color: #0033a1;
-    font-size: 24px;
+    font-size: 18px;
     text-decoration: none;
 }
 
-.lang-div+ {
+.lang-div {
     font-size: 24px;
 }
 
@@ -55,5 +55,19 @@ Twenty Twenty-One is distributed under the terms of the GNU GPL.
 
 .ehkd-logo-a {
     float: left;
-    margin: 45px 0 0 0;
+    margin: 69px 0 0 0;
+}
+
+.lang-div {
+    display: inline-block;
+    background: #0033a1;
+    color: #fff;
+    border-radius: 25px;
+    padding: 0px 17px 3px 17px;
+    font-size: 21px;
+}
+
+.lang-div a {
+    color: #fff !important;
+    font-size: 15px !important;
 }
