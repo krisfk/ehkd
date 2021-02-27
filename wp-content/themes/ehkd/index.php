@@ -67,7 +67,7 @@ get_header();
                         src="<?php echo get_template_directory_uri();?>/assets/images/home-banner-innner-img.png"
                         alt="">
 
-                    <div class="mt-3"> <a href="javascript:void(0);" class="apply-now-btn">立即申請</a>
+                    <div class="mt-5 text-center"> <a href="javascript:void(0);" class="apply-now-btn">立即申請</a>
                     </div>
                 </div>
             </div>
