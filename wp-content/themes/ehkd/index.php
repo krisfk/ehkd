@@ -15,7 +15,6 @@
  */
 
 get_header();
-echo 'test';
 if ( have_posts() ) {
 
 	// Load posts loop.
