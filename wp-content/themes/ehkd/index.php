@@ -22,22 +22,24 @@ get_header();
 
 <div class="container">
 
-    <a href=""><img class="ehkd-logo" src="<?php echo get_template_directory_uri();?>/assets/images/ehkd-logo.png"
-            alt=""></a>
 
-    <ul class="top-menu">
-        <li><a href="javascript:void(0);">關於我們</a>
-        </li>
-        <li><a href="javascript:void(0);">貸款產品</a>
-        </li>
-        <li><a href="javascript:void(0);">貸款計數機</a>
-        </li>
-        <li><a href="javascript:void(0);">立即申請</a>
-        </li>
-        <li><a href="javascript:void(0);">聯絡我們</a>
-        </li>
-    </ul>
+    <div class="top-div">
+        <a href=""><img class="ehkd-logo" src="<?php echo get_template_directory_uri();?>/assets/images/ehkd-logo.png"
+                alt=""></a>
 
+        <ul class="top-menu">
+            <li><a href="javascript:void(0);">關於我們</a>
+            </li>
+            <li><a href="javascript:void(0);">貸款產品</a>
+            </li>
+            <li><a href="javascript:void(0);">貸款計數機</a>
+            </li>
+            <li><a href="javascript:void(0);">立即申請</a>
+            </li>
+            <li><a href="javascript:void(0);">聯絡我們</a>
+            </li>
+        </ul>
+    </div>
 
 
 </div>
