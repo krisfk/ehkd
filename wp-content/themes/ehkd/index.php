@@ -83,7 +83,7 @@ get_header();
 
         <div class="col-lg-3"> <img class="home-point-icon"
                 src="<?php echo get_template_directory_uri();?>/assets/images/home-icon-1.png" alt="">
-            <div class="text-center">獨家貸款評估
+            <div class="text-center">獨家貸款評估 <br>
                 (免查TU信貸評級)</div>
         </div>
         <div class="col-lg-3"><img class="home-point-icon"
