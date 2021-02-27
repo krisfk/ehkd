@@ -94,14 +94,15 @@ get_header();
                 src="<?php echo get_template_directory_uri();?>/assets/images/home-icon-3.png" alt="">
             <div class="text-center">靈活慳息 <br>
                 利息逐日計</div>
-            <div class="col-lg-3"><img class="home-point-icon"
-                    src="<?php echo get_template_directory_uri();?>/assets/images/home-icon-4.png" alt="">
-
-                <div class="text-center">現金即到手</div>
-            </div>
         </div>
+        <div class="col-lg-3"><img class="home-point-icon"
+                src="<?php echo get_template_directory_uri();?>/assets/images/home-icon-4.png" alt="">
 
+            <div class="text-center">現金即到手</div>
+        </div>
     </div>
+
+</div>
 </div>
 
 
