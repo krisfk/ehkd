@@ -106,30 +106,26 @@ get_header();
 </div>
 
 
-<div class="container">
+<!-- <div class="container"> -->
 
-    <div class="row">
+<div class="row">
 
-        <div class="col-3">
-            <img class="rect-img" src="<?php echo get_template_directory_uri();?>/assets/images/home-rect-img-1.jpg"
-                alt="">
-        </div>
-        <div class="col-3">
-            <img class="rect-img" src="<?php echo get_template_directory_uri();?>/assets/images/home-rect-img-2.jpg"
-                alt="">
-        </div>
-        <div class="col-3">
-            <img class="rect-img" src="<?php echo get_template_directory_uri();?>/assets/images/home-rect-img-3.jpg"
-                alt="">
-        </div>
-        <div class="col-3">
-            <img class="rect-img" src="<?php echo get_template_directory_uri();?>/assets/images/home-rect-img-4.jpg"
-                alt="">
-        </div>
-
+    <div class="col-3">
+        <img class="rect-img" src="<?php echo get_template_directory_uri();?>/assets/images/home-rect-img-1.jpg" alt="">
+    </div>
+    <div class="col-3">
+        <img class="rect-img" src="<?php echo get_template_directory_uri();?>/assets/images/home-rect-img-2.jpg" alt="">
+    </div>
+    <div class="col-3">
+        <img class="rect-img" src="<?php echo get_template_directory_uri();?>/assets/images/home-rect-img-3.jpg" alt="">
+    </div>
+    <div class="col-3">
+        <img class="rect-img" src="<?php echo get_template_directory_uri();?>/assets/images/home-rect-img-4.jpg" alt="">
     </div>
 
 </div>
+
+<!-- </div> -->
 </div>
 
 
