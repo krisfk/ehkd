@@ -115,6 +115,7 @@ Twenty Twenty-One is distributed under the terms of the GNU GPL.
 }
 
 .top-div {
-    display: block;
+    display: table-cell;
     height: 225px;
+    vertical-align: middle;
 }
