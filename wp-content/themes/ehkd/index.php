@@ -76,6 +76,24 @@ get_header();
     <img src="<?php echo get_template_directory_uri();?>/assets/images/home-banner.jpg" alt="">
 </div>
 
+<div class="container">
+
+
+    <div class="row">
+
+        <div class="col-lg-3"> <img class="home-point-icon"
+                src="<?php echo get_template_directory_uri();?>/assets/images/home-icon-1.png" alt="">
+        </div>
+        <div class="col-lg-3"><img class="home-point-icon"
+                src="<?php echo get_template_directory_uri();?>/assets/images/home-icon-2.png" alt=""></div>
+        <div class="col-lg-3"><img class="home-point-icon"
+                src="<?php echo get_template_directory_uri();?>/assets/images/home-icon-3.png" alt=""></div>
+        <div class="col-lg-3"><img class="home-point-icon"
+                src="<?php echo get_template_directory_uri();?>/assets/images/home-icon-4.png" alt=""></div>
+
+    </div>
+</div>
+
 
 
 <script type="text/javascript">
