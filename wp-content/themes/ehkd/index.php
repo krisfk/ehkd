@@ -41,10 +41,9 @@ get_header();
         </ul>
 
         <div class="lang-div">
-            <a href="">繁</a>/
-            <a href="">簡</a>/
-
-            <a href="">ENGLISH</a>
+            <a href="javascript:void(0);">繁</a>/
+            <a href="javascript:void(0);">簡</a>/
+            <a href="javascript:void(0);">ENGLISH</a>
 
         </div>
     </div>
