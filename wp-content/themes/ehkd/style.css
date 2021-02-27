@@ -132,4 +132,10 @@ Twenty Twenty-One is distributed under the terms of the GNU GPL.
 
 .home-point-txt {
     color: #0033a1;
+    font-size: 24px;
+}
+
+.home-point-txt .small {
+    /* color: #0033a1; */
+    font-size: 18px;
 }
