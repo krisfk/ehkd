@@ -50,7 +50,7 @@ Twenty Twenty-One is distributed under the terms of the GNU GPL.
     height: 112px;
     vertical-align: middle;
     width: 100%;
-    border: 1px solid;
+    /* border: 1px solid; */
 }
 
 .ehkd-logo-a {
