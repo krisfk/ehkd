@@ -143,11 +143,15 @@
 .footer-apply-btn {
     display: inline-block;
     background: rgb(0, 51, 161);
-    color: rgb(255, 255, 255);
+    color: #fff;
     padding: 10px 15px;
     border-radius: 6px;
     font-size: 20px;
     text-decoration: none;
+}
+
+.footer-apply-btn:hover {
+    color: #fff;
 }
 
 .footer-sitemap {
