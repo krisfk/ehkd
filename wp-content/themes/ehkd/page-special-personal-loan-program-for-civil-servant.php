@@ -53,8 +53,10 @@ get_header();
 
     <div class="content-txt text-center mt-5">
 
-        只要你是居屋或公屋業主，毋須抵押物業，都可申請特大額私人貸款，助你抓住時代機遇， <br>
-        有效善用資金作投資、翻新家居或其他生活所需，靈活理財，解決燃眉之急。
+        一時手頭緊，又唔想整花個人信貸評級，影響前途? <br>
+        不論你是公務員、醫護人員或老師，只需出示職員證件，毋須上傳環聯信貸紀錄也可申請貸款， <br>
+        更可享特低利息循環貸款，最快即日批核現金，周轉暢通無阻!
+
     </div>
 
     <div class="container mt-5">
@@ -73,9 +75,10 @@ get_header();
             </div>
             <div class="d-table-cell w-50 align-middle">
                 <ul class=" big-point-ul">
-                    <li> 大額貸款</li>
-                    <li>毋須抵押物業</li>
-                    <li> 特長周轉期</li>
+
+                    <li>不損信貸評級</li>
+                    <li>特快批核</li>
+                    <li>利息特低</li>
                 </ul>
 
 
