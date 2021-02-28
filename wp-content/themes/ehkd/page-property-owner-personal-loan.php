@@ -35,7 +35,7 @@ get_header();
             </div>
         </div>
     </div>
-    <img src="<?php echo get_template_directory_uri();?>/assets/images/page-ehkd-banner.jpg" alt="">
+    <img src="<?php echo get_template_directory_uri();?>/assets/images/personal-loan-banner.jpg" alt="">
 </div>
 
 <div class="container mt-5">
