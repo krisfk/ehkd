@@ -162,7 +162,11 @@ Twenty Twenty-One is distributed under the terms of the GNU GPL.
 .footer-apply-btn-above-txt {}
 
 .footer-apply-btn {
-    display: block;
+    display: inline-block;
     background: #0033a1;
     color: #fff;
+    padding: 10px 15px;
+    border-radius: 6px;
+    font-size: 20px;
+    text-decoration: none;
 }
