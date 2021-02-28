@@ -1,24 +1,3 @@
-@charset "UTF-8";
-
-/*
-Theme Name: ehkd
-Theme URI: https://wordpress.org/themes/twentytwentyone/
-Author: the WordPress team
-Author URI: https://wordpress.org/
-Description: Twenty Twenty-One is a blank canvas for your ideas and it makes the block editor your best brush. With new block patterns, which allow you to create a beautiful layout in a matter of seconds, this theme’s soft colors and eye-catching — yet timeless — design will let your work shine. Take it for a spin! See how Twenty Twenty-One elevates your portfolio, business website, or personal blog.
-Requires at least: 5.3
-Tested up to: 5.6
-Requires PHP: 5.6
-Version: 1.1
-License: GNU General Public License v2 or later
-License URI: http://www.gnu.org/licenses/gpl-2.0.html
-Text Domain: ehkd
-Tags: one-column, accessibility-ready, custom-colors, custom-menu, custom-logo, editor-style, featured-images, footer-widgets, block-patterns, rtl-language-support, sticky-post, threaded-comments, translation-ready
-
-Twenty Twenty-One WordPress Theme, (C) 2020 WordPress.org
-Twenty Twenty-One is distributed under the terms of the GNU GPL.
-*/
-
 .ehkd-logo {
     height: 62px;
 }
@@ -26,17 +5,16 @@ Twenty Twenty-One is distributed under the terms of the GNU GPL.
 .top-menu {
     display: inline-block;
     float: right;
-    /* height: 100%; */
-    margin: 39px 0 0 0;
+    margin: 39px 0px 0px;
 }
 
 .top-menu li {
     display: inline-block;
-    margin: 0 0 0 30px;
+    margin: 0px 0px 0px 30px;
 }
 
 .top-menu li a {
-    color: #0033a1;
+    color: rgb(0, 51, 161);
     font-size: 18px;
     text-decoration: none;
 }
@@ -50,32 +28,31 @@ Twenty Twenty-One is distributed under the terms of the GNU GPL.
     height: 112px;
     vertical-align: middle;
     width: 100%;
-    /* border: 1px solid; */
 }
 
 .ehkd-logo-a {
     float: left;
-    margin: 24px 0 0 0;
+    margin: 24px 0px 0px;
 }
 
 .lang-div {
     display: inline-block;
-    background: #0033a1;
-    color: #fff;
+    background: rgb(0, 51, 161);
+    color: rgb(255, 255, 255);
     border-radius: 25px;
-    padding: 0px 17px 3px 17px;
+    padding: 0px 17px 3px;
     font-size: 21px;
 }
 
 .lang-div a {
-    color: #fff !important;
+    color: rgb(255, 255, 255) !important;
     font-size: 15px !important;
 }
 
 .site {
     max-width: 1920px;
     width: 100%;
-    margin: 0 auto;
+    margin: 0px auto;
 }
 
 .main-banner {
@@ -96,8 +73,8 @@ Twenty Twenty-One is distributed under the terms of the GNU GPL.
 
 .inner-msg-div-outer {
     position: absolute;
-    top: 0;
-    left: 0;
+    top: 0px;
+    left: 0px;
     width: 100%;
     height: 100%;
 }
@@ -111,33 +88,32 @@ Twenty Twenty-One is distributed under the terms of the GNU GPL.
 }
 
 .apply-now-btn {
-    background: #00a7e1;
-    color: #fff;
+    background: rgb(0, 167, 225);
+    color: rgb(255, 255, 255);
     font-size: 24px;
     text-decoration: none;
     padding: 10px 20px;
 }
 
 .apply-now-btn:hover {
-    color: #fff;
+    color: rgb(255, 255, 255);
 }
 
 .home-point-icon {
     width: 250px;
-    margin: 0 auto;
+    margin: 0px auto;
     display: table;
     position: relative;
     left: 15px;
 }
 
 .home-point-txt {
-    color: #0033a1;
+    color: rgb(0, 51, 161);
     font-size: 22px;
     line-height: 27px;
 }
 
 .home-point-txt .small {
-    /* color: #0033a1; */
     font-size: 16px;
     display: block;
 }
@@ -148,14 +124,14 @@ Twenty Twenty-One is distributed under the terms of the GNU GPL.
 
 .rect-img-txt {
     text-align: center;
-    color: #fff;
-    background: #00a7e1;
+    color: rgb(255, 255, 255);
+    background: rgb(0, 167, 225);
     font-size: 20px;
     padding: 14px;
 }
 
 .footer-lightblue-title {
-    color: #00a7e1;
+    color: rgb(0, 167, 225);
     font-size: 30px;
 }
 
@@ -165,8 +141,8 @@ Twenty Twenty-One is distributed under the terms of the GNU GPL.
 
 .footer-apply-btn {
     display: inline-block;
-    background: #0033a1;
-    color: #fff;
+    background: rgb(0, 51, 161);
+    color: rgb(255, 255, 255);
     padding: 10px 15px;
     border-radius: 6px;
     font-size: 20px;
@@ -180,8 +156,8 @@ Twenty Twenty-One is distributed under the terms of the GNU GPL.
 }
 
 .footer-sitemap ul {
-    margin: 0;
-    padding: 0;
+    margin: 0px;
+    padding: 0px;
 }
 
 .footer-sitemap ul li {
@@ -193,24 +169,25 @@ Twenty Twenty-One is distributed under the terms of the GNU GPL.
 }
 
 .footer-sitemap ul li a {
-    color: #000;
+    color: rgb(0, 0, 0);
     text-decoration: none;
 }
 
 .footer-sitemap .footer-sitemap-branch {
     display: inline-table;
-    margin: 0 0 0 50px;
+    margin: 0px 0px 0px 50px;
     text-align: left;
 }
 
 .footer-sitemap .footer-sitemap-branch:first-child {
-    margin: 0;
+    margin: 0px;
 }
 
 .footer-phone {
     font-size: 46px;
-    padding: 0 0 0 50px;
-    background: url();
+    padding: 0px 0px 0px 70px;
+    background: url(./assets/images/phone-icon.png) no-repeat;
+    background-size: auto 100%;
 }
 
 .phone-icon {
