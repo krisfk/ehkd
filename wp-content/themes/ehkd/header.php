@@ -51,9 +51,9 @@
                                     alt=""></a>
 
                             <ul class="top-menu">
-                                <li><a href="<?php echo get_site_url();?>/about">關於我們</a>
+                                <li><a class="level-1" href="<?php echo get_site_url();?>/about">關於我們</a>
                                 </li>
-                                <li><a class="menu-products-a" href="javascript:void(0);">貸款產品</a>
+                                <li><a class="menu-products-a level-1" href="javascript:void(0);">貸款產品</a>
                                     <ul class="top-menu-submenu">
                                         <li>
                                             <a href="#">易用錢</a>
@@ -72,11 +72,11 @@
                                         </li>
                                     </ul>
                                 </li>
-                                <li><a href="javascript:void(0);">貸款計數機</a>
+                                <li><a href="javascript:void(0);" class="level-1">貸款計數機</a>
                                 </li>
-                                <li><a href="javascript:void(0);">立即申請</a>
+                                <li><a href="javascript:void(0);" class="level-1">立即申請</a>
                                 </li>
-                                <li><a href="javascript:void(0);">聯絡我們</a>
+                                <li><a href="javascript:void(0);" class="level-1">聯絡我們</a>
                                 </li>
 
                                 <li>
