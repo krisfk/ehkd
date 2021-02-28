@@ -247,4 +247,7 @@
 .five-points-top-div {
     background: #00a7e1;
     color: #fff;
+    text-align: center;
+    padding: 20px;
+    font-size: 32px;
 }
