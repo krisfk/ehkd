@@ -111,8 +111,11 @@
 
                         $('.main-banner').mouseenter(function() {
                             $('.top-menu-submenu').fadeOut(0);
-
                         });
+
+                        $('.top-menu-submenu').mouseleave(function() {
+                            $('.top-menu-submenu').fadeOut(0);
+                        })
 
                     })
                     </script>
