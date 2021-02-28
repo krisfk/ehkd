@@ -85,7 +85,7 @@ get_header();
         <div>
             <div class="bold-title">申請條件</div>
 
-            <div>
+            <div class="txt">
                 年滿18歲香港永久居民 <br>
                 最近3個月入息證明<br>
                 最近3個月的住址證明
