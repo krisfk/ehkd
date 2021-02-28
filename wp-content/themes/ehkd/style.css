@@ -197,6 +197,7 @@
 .footer-phone-2 {
     background: url(./assets/images/wts-icon.png) no-repeat;
     background-size: auto 70%;
+    background-position: 0 center;
 }
 
 .phone-icon {
