@@ -175,12 +175,20 @@ Twenty Twenty-One is distributed under the terms of the GNU GPL.
 
 .footer-sitemap {}
 
-.footer-sitemap ul {}
+.footer-sitemap ul {
+    margin: 0;
+    padding: 0;
+}
 
 .footer-sitemap ul li {
     list-style-type: none;
 }
 
-.footer-sitemap ul li h2 {}
+.footer-sitemap ul li h2 {
+    font-size: 21px;
+}
 
-.footer-sitemap ul li a {}
+.footer-sitemap ul li a {
+    color: #000;
+    text-decoration: none;
+}
