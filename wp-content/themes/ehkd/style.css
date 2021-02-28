@@ -185,17 +185,18 @@
 
 .footer-phone {
     font-size: 46px;
-    padding: 0px 0px 0px 70px;
+    padding: 0px 0px 0px 48px;
 }
 
 .footer-phone-1 {
     background: url(./assets/images/phone-icon.png) no-repeat;
-    background-size: auto 100%;
+    background-size: auto 70%;
+    background-position: 0 center;
 }
 
 .footer-phone-2 {
     background: url(./assets/images/wts-icon.png) no-repeat;
-    background-size: auto 100%;
+    background-size: auto 70%;
 }
 
 .phone-icon {
