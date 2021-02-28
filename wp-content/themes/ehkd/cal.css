@@ -15609,6 +15609,7 @@ button.addmore img {
     transition-property: all;
     transition-duration: 0.2s;
     transition-timing-function: ease-in;
+    background: url(./assets/images/green-gradient.jpg) repeat-x;
 }
 
 .c100 .slice {
