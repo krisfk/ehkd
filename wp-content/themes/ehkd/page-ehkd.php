@@ -80,7 +80,7 @@ get_header();
 <div class="light-blue-gradient-div mt-5">
 
 
-    <div class="light-blue-inner-content">
+    <div class="light-blue-inner-content text-center">
 
         <div>
             <div class="bold-title">申請條件</div>
