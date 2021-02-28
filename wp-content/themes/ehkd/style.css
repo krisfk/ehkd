@@ -206,3 +206,11 @@ Twenty Twenty-One is distributed under the terms of the GNU GPL.
 .footer-sitemap .footer-sitemap-branch:first-child {
     margin: 0;
 }
+
+.footer-phone {
+    font-size: 30px;
+}
+
+.phone-icon {}
+
+.wts-icon {}

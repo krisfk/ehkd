@@ -218,7 +218,7 @@ get_header();
 
                         <img class="phone-icon"
                             src="<?php echo get_template_directory_uri();?>/assets/images/phone-icon.png" alt="">
-                        2628 2828
+                        <span class="footer-phone"> 2628 2828</span>
                         <div>忠告：借錢梗要還，咪俾錢中介</div>
 
 
@@ -226,7 +226,7 @@ get_header();
                     <div class="d-inline-block">
                         <img class="wts-icon"
                             src="<?php echo get_template_directory_uri();?>/assets/images/wts-icon.png" alt="">
-                        5700 8888
+                        <span class="footer-phone"> 5700 8888</span>
 
                         <div>投訴熱線：2523 7861</div>
 
