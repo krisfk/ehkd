@@ -192,7 +192,23 @@ get_header();
                         <li>貸款申請條款</li>
                     </ul>
                 </div>
-                <div class="col-lg-4"></div>
+                <div class="col-lg-4">
+                    <ul>
+
+                        <li>
+                            <h2> 放債人牌照號碼 </h2>
+                        </li>
+                        <li> 香港數字資產信貸有限公司：168/2021
+                        </li>
+                    </ul>
+
+
+
+
+
+
+
+                </div>
 
             </div>
         </div>
