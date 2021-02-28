@@ -96,7 +96,7 @@ get_header();
 
     </div> -->
 
-    <div>
+    <div class="mortgage-loan-light-blue-inner-div">
         <div class="blue-title text-center">申請流程</div>
 
         <div class="text-center mt-3">你只需完成簡單申請表格，我們即時有專人為你跟進網上申請，我們會以電話或Whatsapp <br>
