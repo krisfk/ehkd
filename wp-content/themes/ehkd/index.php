@@ -192,7 +192,7 @@ get_header();
                         <li>貸款申請條款</li>
                     </ul>
                 </div>
-                <div class="col-lg-4">
+                <div class="col-lg-3">
                     <ul>
 
                         <li>
