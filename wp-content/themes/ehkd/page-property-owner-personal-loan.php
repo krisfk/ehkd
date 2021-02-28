@@ -61,9 +61,14 @@ get_header();
             <div class="col-lg-6">
 
 
-                <div> 大額貸款
-                    毋須抵押物業
-                    特長周轉期
+                <div>
+                    <ul class="m-0">
+                        <li> 大額貸款</li>
+                        <li>毋須抵押物業</li>
+                        <li> 特長周轉期</li>
+                    </ul>
+
+
                 </div>
 
             </div>
