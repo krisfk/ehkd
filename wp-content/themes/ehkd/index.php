@@ -214,7 +214,7 @@ get_header();
                 <div class="text-start">
 
 
-                    <div class="d-inline-block mr-5">
+                    <div class="d-inline-block me-4 ">
 
                         <span class="footer-phone footer-phone-1"> 2628 2828</span>
 
