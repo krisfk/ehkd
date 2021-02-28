@@ -43,12 +43,12 @@ get_header();
 
     <img class="ehkd-img" src="<?php echo get_template_directory_uri();?>/assets/images/ehkd.png" alt="">
 
-    <div class="content-txt text-center mt-4">
+    <div class="content-txt text-center mt-5">
         「易用錢」採用獨家貸款評估，無須提交TU信貸報告，最快15分鐘助你完成貸款審批。 <br>
         零手續費， 100%現金極速到手！<br>
         申請手續簡單，7X24專人跟進，資料絕對保密，現金周轉輕鬆搞掂！
     </div>
-    <div class="row">
+    <div class="row mt-5">
 
         <div class="col-lg-3"> <img class="home-point-icon"
                 src="<?php echo get_template_directory_uri();?>/assets/images/home-icon-1.png" alt="">
