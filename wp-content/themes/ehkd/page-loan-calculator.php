@@ -46,8 +46,7 @@ get_header();
 
 
 
-        一按、二按物業按揭 <br>
-        貸款額可 <span class="big"> 高達樓價9成</span>
+        貸款計算機
 
 
 
