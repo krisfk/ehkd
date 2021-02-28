@@ -313,4 +313,8 @@ a.menu-products-a.level-1 {
     color: #0033a1;
     font-size: 24px;
     background: #eef7fb;
+    display: inline-block;
+    position: relative;
+    top: -20px;
+    padding: 0 15px;
 }
