@@ -99,11 +99,11 @@ get_header();
     <div>
         <div class="blue-title text-center">申請流程</div>
 
-        <div class="text-center">你只需完成簡單申請表格，我們即時有專人為你跟進網上申請，我們會以電話或Whatsapp <br>
+        <div class="text-center mt-5">你只需完成簡單申請表格，我們即時有專人為你跟進網上申請，我們會以電話或Whatsapp <br>
             與你聯絡，最快15分鐘初步批核再後補交文件，過程私隱度極高。
         </div>
 
-        <div class="text-center">
+        <div class="text-center mt-5">
             <a class="apply-btn" href="#">立即申請</a>
         </div>
 
