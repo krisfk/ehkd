@@ -70,7 +70,8 @@
                                             <a href="#">物業貸款</a>
                                         </li>
                                         <li>
-                                            <a href="#">數字貨幣抵押貸款</a>
+                                            <a
+                                                href="<?php echo get_site_url();?>/digital-currency-mortgage">數字貨幣抵押貸款</a>
                                         </li>
                                     </ul>
                                 </li>
