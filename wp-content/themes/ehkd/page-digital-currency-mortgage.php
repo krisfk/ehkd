@@ -67,17 +67,23 @@ get_header();
 
         <div class="col-lg-4"><img class="home-point-icon"
                 src="http://104.248.237.5/wp-content/themes/ehkd/assets/images/dcm-icon-1.png" alt="">
-            <div class="text-center home-point-txt">最快15分鐘批核</div>
+            <div class="text-center home-point-txt"> <span> 多種幣種可供選擇</span><br>
+                可以選擇多種質押幣種</div>
         </div>
         <div class="col-lg-4"><img class="home-point-icon"
                 src="http://104.248.237.5/wp-content/themes/ehkd/assets/images/dcm-icon-2.png" alt="">
-            <div class="text-center home-point-txt">靈活慳息 <br>
-                利息逐日計</div>
+            <div class="text-center home-point-txt">
+                <span>安全</span><br>
+                不同的質押幣種有不同的質押率
+            </div>
         </div>
         <div class="col-lg-4"><img class="home-point-icon"
                 src="http://104.248.237.5/wp-content/themes/ehkd/assets/images/dcm-icon-3.png" alt="">
 
-            <div class="text-center home-point-txt">現金即到手</div>
+            <div class="text-center home-point-txt">
+                <span> 便捷</span> <br>
+                借得的款項可立即提現
+            </div>
         </div>
     </div>
 
