@@ -324,10 +324,14 @@ a.menu-products-a.level-1 {
     color: #fff;
     font-size: 24px;
     text-decoration: none;
+    padding: 5px 10px;
 }
 
 .light-blue-inner-content .apply-btn:hover {
     color: #fff;
 }
 
-.light-blue-inner-content .txt {}
+.light-blue-inner-content .txt {
+    line-height: 31px;
+    font-size: 17px;
+}
