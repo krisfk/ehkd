@@ -147,7 +147,7 @@ get_header();
 
 
             <div class=" footer-sitemap mt-5">
-                <div>
+                <div class="footer-sitemap-branch">
 
                     <ul>
                         <li>
@@ -167,7 +167,7 @@ get_header();
 
 
                 </div>
-                <div>
+                <div class="footer-sitemap-branch">
 
                     <ul>
                         <li>
@@ -183,7 +183,7 @@ get_header();
 
 
                 </div>
-                <div>
+                <div class="footer-sitemap-branch">
 
                     <ul>
                         <li>法律聲明</li>
@@ -192,7 +192,7 @@ get_header();
                         <li>貸款申請條款</li>
                     </ul>
                 </div>
-                <div>
+                <div class="footer-sitemap-branch">
                     <ul>
 
                         <li>
