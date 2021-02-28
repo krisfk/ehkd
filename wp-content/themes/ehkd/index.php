@@ -146,7 +146,7 @@ get_header();
         <div class="col-lg-6">
 
 
-            <div class="row">
+            <div class="row footer-sitemap">
                 <div class="col-lg-3">
 
                     <ul>
