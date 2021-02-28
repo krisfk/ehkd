@@ -143,7 +143,57 @@ get_header();
 
             <a href="#" class="footer-apply-btn mt-3">網上申請</a>
         </div>
-        <div class="col-lg-6"></div>
+        <div class="col-lg-6">
+
+
+            <div class="row">
+                <div class="col-lg-3">
+
+                    <ul>
+                        <li>
+                            <h2>貸款產品</h2>
+                        </li>
+                        <li><a href="#">數字貨幣抵押貸款</a></li>
+                        <li><a href="#">易用錢</a></li>
+                        <li><a href="#">物業貸款</a></li>
+                        <li><a href="#">業主私人貸款</a></li>
+                        <li><a href="#">公務員低息貸款</a></li>
+                    </ul>
+
+
+
+
+
+
+
+                </div>
+                <div class="col-lg-3">
+
+                    <ul>
+                        <li>公司資訊</li>
+                        <li>關於我們</li>
+                        <li>媒體</li>
+                        <li>最新資訊</li>
+                        <li>常見問題</li>
+                    </ul>
+
+
+
+
+                </div>
+                <div class="col-lg-3">
+
+                    <ul>
+                        <li>法律聲明</li>
+                        <li>免責條款</li>
+                        <li>私隱聲明</li>
+                        <li>貸款申請條款</li>
+                    </ul>
+                </div>
+                <div class="col-lg-4"></div>
+
+            </div>
+        </div>
 
     </div>
 </div>
