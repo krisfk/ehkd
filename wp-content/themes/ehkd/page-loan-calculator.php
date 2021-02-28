@@ -54,92 +54,6 @@ get_header();
 
     </div>
 
-    <div class="content-txt text-center mt-5">
-
-
-
-        我們提供多元化物業加按服務，任何物業，不限樓齡，免入息快速批核， <br>
-        貸款額不設上限，助你輕鬆將物業套現為流動資金。
-
-    </div>
-
-    <div class="container"> <img class="w-100"
-            src="<?php echo get_template_directory_uri();?>/assets/images/mortgage-loan-img.jpg" alt="">
-    </div>
-
-    <div class="big-light-blue text-center mt-5"> 唐樓、私人樓、村屋、居屋、寫字樓、鋪位、工廠及車位</div>
-
-
-
-</div>
-
-
-<!-- <div class="container"> -->
-
-<div class="light-blue-gradient-div mt-5">
-
-
-    <!-- <div class="light-blue-inner-content text-center">
-
-        <div class="bold-title">申請條件</div>
-
-        <div class="txt">
-            HKD.com注冊用戶 <br>
-            年滿18歲香港永久居民 <br>
-            最近3個月入息證明 <br>
-            最近3個月的住址證明
-        </div>
-
-        <a class="apply-btn" href="#">立即申請</a>
-
-
-    </div> -->
-
-    <div class="mortgage-loan-light-blue-inner-div">
-        <div class="blue-title text-center">申請流程</div>
-
-        <div class="text-center mt-3">你只需完成簡單申請表格，我們即時有專人為你跟進網上申請，我們會以電話或Whatsapp <br>
-            與你聯絡，最快15分鐘初步批核再後補交文件，過程私隱度極高。
-        </div>
-
-        <div class="text-center mt-3">
-            <a class="apply-btn" href="#">立即申請</a>
-        </div>
-
-    </div>
-
-
-
-</div>
-
-<div class="container">
-
-    <div class="row">
-
-        <div class="col-lg-4">
-
-            <div class="footer-lightblue-title mt-5">立即申請</div>
-
-            <div class="footer-apply-btn-above-txt mt-3">您可透過網上或客戶服務熱線進行貸款申請。康業為您提供特快申請：15分鐘初步審批，24小時過數。</div>
-
-            <a href="#" class="footer-apply-btn mt-4">網上申請</a>
-        </div>
-        <div class="col-lg-8">
-
-
-            <div class=" footer-sitemap mt-5">
-                <div class="footer-sitemap-branch">
-
-                    <ul>
-                        <li>
-                            <h2>貸款產品</h2>
-                        </li>
-                        <li><a href="#">數字貨幣抵押貸款</a></li>
-                        <li><a href="#">易用錢</a></li>
-                        <li><a href="#">物業貸款</a></li>
-                        <li><a href="#">業主私人貸款</a></li>
-                        <li><a href="#">公務員低息貸款</a></li>
-                    </ul>
 
 
 
@@ -147,76 +61,111 @@ get_header();
 
 
 
-                </div>
-                <div class="footer-sitemap-branch">
+    <div class="container">
 
-                    <ul>
-                        <li>
-                            <h2> 公司資訊</h2>
-                        </li>
-                        <li><a href="#">關於我們</a></li>
-                        <li><a href="#">媒體</a></li>
-                        <li><a href="#">最新資訊</a></li>
-                        <li><a href="#">常見問題</a></li>
-                    </ul>
+        <div class="row">
+
+            <div class="col-lg-4">
+
+                <div class="footer-lightblue-title mt-5">立即申請</div>
+
+                <div class="footer-apply-btn-above-txt mt-3">您可透過網上或客戶服務熱線進行貸款申請。康業為您提供特快申請：15分鐘初步審批，24小時過數。</div>
+
+                <a href="#" class="footer-apply-btn mt-4">網上申請</a>
+            </div>
+            <div class="col-lg-8">
 
 
+                <div class=" footer-sitemap mt-5">
+                    <div class="footer-sitemap-branch">
 
-
-                </div>
-                <div class="footer-sitemap-branch">
-
-                    <ul>
-                        <li>法律聲明</li>
-                        <li>免責條款</li>
-                        <li>私隱聲明</li>
-                        <li>貸款申請條款</li>
-                    </ul>
-                </div>
-                <div class="footer-sitemap-branch">
-                    <ul>
-
-                        <li>
-                            <h2> 放債人牌照號碼 </h2>
-                        </li>
-                        <li> 香港數字資產信貸有限公司：168/2021
-                        </li>
-                    </ul>
+                        <ul>
+                            <li>
+                                <h2>貸款產品</h2>
+                            </li>
+                            <li><a href="#">數字貨幣抵押貸款</a></li>
+                            <li><a href="#">易用錢</a></li>
+                            <li><a href="#">物業貸款</a></li>
+                            <li><a href="#">業主私人貸款</a></li>
+                            <li><a href="#">公務員低息貸款</a></li>
+                        </ul>
 
 
 
 
 
-
-
-                </div>
-
-
-                <div class="text-start mt-4">
-
-
-                    <div class="d-inline-block me-4 ">
-
-                        <span class="footer-phone footer-phone-1"> 2628 2828</span>
-
-                        <div class="footer-under-phone-txt">忠告：借錢梗要還，咪俾錢中介</div>
 
 
                     </div>
-                    <div class="d-inline-block">
+                    <div class="footer-sitemap-branch">
 
-                        <span class="footer-phone footer-phone-2"> 5700 8888</span>
-                        <div class="footer-under-phone-txt">投訴熱線：2523 7861</div>
+                        <ul>
+                            <li>
+                                <h2> 公司資訊</h2>
+                            </li>
+                            <li><a href="#">關於我們</a></li>
+                            <li><a href="#">媒體</a></li>
+                            <li><a href="#">最新資訊</a></li>
+                            <li><a href="#">常見問題</a></li>
+                        </ul>
 
+
+
+
+                    </div>
+                    <div class="footer-sitemap-branch">
+
+                        <ul>
+                            <li>法律聲明</li>
+                            <li>免責條款</li>
+                            <li>私隱聲明</li>
+                            <li>貸款申請條款</li>
+                        </ul>
+                    </div>
+                    <div class="footer-sitemap-branch">
+                        <ul>
+
+                            <li>
+                                <h2> 放債人牌照號碼 </h2>
+                            </li>
+                            <li> 香港數字資產信貸有限公司：168/2021
+                            </li>
+                        </ul>
+
+
+
+
+
+
+
+                    </div>
+
+
+                    <div class="text-start mt-4">
+
+
+                        <div class="d-inline-block me-4 ">
+
+                            <span class="footer-phone footer-phone-1"> 2628 2828</span>
+
+                            <div class="footer-under-phone-txt">忠告：借錢梗要還，咪俾錢中介</div>
+
+
+                        </div>
+                        <div class="d-inline-block">
+
+                            <span class="footer-phone footer-phone-2"> 5700 8888</span>
+                            <div class="footer-under-phone-txt">投訴熱線：2523 7861</div>
+
+                        </div>
                     </div>
                 </div>
             </div>
+
         </div>
-
     </div>
-</div>
 
-<!-- </div> -->
+    <!-- </div> -->
 </div>
 
 
