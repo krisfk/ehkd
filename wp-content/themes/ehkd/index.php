@@ -211,7 +211,7 @@ get_header();
                 </div>
 
 
-                <div>
+                <div class="text-left">
 
 
                     <div class="d-inline-block">fdsa</div>
