@@ -218,14 +218,14 @@ get_header();
 
                         <span class="footer-phone footer-phone-1"> 2628 2828</span>
 
-                        <div>忠告：借錢梗要還，咪俾錢中介</div>
+                        <div class="footer-under-phone-txt">忠告：借錢梗要還，咪俾錢中介</div>
 
 
                     </div>
                     <div class="d-inline-block">
 
                         <span class="footer-phone footer-phone-2"> 5700 8888</span>
-                        <div>投訴熱線：2523 7861</div>
+                        <div class="footer-under-phone-txt">投訴熱線：2523 7861</div>
 
                     </div>
                 </div>
