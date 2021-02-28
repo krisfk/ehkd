@@ -194,5 +194,6 @@ Twenty Twenty-One is distributed under the terms of the GNU GPL.
 }
 
 .footer-sitemap .footer-sitemap-branch {
-    display: inline-block;
+    display: inline-table;
+    margin: 0 0 0 50px;
 }
