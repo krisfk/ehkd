@@ -170,11 +170,13 @@ get_header();
                 <div class="col-lg-3">
 
                     <ul>
-                        <li>公司資訊</li>
-                        <li>關於我們</li>
-                        <li>媒體</li>
-                        <li>最新資訊</li>
-                        <li>常見問題</li>
+                        <li>
+                            <h2> 公司資訊</h2>
+                        </li>
+                        <li><a href="#">關於我們</a></li>
+                        <li><a href="#">媒體</a></li>
+                        <li><a href="#">最新資訊</a></li>
+                        <li><a href="#">常見問題</a></li>
                     </ul>
 
 
