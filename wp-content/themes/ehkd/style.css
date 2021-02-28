@@ -208,9 +208,13 @@ Twenty Twenty-One is distributed under the terms of the GNU GPL.
 }
 
 .footer-phone {
-    font-size: 30px;
+    font-size: 46px;
 }
 
-.phone-icon {}
+.phone-icon {
+    height: 40px;
+}
 
-.wts-icon {}
+.wts-icon {
+    height: 40px;
+}
