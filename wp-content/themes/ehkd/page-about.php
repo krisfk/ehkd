@@ -28,7 +28,7 @@ get_header();
         <div class="inner-msg-div-outer">
             <div class="inner-msg-div container">
 
-                <h1 class="banner-title">關於我們</h1>
+                <h1 class="banner-title mt-5">關於我們</h1>
 
 
 
