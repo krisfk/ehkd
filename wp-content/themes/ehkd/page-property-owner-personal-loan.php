@@ -48,29 +48,7 @@ get_header();
         只要你是居屋或公屋業主，毋須抵押物業，都可申請特大額私人貸款，助你抓住時代機遇， <br>
         有效善用資金作投資、翻新家居或其他生活所需，靈活理財，解決燃眉之急。
     </div>
-    <div class="row mt-5">
 
-        <div class="col-lg-3"> <img class="home-point-icon"
-                src="<?php echo get_template_directory_uri();?>/assets/images/home-icon-1.png" alt="">
-            <div class="text-center home-point-txt">獨家貸款評估 <br>
-                <span class="small">(免查TU信貸評級)</span>
-            </div>
-        </div>
-        <div class="col-lg-3"><img class="home-point-icon"
-                src="<?php echo get_template_directory_uri();?>/assets/images/home-icon-2.png" alt="">
-            <div class="text-center home-point-txt">最快15分鐘批核</div>
-        </div>
-        <div class="col-lg-3"><img class="home-point-icon"
-                src="<?php echo get_template_directory_uri();?>/assets/images/home-icon-3.png" alt="">
-            <div class="text-center home-point-txt">靈活慳息 <br>
-                利息逐日計</div>
-        </div>
-        <div class="col-lg-3"><img class="home-point-icon"
-                src="<?php echo get_template_directory_uri();?>/assets/images/home-icon-4.png" alt="">
-
-            <div class="text-center home-point-txt">現金即到手</div>
-        </div>
-    </div>
 
 </div>
 
