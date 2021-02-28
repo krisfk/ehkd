@@ -214,8 +214,23 @@ get_header();
                 <div class="text-start">
 
 
-                    <div class="d-inline-block">fdsa</div>
-                    <div class="d-inline-block">fdsa</div>
+                    <div class="d-inline-block">
+
+                        <img class="phone-icon"
+                            src="<?php echo get_template_directory_uri();?>/assets/images/phone-icon.png" alt="">
+                        2628 2828
+                        <div>忠告：借錢梗要還，咪俾錢中介</div>
+
+
+                    </div>
+                    <div class="d-inline-block">
+                        <img class="wts-icon"
+                            src="<?php echo get_template_directory_uri();?>/assets/images/wts-icon.png" alt="">
+                        5700 8888
+
+                        <div>投訴熱線：2523 7861</div>
+
+                    </div>
                 </div>
             </div>
         </div>
