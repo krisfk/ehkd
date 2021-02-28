@@ -56,7 +56,8 @@ get_header();
 
 </div>
 
-<div>fdsf</div>
+<div class="purple-gradient-div"></div>
+
 
 
 
