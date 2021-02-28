@@ -135,7 +135,7 @@ get_header();
 
     <div class="row">
 
-        <div class="col-lg-6">
+        <div class="col-lg-4">
 
             <div class="footer-lightblue-title mt-5">立即申請</div>
 
@@ -143,7 +143,7 @@ get_header();
 
             <a href="#" class="footer-apply-btn mt-3">網上申請</a>
         </div>
-        <div class="col-lg-6">
+        <div class="col-lg-8">
 
 
             <div class="row footer-sitemap mt-5">
