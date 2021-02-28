@@ -285,3 +285,7 @@ a.menu-products-a.level-1 {
 .top-menu-submenu li a:hover {
     text-decoration: underline;
 }
+
+.page-ehkd .ehkd-img {
+    width: 200px;
+}

@@ -41,7 +41,7 @@ get_header();
 <div class="container mt-5">
 
 
-    <img src="<?php echo get_template_directory_uri();?>/assets/images/ehkd.png" alt="">
+    <img class="ehkd-img" src="<?php echo get_template_directory_uri();?>/assets/images/ehkd.png" alt="">
     <div class="row">
 
         <div class="col-lg-3"> <img class="home-point-icon"
