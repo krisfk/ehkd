@@ -224,3 +224,7 @@
 .main-banner {
     border-bottom: 16px solid #00a7e1;
 }
+
+.home .main-banner {
+    border: none;
+}
