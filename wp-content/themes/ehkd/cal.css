@@ -230,7 +230,7 @@ th {
 /*Added by Derek Wong 10 Dec 2018 SER18078 */
 
 .send_verification_code {
-    background: #ed1c24;
+    background: #0033a1;
     width: 7em;
     color: white;
     border-radius: 0.25em;
@@ -9745,7 +9745,7 @@ footer a:visited {
 
 header a:hover,
 footer a:hover {
-    color: #ed1c24;
+    color: #0033a1;
 }
 
 header .row,
@@ -9786,7 +9786,7 @@ input[type='file'] {
     bottom: 0;
     z-index: 85;
     width: 100%;
-    background: #ed1c24;
+    background: #0033a1;
 }
 
 @media (max-width: 992px) {
@@ -9825,7 +9825,7 @@ input[type='file'] {
     }
     #cal a.top {
         border-top-left-radius: 0.5em;
-        background: url('../img/home/cal-d-top.png') center center no-repeat #ed1c24;
+        background: url('../img/home/cal-d-top.png') center center no-repeat #0033a1;
         padding: 0;
         padding-top: 1.142em;
         padding-bottom: 15px;
@@ -9834,7 +9834,7 @@ input[type='file'] {
         background: url('../img/home/cal-d-top_hover.png') center center no-repeat white;
     }
     #cal a.bot {
-        background: url('../img/home/cal-d-bottom.png') center center no-repeat #ed1c24;
+        background: url('../img/home/cal-d-bottom.png') center center no-repeat #0033a1;
         padding: 0;
         padding-top: 15px;
         padding-bottom: 1.357em;
@@ -10259,7 +10259,7 @@ header nav.desktop>ul>li.parent {
 }
 
 header nav.desktop>ul>li.parent:hover span {
-    color: #ed1c24;
+    color: #0033a1;
 }
 
 header nav.desktop>ul>li>ul {
@@ -10310,7 +10310,7 @@ header nav.desktop>ul>li>ul>li>a {
 
 header nav.desktop>ul>li>ul>li>a:hover {
     color: white;
-    background: #ed1c24;
+    background: #0033a1;
 }
 
 header nav.desktop>ul>li>ul>li:first-child>a {
@@ -10571,7 +10571,7 @@ footer .top {
 }
 
 footer .bot {
-    border-top: 1px solid #ed1c24;
+    border-top: 1px solid #0033a1;
     margin: 0 -15px;
     padding-top: 40px;
     padding-bottom: 40px;
@@ -10750,7 +10750,7 @@ footer .sitemap dl dd {
 
 footer .redText {
     font-size: 13.9px;
-    color: #ed1c24;
+    color: #0033a1;
 }
 
 @media (min-width: 992px) {
@@ -10768,7 +10768,7 @@ footer .redText {
 footer .redText a:link,
 footer .redText a:visited,
 footer .redText a:hover {
-    color: #ed1c24;
+    color: #0033a1;
 }
 
 footer .redText .biggestText {
@@ -10986,7 +10986,7 @@ footer .socialLinksWrapper .socialLinks>div>span {
 }
 
 .breadcrumbs ol.breadcrumb a:hover {
-    color: #ed1c24;
+    color: #0033a1;
     text-decoration: none;
 }
 
@@ -11019,7 +11019,7 @@ footer .socialLinksWrapper .socialLinks>div>span {
 
 .banner .bannerTextWrapper .title {
     font-size: 1.4em;
-    color: #ed1c24;
+    color: #0033a1;
 }
 
 @media (min-width: 992px) {
@@ -11283,7 +11283,7 @@ footer .socialLinksWrapper .socialLinks>div>span {
 }
 
 #location .mapFilterWrapper .filters button.active {
-    color: #ed1c24;
+    color: #0033a1;
     background: white;
 }
 
@@ -11335,7 +11335,7 @@ footer .socialLinksWrapper .socialLinks>div>span {
 
 @media (max-width: 992px) {
     #location .locationsWrapper .locations>button.current {
-        background: #ed1c24;
+        background: #0033a1;
         color: white;
     }
 }
@@ -11395,7 +11395,7 @@ footer .socialLinksWrapper .socialLinks>div>span {
 #location .mapWrapper .locationDetail {
     max-width: 496px;
     width: 60%;
-    background: #ed1c24;
+    background: #0033a1;
     color: white;
     padding: 1em 2em 1em 2em;
     position: absolute;
@@ -11507,7 +11507,7 @@ only screen and (min-resolution: 125dpi) and (max-resolution: 200dpi) and (orien
     position: absolute;
     top: -15px;
     right: -15px;
-    background: #ed1c24;
+    background: #0033a1;
     opacity: 1;
     padding: 7px;
 }
@@ -11611,7 +11611,7 @@ only screen and (min-resolution: 125dpi) and (max-resolution: 200dpi) and (orien
 }
 
 #topAdBanner .red {
-    color: #ed1c24;
+    color: #0033a1;
 }
 
 #topAdBanner .black {
@@ -11738,11 +11738,11 @@ only screen and (min-resolution: 125dpi) and (max-resolution: 200dpi) and (orien
 }
 
 .steps>span.active>span.text {
-    color: #ed1c24;
+    color: #0033a1;
 }
 
 .steps>span.active>span.circle {
-    background: #ed1c24;
+    background: #0033a1;
 }
 
 .clientForm {
@@ -11823,7 +11823,7 @@ only screen and (min-resolution: 125dpi) and (max-resolution: 200dpi) and (orien
 }
 
 .refNumberWrapper #refNumber {
-    color: #ed1c24;
+    color: #0033a1;
 }
 
 .makeACopyWrapper {
@@ -11968,7 +11968,7 @@ only screen and (min-resolution: 125dpi) and (max-resolution: 200dpi) and (orien
 }
 
 .clientTypeWrapper .clientType.active {
-    color: #ed1c24;
+    color: #0033a1;
     background: url('../img/form/arrow_s_red.png') 95% center no-repeat;
     background-size: 10%;
 }
@@ -12049,7 +12049,7 @@ only screen and (min-resolution: 125dpi) and (max-resolution: 200dpi) and (orien
 }
 
 .submitContainer {
-    background: #ed1c24;
+    background: #0033a1;
     position: absolute;
     left: 0;
     bottom: 0;
@@ -12129,7 +12129,7 @@ only screen and (min-resolution: 125dpi) and (max-resolution: 200dpi) and (orien
 
 .submitContainer .row .progressWrapper>span.bar {
     display: block;
-    background: #ed1c24;
+    background: #0033a1;
     height: 5px;
     z-index: 5;
 }
@@ -12189,17 +12189,17 @@ only screen and (min-resolution: 125dpi) and (max-resolution: 200dpi) and (orien
 .submitContainer .row .submitBtnWrapper.enable,
 .submitContainer .row .finishBtnWrapper.enable,
 .submitContainer .row .nextBtnWrapper.enable {
-    background: #ed1c24;
+    background: #0033a1;
 }
 
 .submitContainer .row .confirmBtnWrapper {
-    background: #ed1c24;
+    background: #0033a1;
 }
 
 .formTitle,
 .confirmTitle {
     font-size: 20px;
-    color: #ed1c24;
+    color: #0033a1;
     margin-top: 0.8em;
 }
 
@@ -12268,7 +12268,7 @@ only screen and (min-resolution: 125dpi) and (max-resolution: 200dpi) and (orien
 
 .field select[type='text']:focus,
 .field input[type='text']:focus {
-    border-bottom: 2px solid #ed1c24;
+    border-bottom: 2px solid #0033a1;
     padding-bottom: 0;
 }
 
@@ -12307,7 +12307,7 @@ only screen and (min-resolution: 125dpi) and (max-resolution: 200dpi) and (orien
     cursor: text;
     font-weight: normal;
     font-size: 0.8em;
-    color: #ed1c24;
+    color: #0033a1;
     display: inline;
 }
 
@@ -12353,7 +12353,7 @@ only screen and (min-resolution: 125dpi) and (max-resolution: 200dpi) and (orien
 
 .field.declarationField span.errors {
     font-size: 0.8em;
-    color: #ed1c24;
+    color: #0033a1;
     display: block;
 }
 
@@ -12630,7 +12630,7 @@ only screen and (min-resolution: 125dpi) and (max-resolution: 200dpi) and (orien
 }
 
 .field.radioBtnField .radioBtnWrapper .radioBtn input:focus+label:before {
-    border: 1px solid #ed1c24;
+    border: 1px solid #0033a1;
 }
 
 .field.radioBtnField .radioBtnWrapper .radioBtn input:checked+label:before {
@@ -12638,7 +12638,7 @@ only screen and (min-resolution: 125dpi) and (max-resolution: 200dpi) and (orien
 }
 
 .field.radioBtnField .radioBtnWrapper .radioBtn input:checked+label:after {
-    background: #ed1c24;
+    background: #0033a1;
 }
 
 .field.radioBtnField>label {
@@ -12742,7 +12742,7 @@ only screen and (min-resolution: 125dpi) and (max-resolution: 200dpi) and (orien
 .field.compulsory>label:not(.errors):after {
     content: '*';
     font-size: 0.8em;
-    color: #ed1c24;
+    color: #0033a1;
     vertical-align: super;
 }
 
@@ -12801,7 +12801,7 @@ button.addmore img {
 }
 
 .declaration .declarationTitle {
-    color: #ed1c24;
+    color: #0033a1;
     margin-bottom: 0.938em;
 }
 
@@ -12881,7 +12881,7 @@ button.addmore img {
 }
 
 .declaration .declarationField input[type='checkbox']:focus+label {
-    border: 1px solid #ed1c24;
+    border: 1px solid #0033a1;
 }
 
 .declaration .declarationField input[type='checkbox']:checked+label:after {
@@ -13019,7 +13019,7 @@ button.addmore img {
 
 #mediaModel span.big {
     font-size: 12px;
-    color: #ed1c24;
+    color: #0033a1;
 }
 
 @media (min-width: 992px) {
@@ -13052,12 +13052,12 @@ button.addmore img {
 
 #mediaModel a:link,
 #mediaModel a:visited {
-    color: #ed1c24;
+    color: #0033a1;
 }
 
 #mediaModel .btn-submit span {
     display: inline-block;
-    background: #ed1c24;
+    background: #0033a1;
     border-radius: 0.167em;
     padding: 0.833em 2.708em 0.75em 2.708em;
     cursor: pointer;
@@ -13199,7 +13199,7 @@ button.addmore img {
 }
 
 #home .kvWrapper .swiper-container .swiper-slide .textWrapper .red {
-    color: #ed1c24;
+    color: #0033a1;
 }
 
 #home .kvWrapper .swiper-container .swiper-slide .textWrapper .big {
@@ -13299,7 +13299,7 @@ button.addmore img {
 
 #home .kvWrapper .swiper-container.custom-swiper-vertical .swiper-pagination .swiper-pagination-bullet.swiper-pagination-bullet-active,
 #home .kvWrapper .swiper-container.mobile-swiper-container .swiper-pagination .swiper-pagination-bullet.swiper-pagination-bullet-active {
-    background: #ed1c24;
+    background: #0033a1;
 }
 
 #home .kvWrapper .swiper-container.custom-swiper-vertical img,
@@ -13622,7 +13622,7 @@ button.addmore img {
 }
 
 #home .extendItems .linkWrapper>a.red {
-    background: #ed1c24;
+    background: #0033a1;
 }
 
 #home .extendItems .linkWrapper>a:first-child {
@@ -13697,7 +13697,7 @@ button.addmore img {
     line-height: 1;
     width: 90%;
     max-width: 565px;
-    background: #ed1c24;
+    background: #0033a1;
     color: white;
     font-weight: normal;
     border-radius: 5px;
@@ -13773,7 +13773,7 @@ button.addmore img {
     height: 100%;
     top: 0;
     left: 0;
-    background: #ed1c24;
+    background: #0033a1;
     color: white;
     padding: 1em;
     border-radius: 0.5em;
@@ -13855,7 +13855,7 @@ button.addmore img {
     max-width: 44%;
     font-weight: normal;
     line-height: 1;
-    color: #ed1c24;
+    color: #0033a1;
     display: inline-block;
     width: 6.4em;
     border-radius: 0.25em;
@@ -14001,7 +14001,7 @@ button.addmore img {
 }
 
 #product-list .main #products .item .thumbnail .caption h3 {
-    color: #ed1c24;
+    color: #0033a1;
     font-size: 1.2em;
     margin-top: 0;
 }
@@ -14060,7 +14060,7 @@ button.addmore img {
 }
 
 #product-list .main #products .item .thumbnail .caption a.applyNow {
-    background: #ed1c24;
+    background: #0033a1;
 }
 
 #product-list .main #products .item .thumbnail .caption a.applyNow span img {
@@ -14206,7 +14206,7 @@ button.addmore img {
 }
 
 #product-detail .main .mainImgWrapper .info .title {
-    color: #ed1c24;
+    color: #0033a1;
     font-size: 1.2em;
     margin-bottom: 10px;
 }
@@ -14302,7 +14302,7 @@ button.addmore img {
 }
 
 #product-detail .main .mainImgWrapper .info .linkWrapper a.btn-apply {
-    background: #ed1c24;
+    background: #0033a1;
     width: 7em;
     padding: 0.6em 0;
 }
@@ -14404,11 +14404,11 @@ button.addmore img {
     height: 1px;
     margin-left: 5%;
     bottom: -1px;
-    background: #ed1c24;
+    background: #0033a1;
 }
 
 #product-detail .main .caseStudy .tabs .nav-tabs li.active a {
-    color: #ed1c24;
+    color: #0033a1;
     font-weight: bold;
 }
 
@@ -14458,7 +14458,7 @@ button.addmore img {
 
 #product-detail .main .caseStudy .tabs .mobileNav .navWrapper .innerWrapper .item.active {
     cursor: default;
-    color: #ed1c24;
+    color: #0033a1;
     font-weight: bold;
 }
 
@@ -14470,7 +14470,7 @@ button.addmore img {
     height: 1px;
     margin-left: 5%;
     bottom: -1px;
-    background: #ed1c24;
+    background: #0033a1;
 }
 
 @media (min-width: 992px) {
@@ -14545,7 +14545,7 @@ button.addmore img {
 #product-detail .main .caseDetail h3 {
     font-size: 1.2em;
     margin-bottom: 20px;
-    color: #ed1c24;
+    color: #0033a1;
 }
 
 @media (min-width: 992px) {
@@ -14607,7 +14607,7 @@ button.addmore img {
     border: none;
     width: auto;
     padding: 0 1em;
-    color: #ed1c24;
+    color: #0033a1;
     margin-bottom: 0;
 }
 
@@ -15139,7 +15139,7 @@ button.addmore img {
 }
 
 #newsDetail .main .newsWrapper .outer .swiper-container .swiper-controller .swiper-pagination .swiper-pagination-bullet.swiper-pagination-bullet-active {
-    background: #ed1c24;
+    background: #0033a1;
 }
 
 #newsDetail .main .newsWrapper .outer .swiper-container .swiper-slide img {
@@ -15189,7 +15189,7 @@ button.addmore img {
     display: inline-block;
     padding: 0.6em 0.7em;
     color: white;
-    background: #ed1c24;
+    background: #0033a1;
     border-radius: 4px;
     font-size: 1.1em;
     font-weight: bold;
@@ -15261,7 +15261,7 @@ button.addmore img {
 .uploadDocument .submit span,
 .propertyValuation .submit span {
     display: inline-block;
-    background: #ed1c24;
+    background: #0033a1;
     border-radius: 0.167em;
     padding: 0.833em 2.708em 0.75em 2.708em;
     cursor: pointer;
@@ -16385,7 +16385,7 @@ button.addmore img {
 #calculator .main .mainImgWrapper .output a.applyNow {
     margin-top: 30px;
     width: 9.85714em;
-    background: #ed1c24;
+    background: #0033a1;
 }
 
 @media (min-width: 992px) {
@@ -16417,7 +16417,7 @@ button.addmore img {
     color: #fff;
     text-align: center;
     padding-bottom: 25px;
-    border-bottom: 1px solid #ed1c24;
+    border-bottom: 1px solid #0033a1;
 }
 
 #calculator .main .mainImgWrapper .output .principal_top_wrapper {
@@ -16434,7 +16434,7 @@ button.addmore img {
     width: 12px;
     height: 12px;
     border-radius: 20px;
-    background: #ed1c24;
+    background: #0033a1;
     display: inline-block;
 }
 
@@ -16629,7 +16629,7 @@ button.addmore img {
     width: 11em;
     font-size: 0.09em;
     top: 50px;
-    color: #ed1c24;
+    color: #0033a1;
 }
 
 .chart_wrapper #circle .circle_value {
@@ -16641,7 +16641,7 @@ button.addmore img {
 
 .chart_wrapper #circle .slice .bar,
 .chart_wrapper #circle .slice .fill {
-    border-color: #ed1c24;
+    border-color: #0033a1;
 }
 
 #cal.calPage {
@@ -16671,7 +16671,7 @@ button.addmore img {
 }
 
 #JobDetail .title {
-    color: #ed1c24;
+    color: #0033a1;
     font-size: 1.2em;
     margin-bottom: 10px;
 }
@@ -16722,7 +16722,7 @@ button.addmore img {
 }
 
 #JobDetail .jobDetailBody .jobDescription .share {
-    color: #ed1c24;
+    color: #0033a1;
     text-align: right;
     margin-top: 2em;
 }
@@ -16806,7 +16806,7 @@ button.addmore img {
 
 #JobDetail .jobDetailBody .jobDescription .position {
     font-size: 1.5em;
-    color: #ed1c24;
+    color: #0033a1;
 }
 
 @media (min-width: 992px) {
@@ -16821,7 +16821,7 @@ button.addmore img {
 }
 
 #JobDetail .jobDetailBody .jobDescription .DepartmentDetail {
-    color: #ed1c24;
+    color: #0033a1;
     font-size: 1.2em;
     margin: 1.5em auto;
 }
@@ -16856,7 +16856,7 @@ button.addmore img {
 
 #JobDetail .jobDetailBody .jobDescription .contactWrapper,
 #JobDetail .jobDetailBody .jobDescription .contactWrapper a {
-    color: #ed1c24;
+    color: #0033a1;
 }
 
 #JobDetail .jobDetailBody .jobDescription .applyContainer {
@@ -16866,7 +16866,7 @@ button.addmore img {
 
 #JobDetail .jobDetailBody .jobDescription .applyContainer a {
     display: inline-block;
-    background: #ed1c24;
+    background: #0033a1;
     color: white;
     padding: 0.7em 2em;
     border-radius: 5px;
@@ -16875,7 +16875,7 @@ button.addmore img {
 #JobDetail .jobDetailBody .department {
     display: inline-block;
     padding: 0.3em 1em;
-    background: #ed1c24;
+    background: #0033a1;
     color: white;
     border-radius: 5px;
 }
@@ -17100,7 +17100,7 @@ button.addmore img {
 }
 
 #recruitment .jobs .title {
-    color: #ed1c24;
+    color: #0033a1;
     padding: 1.667em 0 1em;
     font-size: 1.4em;
 }
@@ -17148,7 +17148,7 @@ button.addmore img {
 }
 
 #recruitment .jobs .job .inner .department {
-    background: #ed1c24;
+    background: #0033a1;
     color: white;
     padding: 1em 0;
     text-align: center;
@@ -17181,11 +17181,11 @@ button.addmore img {
 
 #recruitment .jobs .job .inner .position a:link,
 #recruitment .jobs .job .inner .position a:visited {
-    color: #ed1c24;
+    color: #0033a1;
 }
 
 #recruitment .jobs .job .inner .detailDepartment {
-    color: #ed1c24;
+    color: #0033a1;
 }
 
 #recruitment .jobs .job .inner .department,
@@ -17304,7 +17304,7 @@ button.addmore img {
 }
 
 #owner-tnc .owner-tnc .buttonWrapper .btn.btn-agree {
-    background: #ed1c24;
+    background: #0033a1;
 }
 
 #owner-tnc .owner-tnc .buttonWrapper .btn.btn-disagree {
@@ -17391,7 +17391,7 @@ button.addmore img {
 #form.owner .btn-no-offer span,
 #form.owner .btn-no-reset span {
     display: inline-block;
-    background: #ed1c24;
+    background: #0033a1;
     border-radius: 0.167em;
     padding: 0.833em 2.708em 0.75em 2.708em;
     cursor: pointer;
@@ -17439,7 +17439,7 @@ button.addmore img {
 #owner_result #form.owner_result .btn-no-offer span,
 #owner_result #form.owner_result .btn-no-reset span {
     display: inline-block;
-    background: #ed1c24;
+    background: #0033a1;
     border-radius: 0.167em;
     padding: 0.833em 2.708em 0.75em 2.708em;
     cursor: pointer;
@@ -17484,7 +17484,7 @@ button.addmore img {
 #owner_result #form.owner_result .result .btn-back span,
 #owner_result #form.owner_result .result .btn-contact span {
     display: inline-block;
-    background: #ed1c24;
+    background: #0033a1;
     border-radius: 0.167em;
     cursor: pointer;
     color: white;
@@ -17529,7 +17529,7 @@ button.addmore img {
     width: 100%;
     line-height: 1.2;
     font-size: 1.2em;
-    color: #ed1c24;
+    color: #0033a1;
     padding-right: 3em;
     position: relative;
 }
@@ -17662,7 +17662,7 @@ button.addmore img {
 }
 
 .contactUs .bigSelection input:checked+label {
-    color: #ed1c24;
+    color: #0033a1;
     background: url('../img/form/arrow_s_red.png') 95% center no-repeat;
 }
 
@@ -17676,7 +17676,7 @@ button.addmore img {
 
 .contactUs .btn-submit span {
     display: inline-block;
-    background: #ed1c24;
+    background: #0033a1;
     border-radius: 0.167em;
     padding: 0.833em 2.708em 0.75em 2.708em;
     cursor: pointer;
@@ -17707,7 +17707,7 @@ button.addmore img {
 }
 
 .contactUsFormHead .centreName {
-    color: #ed1c24;
+    color: #0033a1;
     font-size: 1.25em;
 }
 
@@ -17727,7 +17727,7 @@ button.addmore img {
 }
 
 .contactUsFormHead .formIntro span {
-    color: #ed1c24;
+    color: #0033a1;
     font-size: 1em;
 }
 
@@ -17756,7 +17756,7 @@ button.addmore img {
 }
 
 #companyOverview .traineeTextWrapper span.quote {
-    color: #ed1c24;
+    color: #0033a1;
     font-size: 2em;
     line-height: 1.2;
 }
@@ -17819,7 +17819,7 @@ button.addmore img {
 }
 
 #companyOverview .applyWrapper .apply {
-    background: #ed1c24;
+    background: #0033a1;
     color: white;
     line-height: 1.2;
     padding: 1em;
@@ -17830,7 +17830,7 @@ button.addmore img {
 }
 
 #companyOverview .title {
-    color: #ed1c24;
+    color: #0033a1;
     font-size: 1.4em;
     margin-top: 0.632em;
 }
@@ -17928,7 +17928,7 @@ button.addmore img {
 }
 
 #companyOverview .menuItems .textWrapper {
-    color: #ed1c24;
+    color: #0033a1;
     text-align: center;
     line-height: 2.8;
     border: 1px solid #e5e5e5;
@@ -17974,7 +17974,7 @@ button.addmore img {
     font-size: 14px;
     background-size: 20%;
     padding-left: 30px;
-    color: #ed1c24;
+    color: #0033a1;
     line-height: 3;
     background-color: transparent;
     background-position: center left;
@@ -18196,7 +18196,7 @@ button.addmore img {
 }
 
 #companyOverview .traineeSwiperWrapper .swiper-pagination-bullet-active {
-    background: #ed1c24;
+    background: #0033a1;
 }
 
 .en #companyOverview .tabButton a:link span,
