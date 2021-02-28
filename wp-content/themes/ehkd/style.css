@@ -216,3 +216,7 @@
 .footer-under-phone-txt {
     font-size: 23px;
 }
+
+.copyright-div {
+    border-top: 1px solid #000;
+}
