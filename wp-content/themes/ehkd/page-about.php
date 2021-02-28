@@ -44,8 +44,8 @@ get_header();
     <div class="row">
 
         <div class="col-lg-6">
-            <img class="home-point-icon"
-                src="<?php echo get_template_directory_uri();?>/assets/images/page-about-img-1.jpg" alt="">
+            <img class="w-100" src="<?php echo get_template_directory_uri();?>/assets/images/page-about-img-1.jpg"
+                alt="">
         </div>
         <div class="col-lg-6">
             <div>
