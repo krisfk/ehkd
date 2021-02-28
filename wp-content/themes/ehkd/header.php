@@ -53,7 +53,7 @@
                             <ul class="top-menu">
                                 <li><a href="<?php echo get_site_url();?>/about">關於我們</a>
                                 </li>
-                                <li><a href="javascript:void(0);">貸款產品</a>
+                                <li><a class="menu-products-a" href="javascript:void(0);">貸款產品</a>
                                     <ul class="top-menu-submenu">
                                         <li>
                                             <a href="#">易用錢</a>
@@ -93,3 +93,14 @@
 
                         </div>
                     </div>
+
+                    <script type="text/javascript">
+                    $(function() {
+
+                        $('.menu-products-a').mouseenter(function() {
+
+                            alert(2);
+                        })
+
+                    })
+                    </script>
