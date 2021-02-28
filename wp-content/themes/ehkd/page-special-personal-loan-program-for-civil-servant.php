@@ -28,14 +28,14 @@ get_header();
         <div class="inner-msg-div-outer">
             <div class="inner-msg-div container">
 
-                <h1 class="banner-title mt-5">業主私人貸款</h1>
+                <h1 class="banner-title mt-5">公務員低息貸款</h1>
 
 
 
             </div>
         </div>
     </div>
-    <img src="<?php echo get_template_directory_uri();?>/assets/images/personal-loan-banner.jpg" alt="">
+    <img src="<?php echo get_template_directory_uri();?>/assets/images/civil-loan-banner.jpg" alt="">
 </div>
 
 <div class="container mt-5">
@@ -43,8 +43,11 @@ get_header();
 
 
     <div class="blue-title text-center">
-        免估價 免抵押 免手續費 <br>
-        <span class="big">最高20萬</span> 即日批核
+
+        短期周轉首選
+        貸款額最高 <span class="big"> 可達月薪5倍</span>
+
+
 
     </div>
 
