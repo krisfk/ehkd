@@ -64,30 +64,10 @@ get_header();
 
     </div>
 
-    <div class="row mt-5">
-
-
-        <div class="col-lg-4"><img class="large-point-icon"
-                src="http://104.248.237.5/wp-content/themes/ehkd/assets/images/dcm-icon-1.png" alt="">
-            <div class="text-center large-point-txt"> <span class="big"> 多種幣種可供選擇</span><br>
-                可以選擇多種質押幣種</div>
-        </div>
-        <div class="col-lg-4"><img class="large-point-icon"
-                src="http://104.248.237.5/wp-content/themes/ehkd/assets/images/dcm-icon-2.png" alt="">
-            <div class="text-center large-point-txt">
-                <span class="big">安全</span><br>
-                不同的質押幣種有不同的質押率
-            </div>
-        </div>
-        <div class="col-lg-4"><img class="large-point-icon"
-                src="http://104.248.237.5/wp-content/themes/ehkd/assets/images/dcm-icon-3.png" alt="">
-
-            <div class="text-center large-point-txt">
-                <span class="big"> 便捷</span> <br>
-                借得的款項可立即提現
-            </div>
-        </div>
+    <div class="container"> <img class="w-100"
+            src="<?php echo get_template_directory_uri();?>/assets/images/mortgage-loan-img.png" alt="">
     </div>
+
 
 
 </div>
