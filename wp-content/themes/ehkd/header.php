@@ -97,7 +97,7 @@
                     <script type="text/javascript">
                     $(function() {
 
-                        $('.top-menu li a').mouseenter(function() {
+                        $('.top-menu li a.level-1').mouseenter(function() {
 
                             if ($(this).hasClass('menu-products-a')) {
                                 $('.top-menu-submenu').fadeIn(0);
