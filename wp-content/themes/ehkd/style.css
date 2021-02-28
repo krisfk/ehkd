@@ -318,3 +318,8 @@ a.menu-products-a.level-1 {
     top: -20px;
     padding: 0 15px;
 }
+
+.light-blue-inner-content .apply-btn {
+    background: #00a7e1;
+    color: #fff;
+}
