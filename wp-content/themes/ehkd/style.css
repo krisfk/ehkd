@@ -11,12 +11,17 @@
 .top-menu li {
     display: inline-block;
     margin: 0px 0px 0px 30px;
+    position: relative;
 }
 
 .top-menu li a {
     color: rgb(0, 51, 161);
     font-size: 18px;
     text-decoration: none;
+}
+
+a.menu-products-a.level-1 {
+    padding: 10px 0 20px 0;
 }
 
 .lang-div {
@@ -134,7 +139,6 @@
     color: rgb(0, 167, 225);
     font-size: 30px;
     line-height: normal;
-    font-weight: bold;
 }
 
 .footer-apply-btn-above-txt {
@@ -251,4 +255,89 @@
     text-align: center;
     padding: 20px;
     font-size: 32px;
+}
+
+.top-menu-submenu {
+    display: none;
+    position: absolute;
+    top: 30px;
+    width: max-content;
+    z-index: 100;
+    padding: 0;
+    background: #ffffffeb;
+    padding: 7px 17px;
+    border: 1px solid #f3ecde;
+    border-radius: 9px;
+}
+
+.top-menu-submenu li {
+    /* position: absolute; */
+    display: block;
+    margin: 0;
+}
+
+.top-menu-submenu li a {
+    padding: 5px 0 3px 0;
+    display: block;
+    font-size: 16px;
+}
+
+.top-menu-submenu li a:hover {
+    text-decoration: underline;
+}
+
+.page-ehkd .ehkd-img {
+    width: 500px;
+    margin: 0 auto;
+    display: block;
+}
+
+.light-blue-gradient-div {
+    display: table;
+    /* height: 380px; */
+    background: url(./assets/images/light-blue-gradient.png) repeat-y;
+    background-size: 100% 100%;
+    width: 100%;
+}
+
+.light-blue-inner-content {
+    display: block;
+    border: 4px solid #00a7e1;
+    width: 300px;
+    /* height: 300px; */
+    margin: 60px auto;
+    padding: 0 0 20px 0;
+}
+
+.light-blue-inner-content .bold-title {
+    font-weight: bold;
+    color: #0033a1;
+    font-size: 24px;
+    background: #eef7fb;
+    display: inline-block;
+    position: relative;
+    top: -20px;
+    padding: 0 15px;
+}
+
+.light-blue-inner-content .apply-btn {
+    background: #00a7e1;
+    color: #fff;
+    font-size: 24px;
+    text-decoration: none;
+    padding: 5px 10px;
+    margin: 10px 0 0 0;
+    display: inline-block;
+}
+
+.light-blue-inner-content .apply-btn:hover {
+    color: #fff;
+}
+
+.light-blue-inner-content .txt {
+    line-height: 31px;
+    font-size: 17px;
+    display: table;
+    width: 100%;
+    margin: -11px 0 0 0;
 }
