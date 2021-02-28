@@ -67,7 +67,7 @@
                                                 href="<?php echo get_site_url();?>/special-personal-loan-program-for-civil-servant">公務員低息貸款</a>
                                         </li>
                                         <li>
-                                            <a href="#">物業貸款</a>
+                                            <a href="<?php echo get_site_url();?>/mortgage-loan">物業貸款</a>
                                         </li>
                                         <li>
                                             <a
