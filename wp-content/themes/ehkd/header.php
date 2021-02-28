@@ -97,9 +97,16 @@
                     <script type="text/javascript">
                     $(function() {
 
-                        $('.menu-products-a').mouseenter(function() {
+                        $('.top-menu li a').mouseenter(function() {
 
-                            $('.top-menu-submenu').fadeIn(0);
+                            if ($(this).hasClass('menu-products-a')) {
+                                $('.top-menu-submenu').fadeIn(0);
+
+                            } else {
+                                $('.top-menu-submenu').fadeOut(0);
+
+                            }
+
                         })
 
                     })
