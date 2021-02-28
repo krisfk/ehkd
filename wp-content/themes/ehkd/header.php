@@ -56,10 +56,11 @@
                                 <li><a class="menu-products-a level-1" href="<?php echo get_site_url();?>/ehkd">貸款產品</a>
                                     <ul class="top-menu-submenu">
                                         <li>
-                                            <a href="#">易用錢</a>
+                                            <a href="<?php echo get_site_url();?>/ehkd">易用錢</a>
                                         </li>
                                         <li>
-                                            <a href="#">業主私人貸款</a>
+                                            <a
+                                                href="<?php echo get_site_url();?>/property-owner-personal-loan">業主私人貸款</a>
                                         </li>
                                         <li>
                                             <a href="#">公務員低息貸款</a>
