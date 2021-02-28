@@ -287,5 +287,7 @@ a.menu-products-a.level-1 {
 }
 
 .page-ehkd .ehkd-img {
-    width: 200px;
+    width: 500px;
+    margin: 0 auto;
+    display: block;
 }
