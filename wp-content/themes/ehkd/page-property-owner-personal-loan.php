@@ -28,7 +28,7 @@ get_header();
         <div class="inner-msg-div-outer">
             <div class="inner-msg-div container">
 
-                <h1 class="banner-title mt-5">易用錢 EHKD</h1>
+                <h1 class="banner-title mt-5">業主私人貸款</h1>
 
 
 
