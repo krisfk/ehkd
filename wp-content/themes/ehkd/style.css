@@ -349,9 +349,9 @@ a.menu-products-a.level-1 {
 
 .big-point-ul li {
     list-style-type: none;
-    font-size: 40px;
+    font-size: 33px;
     color: #00a7e1;
-    padding: 0 0 0 44px;
+    padding: 8px 0 8px 44px;
     background: url(./assets/images/tick-checkbox.png) no-repeat;
     background-size: auto 58%;
     background-position: 0 center;
