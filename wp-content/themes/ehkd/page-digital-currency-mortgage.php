@@ -66,16 +66,16 @@ get_header();
 
 
         <div class="col-lg-4"><img class="home-point-icon"
-                src="http://104.248.237.5/wp-content/themes/ehkd/assets/images/home-icon-2.png" alt="">
+                src="http://104.248.237.5/wp-content/themes/ehkd/assets/images/dcm-icon-1.png" alt="">
             <div class="text-center home-point-txt">最快15分鐘批核</div>
         </div>
         <div class="col-lg-4"><img class="home-point-icon"
-                src="http://104.248.237.5/wp-content/themes/ehkd/assets/images/home-icon-3.png" alt="">
+                src="http://104.248.237.5/wp-content/themes/ehkd/assets/images/dcm-icon-2.png" alt="">
             <div class="text-center home-point-txt">靈活慳息 <br>
                 利息逐日計</div>
         </div>
         <div class="col-lg-4"><img class="home-point-icon"
-                src="http://104.248.237.5/wp-content/themes/ehkd/assets/images/home-icon-4.png" alt="">
+                src="http://104.248.237.5/wp-content/themes/ehkd/assets/images/dcm-icon-3.png" alt="">
 
             <div class="text-center home-point-txt">現金即到手</div>
         </div>
