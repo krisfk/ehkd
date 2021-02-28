@@ -56,14 +56,14 @@ get_header();
 
             <!-- <div class="col-lg-6"> -->
 
-            <div class="d-table-cell">
+            <div class="d-table-cell w-50">
                 <img class="w-100" src="<?php echo get_template_directory_uri();?>/assets/images/personal-loan-img.jpg"
                     alt="">
                 <!-- </div> -->
                 <!-- <div class="col-lg-6"> -->
 
             </div>
-            <div class="d-table-cell">
+            <div class="d-table-cell w-50">
                 <ul class="m-0 p-0 big-point-ul">
                     <li> 大額貸款</li>
                     <li>毋須抵押物業</li>
