@@ -22,13 +22,13 @@ get_header();
 
 <div class="main-banner">
 
-    <!-- <div class="home-main-banner-inner-div">
+    <div class="home-main-banner-inner-div">
 
 
         <div class="inner-msg-div-outer">
             <div class="inner-msg-div container">
-
-                <div class="inner-msg-div-inner-div">
+                fdsf
+                <!-- <div class="inner-msg-div-inner-div">
 
                     <img class="home-banner-innner-img"
                         src="<?php echo get_template_directory_uri();?>/assets/images/home-banner-innner-img.png"
@@ -36,10 +36,10 @@ get_header();
 
                     <div class="mt-5 text-center"> <a href="javascript:void(0);" class="apply-now-btn">立即申請</a>
                     </div>
-                </div>
+                </div> -->
             </div>
         </div>
-    </div> -->
+    </div>
     <img src="<?php echo get_template_directory_uri();?>/assets/images/page-about-banner.jpg" alt="">
 </div>
 
