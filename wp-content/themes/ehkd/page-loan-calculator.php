@@ -55,6 +55,9 @@ get_header();
     </div>
 
 
+    <div class="purple-gradient-div"></div>
+
+
 
 
 
