@@ -41,7 +41,7 @@ get_header();
 <div class="container mt-5">
 
 
-    <img class="ehkd-img" src="<?php echo get_template_directory_uri();?>/assets/images/ehkd.png" alt="">
+
 
     <div class="content-txt text-center mt-5">
         「易用錢」採用獨家貸款評估，無須提交TU信貸報告，最快15分鐘助你完成貸款審批。 <br>
