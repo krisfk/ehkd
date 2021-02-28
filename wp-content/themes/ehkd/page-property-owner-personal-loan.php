@@ -64,7 +64,7 @@ get_header();
 
             </div>
             <div class="d-table-cell w-50 align-middle">
-                <ul class="m-0 p-0 big-point-ul">
+                <ul class=" big-point-ul">
                     <li> 大額貸款</li>
                     <li>毋須抵押物業</li>
                     <li> 特長周轉期</li>
