@@ -214,7 +214,7 @@ get_header();
                 <div class="text-start">
 
 
-                    <div class="d-inline-block">
+                    <div class="d-table-cell">
 
                         <img class="phone-icon"
                             src="<?php echo get_template_directory_uri();?>/assets/images/phone-icon.png" alt="">
@@ -223,7 +223,7 @@ get_header();
 
 
                     </div>
-                    <div class="d-inline-block">
+                    <div class="d-table-cell">
                         <img class="wts-icon"
                             src="<?php echo get_template_directory_uri();?>/assets/images/wts-icon.png" alt="">
                         <span class="footer-phone"> 5700 8888</span>
