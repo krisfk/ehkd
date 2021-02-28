@@ -16304,6 +16304,7 @@ button.addmore img {
     display: block;
     text-align: left;
     width: 30px;
+    color: #fff;
 }
 
 @media (max-width: 992px) {
