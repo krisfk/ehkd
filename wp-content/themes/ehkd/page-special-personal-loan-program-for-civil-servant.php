@@ -67,7 +67,7 @@ get_header();
             <!-- <div class="col-lg-6"> -->
 
             <div class="d-table-cell w-50">
-                <img class="w-100" src="<?php echo get_template_directory_uri();?>/assets/images/personal-loan-img.jpg"
+                <img class="w-100" src="<?php echo get_template_directory_uri();?>/assets/images/civil-loan-img.jpg"
                     alt="">
                 <!-- </div> -->
                 <!-- <div class="col-lg-6"> -->
