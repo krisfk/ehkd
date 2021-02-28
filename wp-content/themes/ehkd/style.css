@@ -228,3 +228,8 @@
 .home .main-banner {
     border: none;
 }
+
+.main-banner .banner-title {
+    font-size: 72px;
+    color: #fff;
+}
