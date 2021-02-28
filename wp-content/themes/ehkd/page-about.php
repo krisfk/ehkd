@@ -66,6 +66,7 @@ get_header();
 
 <div class="row mt-5">
 
+    <div class="col-12 five-points-top-div">立即申請</div>
     <div class="col g-0">
         <img class="rect-img" src="<?php echo get_template_directory_uri();?>/assets/images/about-rect-img-1.jpg"
             alt="">
