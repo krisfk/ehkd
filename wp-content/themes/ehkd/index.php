@@ -214,20 +214,25 @@ get_header();
                 <div class="text-start">
 
 
-                    <div class="d-table-cell">
+                    <div class="d-inline-block">
 
-                        <img class="phone-icon"
-                            src="<?php echo get_template_directory_uri();?>/assets/images/phone-icon.png" alt="">
-                        <span class="footer-phone"> 2628 2828</span>
+                        <div class="d-table-cell">
+                            <img class="phone-icon"
+                                src="<?php echo get_template_directory_uri();?>/assets/images/phone-icon.png" alt="">
+                            <span class="footer-phone"> 2628 2828</span>
+                        </div>
+
                         <div>忠告：借錢梗要還，咪俾錢中介</div>
 
 
                     </div>
-                    <div class="d-table-cell">
-                        <img class="wts-icon"
-                            src="<?php echo get_template_directory_uri();?>/assets/images/wts-icon.png" alt="">
-                        <span class="footer-phone"> 5700 8888</span>
+                    <div class="d-inline-block">
 
+                        <div>
+                            <img class="wts-icon"
+                                src="<?php echo get_template_directory_uri();?>/assets/images/wts-icon.png" alt="">
+                            <span class="footer-phone"> 5700 8888</span>
+                        </div>
                         <div>投訴熱線：2523 7861</div>
 
                     </div>
