@@ -70,9 +70,12 @@ get_header();
             </div>
             <div class="d-table-cell w-50 align-middle">
                 <ul class=" big-point-ul">
-                    <li> 大額貸款</li>
-                    <li>毋須抵押物業</li>
-                    <li> 特長周轉期</li>
+
+                    <li>公屋/居屋業主/li>
+                    <li>年滿18歲香港永久居民/li>
+                    <li>最近3個月入息證明/li>
+                    <li>最近3個月的住址證明/li>
+
                 </ul>
 
 
