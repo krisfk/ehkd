@@ -103,8 +103,9 @@ get_header();
             與你聯絡，最快15分鐘初步批核再後補交文件，過程私隱度極高。
         </div>
 
-        <a class="apply-btn" href="#">立即申請</a>
-
+        <div class="text-center">
+            <a class="apply-btn" href="#">立即申請</a>
+        </div>
 
     </div>
 
