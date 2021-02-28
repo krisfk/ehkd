@@ -229,7 +229,7 @@ get_header();
                     </div>
                     <div class="d-inline-block">
 
-                        <div>
+                        <div class="d-table-cell">
 
                             <span class="footer-phone"> <img class="wts-icon"
                                     src="<?php echo get_template_directory_uri();?>/assets/images/wts-icon.png" alt="">
