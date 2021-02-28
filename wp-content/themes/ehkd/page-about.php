@@ -43,26 +43,17 @@ get_header();
 
     <div class="row">
 
-        <div class="col-lg-3"> <img class="home-point-icon"
+        <div class="col-lg-6"> <img class="home-point-icon"
                 src="<?php echo get_template_directory_uri();?>/assets/images/home-icon-1.png" alt="">
             <div class="text-center home-point-txt">獨家貸款評估 <br>
                 <span class="small">(免查TU信貸評級)</span>
             </div>
         </div>
-        <div class="col-lg-3"><img class="home-point-icon"
+        <div class="col-lg-6"><img class="home-point-icon"
                 src="<?php echo get_template_directory_uri();?>/assets/images/home-icon-2.png" alt="">
             <div class="text-center home-point-txt">最快15分鐘批核</div>
         </div>
-        <div class="col-lg-3"><img class="home-point-icon"
-                src="<?php echo get_template_directory_uri();?>/assets/images/home-icon-3.png" alt="">
-            <div class="text-center home-point-txt">靈活慳息 <br>
-                利息逐日計</div>
-        </div>
-        <div class="col-lg-3"><img class="home-point-icon"
-                src="<?php echo get_template_directory_uri();?>/assets/images/home-icon-4.png" alt="">
 
-            <div class="text-center home-point-txt">現金即到手</div>
-        </div>
     </div>
 
 </div>
