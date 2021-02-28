@@ -16641,7 +16641,7 @@ button.addmore img {
     font-size: 0.09em;
     top: 75px;
     color: #fff;
-    position: relative;
+    /* position: relative; */
     top: 80px;
 }
 
