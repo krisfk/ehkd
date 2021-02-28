@@ -68,7 +68,7 @@ get_header();
             src="<?php echo get_template_directory_uri();?>/assets/images/mortgage-loan-img.jpg" alt="">
     </div>
 
-    <div class="big-light-blue"> 唐樓、私人樓、村屋、居屋、寫字樓、鋪位、工廠及車位</div>
+    <div class="big-light-blue text-center mt-5"> 唐樓、私人樓、村屋、居屋、寫字樓、鋪位、工廠及車位</div>
 
 
 
