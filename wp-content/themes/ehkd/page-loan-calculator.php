@@ -298,22 +298,152 @@ get_header();
 <!-- </div> -->
 </div>
 
+<script type="text/javascript" src="<?php echo get_template_directory_uri();?>/assets/js/bootstrap-slider.min.js">
+</script>
+<script type="text/javascript" src="<?php echo get_template_directory_uri();?>/assets/js/hammer.min.js"></script>
 
-
-<script type="text/javascript">
+<script>
 $(function() {
 
-    // $(window).load(function() {
+    $("#cal").addClass("calPage");
 
-    // })
-})
+    var result = {
+        principal: 0,
+        interest_rate: 0,
+        period: 0
+    };
 
-window.onload = function() {
-    $('.inner-msg-div-inner-div').height($('.inner-msg-div-outer').height()).css({
-        'opacity': '1'
+    var currentPercentage = 0;
+
+    $('.c100').addClass('p' + currentPercentage);
+
+    $('#ex1').slider({
+        formatter: function(value) {
+            result.principal = value;
+            $('.calc_loanAmount').val(addCommas(result.principal));
+            doCalc(result);
+        }
     });
-}
+
+    $('#ex2').slider({
+        formatter: function(value) {
+            result.interest_rate = value;
+            $('.calc_monthlyInterestRate').val(value);
+            doCalc(result);
+        }
+    });
+
+    $('#ex3').slider({
+        formatter: function(value) {
+            result.period = value;
+            $('.calc_repaymentPeriod').val(value);
+            doCalc(result);
+        }
+    });
+
+    // $('#ex1').slider().on('slide click', function(event){
+    //     result.principal = event.value;
+    //     $('.calc_loanAmount').text(result.principal.toLocaleString('en-us'));
+    //     doCalc(result);
+    // });
+
+    // $('#ex2').slider().on('slide click', function(event){
+    //     result.interest_rate = event.value;
+    //     $('.calc_monthlyInterestRate').text(event.value);
+    //     doCalc(result);
+    // });
+
+    // $('#ex3').slider().on('slide click', function(event){
+    //     result.period = event.value;
+    //     $('.calc_repaymentPeriod').text(event.value);
+    //     doCalc(result);
+    // });
+    $('.calc_loanAmount').on('blur', function(e) {
+
+        var $this = $(this);
+        var input = $this.val();
+
+        var input = input.replace(/[\D\s\._\-]+/g, "");
+
+        input = input ? parseInt(input, 10) : 0;
+
+        $this.val(function() {
+            // return ( input === 0 ) ? "" : input.toLocaleString( "en-US" );
+            return (input === 0) ? "" : addCommas(input);
+        });
+
+        $("#ex1").slider('setValue', input, true);
+    });
+
+    $('.calc_monthlyInterestRate').on('blur', function() {
+
+        var $this = $(this);
+        var input = $this.val();
+
+        if (input.indexOf('.') == input.length - 1)
+            return false;
+
+        $("#ex2").slider('setValue', input, true);
+
+    });
+
+    $('.calc_repaymentPeriod').on('blur', function() {
+
+        var $this = $(this);
+        var input = $this.val();
+
+        $("#ex3").slider('setValue', input, true);
+    });
+
+    function doCalc(result) {
+
+        if (result.principal == 0 || result.period == 0) {
+            $('.monthlyRepaymentWrapper .amount').text(addCommas(Math.round(0)));
+            return false;
+        }
+
+        var interestRate = (result.interest_rate > 0 ? result.interest_rate / 100 : 1);
+
+        // console.log(result.interest_rate > 0, interestRate);
+
+        var monthlyRepayment = (result.principal * interestRate) / (1 - (1 / Math.pow(1 + interestRate,
+            result.period)));
+        if (interestRate === 1) {
+            monthlyRepayment = result.principal / result.period;
+        }
+        var interest = monthlyRepayment * result.period - result.principal;
+
+        var fullPayment = result.principal + interest;
+
+        // Display Result
+        $('.calc_loanAmount, .principal_amount').text(addCommas(result.principal));
+        $('.monthlyRepaymentWrapper .amount').text(addCommas(Math.round(monthlyRepayment)));
+        $('.circle_value').text('HK$' + addCommas(Math.round(fullPayment)));
+        $('.interest_bottom_wrapper .interest_amount').text(addCommas(Math.round(interest)));
+
+        // Create Circle
+        $('.c100').removeClass('p' + currentPercentage);
+
+        currentPercentage = Math.round(result.principal / (result.principal + interest) * 100);
+        $('.c100').addClass('p' + currentPercentage);
+
+    }
+
+    function addCommas(nStr) {
+        nStr += '';
+        var x = nStr.split('.');
+        var x1 = x[0];
+        var x2 = x.length > 1 ? '.' + x[1] : '';
+        var rgx = /(\d+)(\d{3})/;
+        while (rgx.test(x1)) {
+            x1 = x1.replace(rgx, '$1' + ',' + '$2');
+        }
+        return x1 + x2;
+    }
+
+});
 </script>
+
 
 
 <?php
