@@ -133,6 +133,7 @@
 .footer-lightblue-title {
     color: rgb(0, 167, 225);
     font-size: 30px;
+    line-height: normal;
 }
 
 .footer-apply-btn-above-txt {
