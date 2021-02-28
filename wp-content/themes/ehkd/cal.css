@@ -16449,7 +16449,7 @@ button.addmore img {
 
 #calculator .main .mainImgWrapper .output .principal_top_wrapper .principal_label {
     font-size: 1.71429em;
-    color: #555554;
+    color: #0033a1;
     display: inline-block;
 }
 
@@ -16467,7 +16467,7 @@ button.addmore img {
     width: 12px;
     height: 12px;
     border-radius: 20px;
-    background: #cccccc;
+    background: #00a7e1;
     display: inline-block;
 }
 
@@ -16481,6 +16481,7 @@ button.addmore img {
 #calculator .main .mainImgWrapper .output .interest_top_wrapper .interest_label {
     font-size: 1.71429em;
     color: #555554;
+    color: #00a7e1;
     display: inline-block;
 }
 
@@ -16639,7 +16640,9 @@ button.addmore img {
     width: 11em;
     font-size: 0.09em;
     top: 75px;
-    color: #555554;
+    color: #fff;
+    position: relative;
+    top: 80px;
 }
 
 .chart_wrapper #circle .slice .bar,
