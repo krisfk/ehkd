@@ -42,7 +42,7 @@ get_header();
 
 
 
-    <div class="blue-title">
+    <div class="blue-title text-center">
         免估價 免抵押 免手續費 <br>
         最高20萬即日批核
 
