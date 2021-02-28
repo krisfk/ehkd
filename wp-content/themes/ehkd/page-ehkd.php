@@ -77,7 +77,14 @@ get_header();
 
 <!-- <div class="container"> -->
 
-<div class="light-blue-gradient-div mt-5"></div>
+<div class="light-blue-gradient-div mt-5">
+
+
+    <div class="light-blue-inner-content">
+
+    </div>
+
+</div>
 
 <div class="container">
 

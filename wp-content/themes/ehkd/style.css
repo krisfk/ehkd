@@ -298,3 +298,10 @@ a.menu-products-a.level-1 {
     background: url(./assets/images/light-blue-gradient.png) repeat-y;
     background-size: 100% 100%;
 }
+
+.light-blue-inner-content {
+    display: block;
+    border: 1px solid #00a7e1;
+    width: 300px;
+    height: 300px;
+}
