@@ -40,3 +40,39 @@
         <div id="content" class="site-content">
             <div id="primary" class="content-area">
                 <main id="main" class="site-main" role="main">
+
+
+                    <div class="container">
+
+
+                        <div class="top-div">
+                            <a href="javascript:void(0);" class="ehkd-logo-a"><img class="ehkd-logo"
+                                    src="<?php echo get_template_directory_uri();?>/assets/images/ehkd-logo.png"
+                                    alt=""></a>
+
+                            <ul class="top-menu">
+                                <li><a href="javascript:void(0);">關於我們</a>
+                                </li>
+                                <li><a href="javascript:void(0);">貸款產品</a>
+                                </li>
+                                <li><a href="javascript:void(0);">貸款計數機</a>
+                                </li>
+                                <li><a href="javascript:void(0);">立即申請</a>
+                                </li>
+                                <li><a href="javascript:void(0);">聯絡我們</a>
+                                </li>
+
+                                <li>
+
+                                    <div class="lang-div">
+                                        <a href="javascript:void(0);">繁</a>/
+                                        <a href="javascript:void(0);">簡</a>/
+                                        <a href="javascript:void(0);">ENGLISH</a>
+
+                                    </div>
+                                </li>
+                            </ul>
+
+
+                        </div>
+                    </div>
