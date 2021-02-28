@@ -77,35 +77,7 @@ get_header();
 
 <!-- <div class="container"> -->
 
-<div class="row mt-5">
-
-    <div class="col-12 five-points-top-div">立即申請</div>
-    <div class="col g-0">
-        <img class="rect-img" src="<?php echo get_template_directory_uri();?>/assets/images/about-rect-img-1.jpg"
-            alt="">
-        <div class="rect-img-txt">易用錢</div>
-    </div>
-
-    <div class="col g-0">
-        <img class="rect-img" src="<?php echo get_template_directory_uri();?>/assets/images/home-rect-img-1.jpg" alt="">
-        <div class="rect-img-txt">業主私人貸款</div>
-    </div>
-    <div class="col g-0">
-        <img class="rect-img" src="<?php echo get_template_directory_uri();?>/assets/images/home-rect-img-2.jpg" alt="">
-
-        <div class="rect-img-txt">公務員低息貨款</div>
-    </div>
-    <div class="col g-0">
-        <img class="rect-img" src="<?php echo get_template_directory_uri();?>/assets/images/home-rect-img-3.jpg" alt="">
-        <div class="rect-img-txt">物業貸款</div>
-    </div>
-    <div class="col g-0">
-        <img class="rect-img" src="<?php echo get_template_directory_uri();?>/assets/images/home-rect-img-4.jpg" alt="">
-        <div class="rect-img-txt">數字貨幣抵押貸款</div>
-    </div>
-
-</div>
-
+<div>fds</div>
 
 <div class="container">
 
