@@ -105,8 +105,9 @@ get_header();
         <div class="bold-title">申請條件</div>
 
         <div class="txt">
+            公務員/醫護人員特享低息 <br>
             年滿18歲香港永久居民 <br>
-            最近3個月入息證明<br>
+            最近3個月入息證明 <br>
             最近3個月的住址證明
         </div>
 
