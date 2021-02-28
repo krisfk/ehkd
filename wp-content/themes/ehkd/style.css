@@ -208,4 +208,6 @@
     height: 49px;
 }
 
-.footer-under-phone-txt {}
+.footer-under-phone-txt {
+    font-size: 23px;
+}
