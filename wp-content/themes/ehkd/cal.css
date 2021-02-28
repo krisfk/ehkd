@@ -16489,6 +16489,7 @@ button.addmore img {
     font-size: 1.78571em;
     color: #555554;
     text-align: right;
+    color: #fff;
 }
 
 @media (min-width: 992px) {
