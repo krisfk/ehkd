@@ -99,7 +99,7 @@
 
                         $('.menu-products-a').mouseenter(function() {
 
-                            alert(2);
+                            $('.top-menu-submenu').fadeIn(0);
                         })
 
                     })
