@@ -20,6 +20,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <?php wp_head(); ?>
 
+    <link rel="stylesheet" href="<?php echo get_template_directory_uri();?>/cal.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js"
