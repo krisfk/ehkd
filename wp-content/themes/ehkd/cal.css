@@ -15602,7 +15602,7 @@ button.addmore img {
     display: block;
     content: ' ';
     border-radius: 50%;
-    background-color: #fff;
+    /* background-color: #fff; */
     box-shadow: inset 0px 0px 10px #666666;
     width: 0.84em;
     height: 0.84em;
