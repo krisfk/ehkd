@@ -52,26 +52,28 @@ get_header();
     <div class="container mt-5">
 
 
-        <div class="row">
+        <div class="d-table">
 
-            <div class="col-lg-6">
+            <!-- <div class="col-lg-6"> -->
+
+            <div class="d-table-cell">
                 <img class="w-100" src="<?php echo get_template_directory_uri();?>/assets/images/personal-loan-img.jpg"
                     alt="">
-            </div>
-            <div class="col-lg-6">
-
-
-                <div>
-                    <ul class="m-0 p-0 big-point-ul">
-                        <li> 大額貸款</li>
-                        <li>毋須抵押物業</li>
-                        <li> 特長周轉期</li>
-                    </ul>
-
-
-                </div>
+                <!-- </div> -->
+                <!-- <div class="col-lg-6"> -->
 
             </div>
+            <div class="d-table-cell">
+                <ul class="m-0 p-0 big-point-ul">
+                    <li> 大額貸款</li>
+                    <li>毋須抵押物業</li>
+                    <li> 特長周轉期</li>
+                </ul>
+
+
+            </div>
+
+            <!-- </div> -->
 
         </div>
 
