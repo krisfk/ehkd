@@ -209,6 +209,8 @@ Twenty Twenty-One is distributed under the terms of the GNU GPL.
 
 .footer-phone {
     font-size: 46px;
+    padding: 0 0 0 50px;
+    background: url();
 }
 
 .phone-icon {
