@@ -293,10 +293,11 @@ a.menu-products-a.level-1 {
 }
 
 .light-blue-gradient-div {
-    display: block;
-    height: 380px;
+    display: table;
+    /* height: 380px; */
     background: url(./assets/images/light-blue-gradient.png) repeat-y;
     background-size: 100% 100%;
+    width: 100%;
 }
 
 .light-blue-inner-content {
@@ -304,5 +305,5 @@ a.menu-products-a.level-1 {
     border: 4px solid #00a7e1;
     width: 300px;
     height: 300px;
-    margin: 0 auto;
+    margin: 60px auto;
 }
