@@ -115,11 +115,12 @@ a.menu-products-a.level-1 {
 .large-point-txt {
     color: rgb(0, 51, 161);
     font-size: 22px;
-    line-height: 27px;
+    line-height: 32px;
 }
 
 .large-point-txt .big {
     font-size: 30px;
+    font-weight: bold;
 }
 
 .large-point-txt .small {
