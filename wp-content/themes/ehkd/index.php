@@ -217,9 +217,10 @@ get_header();
                     <div class="d-inline-block">
 
                         <div class="d-table-cell">
-                            <img class="phone-icon"
-                                src="<?php echo get_template_directory_uri();?>/assets/images/phone-icon.png" alt="">
-                            <span class="footer-phone"> 2628 2828</span>
+
+                            <span class="footer-phone"> <img class="phone-icon"
+                                    src="<?php echo get_template_directory_uri();?>/assets/images/phone-icon.png"
+                                    alt="">2628 2828</span>
                         </div>
 
                         <div>忠告：借錢梗要還，咪俾錢中介</div>
