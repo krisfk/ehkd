@@ -22,7 +22,7 @@ get_header();
 
 <div class="main-banner">
 
-    <div class="home-main-banner-inner-div">
+    <!-- <div class="home-main-banner-inner-div">
 
 
         <div class="inner-msg-div-outer">
@@ -39,7 +39,7 @@ get_header();
                 </div>
             </div>
         </div>
-    </div>
+    </div> -->
     <img src="<?php echo get_template_directory_uri();?>/assets/images/home-banner.jpg" alt="">
 </div>
 
