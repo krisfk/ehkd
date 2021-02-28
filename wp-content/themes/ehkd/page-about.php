@@ -67,7 +67,8 @@ get_header();
 <div class="row mt-5">
 
     <div class="col g-0">
-        <img class="rect-img" src="<?php echo get_template_directory_uri();?>/assets/images/home-rect-img-1.jpg" alt="">
+        <img class="rect-img" src="<?php echo get_template_directory_uri();?>/assets/images/about-rect-img-1.jpg"
+            alt="">
         <div class="rect-img-txt">業主私人貸款</div>
     </div>
 
