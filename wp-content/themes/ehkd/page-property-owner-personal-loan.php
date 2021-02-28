@@ -49,6 +49,30 @@ get_header();
         有效善用資金作投資、翻新家居或其他生活所需，靈活理財，解決燃眉之急。
     </div>
 
+    <div class="container mt-5">
+
+
+        <div class="row">
+
+            <div class="col-lg-6">
+                <img class="w-100" src="http://104.248.237.5/wp-content/themes/ehkd/assets/images/page-about-img-1.jpg"
+                    alt="">
+            </div>
+            <div class="col-lg-6">
+                <div class="blue-title">
+                    香港數字資產信貸有限公司</div>
+                <div class="content-txt mt-3 text-justify">
+                    為香港數字資產交易所集團成員，香港持牌信貸機構。作為創新型的信貸機構，公司依托香港數字資產交易所（HKD.com）强大的技術及資金支持，與時俱進，結合金融科技，迎合數字資產熱潮，率先推出多個與數字資產相關的信貸產品，以滿足客戶與日俱增的財務需要。
+                </div>
+
+
+            </div>
+
+        </div>
+
+    </div>
+
+
 
 </div>
 
