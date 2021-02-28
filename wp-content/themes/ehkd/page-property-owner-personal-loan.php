@@ -63,7 +63,7 @@ get_header();
                 <!-- <div class="col-lg-6"> -->
 
             </div>
-            <div class="d-table-cell w-50">
+            <div class="d-table-cell w-50 align-middle">
                 <ul class="m-0 p-0 big-point-ul">
                     <li> 大額貸款</li>
                     <li>毋須抵押物業</li>
