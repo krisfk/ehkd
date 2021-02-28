@@ -113,7 +113,7 @@
                             $('.top-menu-submenu').fadeOut(0);
                         });
 
-                        $('.top-menu-submenu,.top-menu li a.level-1').mouseleave(function() {
+                        $('.top-menu-submenu').mouseleave(function() {
                             $('.top-menu-submenu').fadeOut(0);
                         })
 
