@@ -172,3 +172,7 @@ Twenty Twenty-One is distributed under the terms of the GNU GPL.
     font-size: 20px;
     text-decoration: none;
 }
+
+.footer-sitemap .footer-sitemap li {}
+
+.footer-sitemap li a {}
