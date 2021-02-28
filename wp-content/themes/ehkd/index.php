@@ -230,9 +230,10 @@ get_header();
                     <div class="d-inline-block">
 
                         <div>
-                            <img class="wts-icon"
-                                src="<?php echo get_template_directory_uri();?>/assets/images/wts-icon.png" alt="">
-                            <span class="footer-phone"> 5700 8888</span>
+
+                            <span class="footer-phone"> <img class="wts-icon"
+                                    src="<?php echo get_template_directory_uri();?>/assets/images/wts-icon.png" alt="">
+                                5700 8888</span>
                         </div>
                         <div>投訴熱線：2523 7861</div>
 
