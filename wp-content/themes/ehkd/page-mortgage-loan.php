@@ -28,7 +28,7 @@ get_header();
         <div class="inner-msg-div-outer">
             <div class="inner-msg-div container">
 
-                <h1 class="banner-title mt-5">數字貨幣抵押貸款</h1>
+                <h1 class="banner-title mt-5">物業貸款</h1>
 
 
 
@@ -45,8 +45,10 @@ get_header();
     <div class="blue-title text-center">
 
 
-        <span class="big"> 數字貨幣</span>在手 <br>
-        現金<span class="big">想借就有</span>
+
+        一按、二按物業按揭 <br>
+        貸款額可 <span class="big"> 高達樓價9成</span>
+
 
 
 
