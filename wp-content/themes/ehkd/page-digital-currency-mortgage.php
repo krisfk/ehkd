@@ -62,37 +62,29 @@ get_header();
 
     </div>
 
-    <div class="container mt-5">
+    <div class="row mt-5">
 
-
-        <div class="d-table">
-
-            <!-- <div class="col-lg-6"> -->
-
-            <div class="d-table-cell w-50">
-                <img class="w-100" src="<?php echo get_template_directory_uri();?>/assets/images/civil-loan-img.jpg"
-                    alt="">
-                <!-- </div> -->
-                <!-- <div class="col-lg-6"> -->
-
+        <div class="col-lg-3"> <img class="home-point-icon"
+                src="http://104.248.237.5/wp-content/themes/ehkd/assets/images/home-icon-1.png" alt="">
+            <div class="text-center home-point-txt">獨家貸款評估 <br>
+                <span class="small">(免查TU信貸評級)</span>
             </div>
-            <div class="d-table-cell w-50 align-middle">
-                <ul class=" big-point-ul">
-
-                    <li>不損信貸評級</li>
-                    <li>特快批核</li>
-                    <li>利息特低</li>
-                </ul>
-
-
-            </div>
-
-            <!-- </div> -->
-
         </div>
+        <div class="col-lg-3"><img class="home-point-icon"
+                src="http://104.248.237.5/wp-content/themes/ehkd/assets/images/home-icon-2.png" alt="">
+            <div class="text-center home-point-txt">最快15分鐘批核</div>
+        </div>
+        <div class="col-lg-3"><img class="home-point-icon"
+                src="http://104.248.237.5/wp-content/themes/ehkd/assets/images/home-icon-3.png" alt="">
+            <div class="text-center home-point-txt">靈活慳息 <br>
+                利息逐日計</div>
+        </div>
+        <div class="col-lg-3"><img class="home-point-icon"
+                src="http://104.248.237.5/wp-content/themes/ehkd/assets/images/home-icon-4.png" alt="">
 
+            <div class="text-center home-point-txt">現金即到手</div>
+        </div>
     </div>
-
 
 
 </div>
