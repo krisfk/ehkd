@@ -20,6 +20,10 @@
     text-decoration: none;
 }
 
+a.menu-products-a.level-1 {
+    padding: 10px 0 20px 0;
+}
+
 .lang-div {
     font-size: 24px;
 }
