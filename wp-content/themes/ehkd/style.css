@@ -254,6 +254,7 @@
 }
 
 .top-menu-submenu {
+    display: none;
     position: absolute;
     top: 30px;
     width: max-content;
