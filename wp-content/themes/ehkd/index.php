@@ -214,8 +214,8 @@ get_header();
                 <div>
 
 
-                    <div>fdsa</div>
-                    <div>fdsa</div>
+                    <div class="d-inline-block">fdsa</div>
+                    <div class="d-inline-block">fdsa</div>
                 </div>
             </div>
         </div>
