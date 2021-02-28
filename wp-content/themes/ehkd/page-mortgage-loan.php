@@ -80,7 +80,7 @@ get_header();
 <div class="light-blue-gradient-div mt-5">
 
 
-    <div class="light-blue-inner-content text-center">
+    <!-- <div class="light-blue-inner-content text-center">
 
         <div class="bold-title">申請條件</div>
 
@@ -94,7 +94,16 @@ get_header();
         <a class="apply-btn" href="#">立即申請</a>
 
 
+    </div> -->
+
+    <div class="blue-title">申請流程</div>
+
+    <div class="text-center">你只需完成簡單申請表格，我們即時有專人為你跟進網上申請，我們會以電話或Whatsapp <br>
+        與你聯絡，最快15分鐘初步批核再後補交文件，過程私隱度極高。
     </div>
+
+
+
 
 </div>
 
