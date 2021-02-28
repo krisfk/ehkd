@@ -56,7 +56,7 @@ get_header();
 
 </div>
 
-<div class="purple-gradient-div pt-5 pb-5">
+<div class="purple-gradient-div mt-5 pt-5 pb-5">
 
 
     <div id="calculator">
