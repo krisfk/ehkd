@@ -159,7 +159,9 @@ Twenty Twenty-One is distributed under the terms of the GNU GPL.
     font-size: 30px;
 }
 
-.footer-apply-btn-above-txt {}
+.footer-apply-btn-above-txt {
+    font-size: 20px;
+}
 
 .footer-apply-btn {
     display: inline-block;
