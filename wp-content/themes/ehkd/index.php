@@ -216,14 +216,7 @@ get_header();
 
                     <div class="d-inline-block">
 
-                        <div class="d-table">
-                            <div class="d-table-cell align-center">
-                                <img class="phone-icon"
-                                    src="<?php echo get_template_directory_uri();?>/assets/images/phone-icon.png"
-                                    alt="">
-                                <span class="footer-phone"> 2628 2828</span>
-                            </div>
-                        </div>
+                        <span class="footer-phone"> 2628 2828</span>
 
                         <div>忠告：借錢梗要還，咪俾錢中介</div>
 
@@ -231,12 +224,7 @@ get_header();
                     </div>
                     <div class="d-inline-block">
 
-                        <div class="d-table-cell">
-
-                            <span class="footer-phone"> <img class="wts-icon"
-                                    src="<?php echo get_template_directory_uri();?>/assets/images/wts-icon.png" alt="">
-                                5700 8888</span>
-                        </div>
+                        <span class="footer-phone"> 5700 8888</span>
                         <div>投訴熱線：2523 7861</div>
 
                     </div>
