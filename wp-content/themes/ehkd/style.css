@@ -186,7 +186,15 @@
 .footer-phone {
     font-size: 46px;
     padding: 0px 0px 0px 70px;
+}
+
+.footer-phone-1 {
     background: url(./assets/images/phone-icon.png) no-repeat;
+    background-size: auto 100%;
+}
+
+.footer-phone-1 {
+    background: url(./assets/images/wts-icon.png) no-repeat;
     background-size: auto 100%;
 }
 
