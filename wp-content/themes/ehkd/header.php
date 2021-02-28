@@ -53,7 +53,7 @@
                             <ul class="top-menu">
                                 <li><a class="level-1" href="<?php echo get_site_url();?>/about">關於我們</a>
                                 </li>
-                                <li><a class="menu-products-a level-1" href="javascript:void(0);">貸款產品</a>
+                                <li><a class="menu-products-a level-1" href="<?php echo get_site_url();?>/ehkd">貸款產品</a>
                                     <ul class="top-menu-submenu">
                                         <li>
                                             <a href="#">易用錢</a>
