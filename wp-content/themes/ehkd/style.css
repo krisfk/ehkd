@@ -160,3 +160,9 @@ Twenty Twenty-One is distributed under the terms of the GNU GPL.
 }
 
 .footer-apply-btn-above-txt {}
+
+.footer-apply-btn {
+    display: block;
+    background: #0033a1;
+    color: #fff;
+}
