@@ -77,7 +77,7 @@ get_header();
 
 <!-- <div class="container"> -->
 
-<div>fds</div>
+<div class="light-blue-gradient-div"></div>
 
 <div class="container">
 
