@@ -50,7 +50,7 @@ get_header();
         <div class="col-lg-6">
             <div class="blue-title">
                 香港數字資產信貸有限公司</div>
-            <div class="content-txt mt-3 text-align-justify">
+            <div class="content-txt mt-3 text-justify">
                 為香港數字資產交易所集團成員，香港持牌信貸機構。作為創新型的信貸機構，公司依托香港數字資產交易所（HKD.com）强大的技術及資金支持，與時俱進，結合金融科技，迎合數字資產熱潮，率先推出多個與數字資產相關的信貸產品，以滿足客戶與日俱增的財務需要。
             </div>
 
