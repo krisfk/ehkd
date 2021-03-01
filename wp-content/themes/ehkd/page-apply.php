@@ -42,11 +42,11 @@ get_header();
 
 
 
-    <div class="blue-title text-center">
+    <div class=" text-center">
 
 
 
-        貸款計算機
+        立即申請
 
 
 
