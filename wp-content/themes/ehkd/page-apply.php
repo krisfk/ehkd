@@ -298,7 +298,9 @@ get_header();
 
 <script>
 $(function() {
-    $("#customer-dob").datepicker();
+    $("#customer-dob").datepicker({
+        dateFormat: 'yy/mm/dd'
+    });
 });
 </script>
 
