@@ -101,6 +101,21 @@ get_header();
 
                     </div>
 
+
+                    <div class="col-lg-6">
+
+                        <label for="customer-name">身份証號碼*: </label>
+                        <input class="form-text" type="text" id="customer-name">
+
+                    </div>
+                    <div class="col-lg-6">
+
+                        <label for="customer-tel">出生日期*: </label>
+                        <input class="form-text" type="text" id="customer-tel">
+
+                    </div>
+
+
                 </div>
             </div>
 
