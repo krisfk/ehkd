@@ -122,8 +122,8 @@ get_header();
                         </div>
                     </div>
 
-                    <div class="row">
-                        <div class="col-lg-12 ">
+                    <div class="row mt-5">
+                        <div class="col-lg-12  ">
                             <label for="loan-type">從哪裡知道我們: </label>
 
                             <select name="loan-type" id="loan-type" class="form-select">
