@@ -76,7 +76,15 @@ get_header();
             <div class="row">
 
                 <label for="loan-type">貸款類型: </label>
-                <input id="loan-type" class="form-txt-input" type="text">
+
+                <select name="loan-type" id="loan-type">
+                    <option value="ehkd">易用錢</option>
+                    <option value="property-owner-personal-loan">業主私人貸款</option>
+                    <option value="special-personal-loan-program-for-civil-servant">公務員低息貸款</option>
+                    <option value="mortgage-loan">物業貸款</option>
+                    <option value="digital-currency-mortgage">數字貨幣抵押貸款</option>
+                </select>
+
             </div>
 
         </div>
