@@ -67,9 +67,9 @@ get_header();
 
         <div class="container">
 
-            <div class="apply-form-title">申請表格 </div>
+            <div class="apply-form-title text-center">申請表格 </div>
 
-            <div class="content-txt white">填寫以下簡單申請表格, 我們將有貸款顧問以電話或Whatsapp形式與您聯絡。 <br>
+            <div class="content-txt white  text-center">填寫以下簡單申請表格, 我們將有貸款顧問以電話或Whatsapp形式與您聯絡。 <br>
                 最快30分鐘初步批核，再後補交文件，快速便捷，且私隱度極高。</div>
 
         </div>
