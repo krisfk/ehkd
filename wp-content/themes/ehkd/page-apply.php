@@ -42,7 +42,7 @@ get_header();
 
 
 
-    <div class=" text-center">
+    <div class="blue-title text-center">
 
 
 
