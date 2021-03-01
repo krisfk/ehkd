@@ -72,19 +72,20 @@ get_header();
             <div class="content-txt white  text-center mt-5">填寫以下簡單申請表格, 我們將有貸款顧問以電話或Whatsapp形式與您聯絡。 <br>
                 最快30分鐘初步批核，再後補交文件，快速便捷，且私隱度極高。</div>
 
+            <div class="mt-5">
+                <div class="row">
 
-            <div class="row">
+                    <label for="loan-type">貸款類型: </label>
 
-                <label for="loan-type">貸款類型: </label>
+                    <select name="loan-type" id="loan-type">
+                        <option value="ehkd">易用錢</option>
+                        <option value="property-owner-personal-loan">業主私人貸款</option>
+                        <option value="special-personal-loan-program-for-civil-servant">公務員低息貸款</option>
+                        <option value="mortgage-loan">物業貸款</option>
+                        <option value="digital-currency-mortgage">數字貨幣抵押貸款</option>
+                    </select>
 
-                <select name="loan-type" id="loan-type">
-                    <option value="ehkd">易用錢</option>
-                    <option value="property-owner-personal-loan">業主私人貸款</option>
-                    <option value="special-personal-loan-program-for-civil-servant">公務員低息貸款</option>
-                    <option value="mortgage-loan">物業貸款</option>
-                    <option value="digital-currency-mortgage">數字貨幣抵押貸款</option>
-                </select>
-
+                </div>
             </div>
 
         </div>
