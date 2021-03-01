@@ -397,3 +397,10 @@ a.menu-products-a.level-1 {
     padding: 70px 0 70px 0;
     position: relative;
 }
+
+.cal-img {
+    position: absolute;
+    width: 200px;
+    top: 0;
+    right: 0;
+}
