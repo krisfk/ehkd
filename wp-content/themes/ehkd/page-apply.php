@@ -93,7 +93,7 @@ get_header();
                         <div class="col-lg-6">
 
                             <label for="customer-name">姓名*: </label>
-                            <input class="form-text" type="text" id="customer-name">
+                            <input placeholder="姓名*" class="form-text" type="text" id="customer-name">
 
                         </div>
                         <div class="col-lg-6">
