@@ -145,7 +145,7 @@ get_header();
 
                                 <table>
                                     <tr>
-                                        <td class="align-top"> <input type="checkbox" class="form-checkbox">
+                                        <td class="align-top pe-3"> <input type="checkbox" class="form-checkbox">
                                         </td>
                                         <td> *本人已詳細閱讀及明白下列的免責聲明及私隱政策，並同意授權貴公司向任何第三方人士索取有關本人的資料，包括但不限於向信貸資料服務機構/環聯資訊有限公司索取本人之信貸報告，用作是次及日後審核或覆核用途。
                                             <br>
