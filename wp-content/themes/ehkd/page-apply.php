@@ -75,15 +75,31 @@ get_header();
             <div class="mt-5">
                 <div class="row">
 
-                    <label for="loan-type">貸款類型: </label>
 
-                    <select name="loan-type" id="loan-type" class="form-select">
-                        <option value="ehkd">易用錢</option>
-                        <option value="property-owner-personal-loan">業主私人貸款</option>
-                        <option value="special-personal-loan-program-for-civil-servant">公務員低息貸款</option>
-                        <option value="mortgage-loan">物業貸款</option>
-                        <option value="digital-currency-mortgage">數字貨幣抵押貸款</option>
-                    </select>
+                    <div class="col-lg-12">
+                        <label for="loan-type">貸款類型: </label>
+
+                        <select name="loan-type" id="loan-type" class="form-select">
+                            <option value="ehkd">易用錢</option>
+                            <option value="property-owner-personal-loan">業主私人貸款</option>
+                            <option value="special-personal-loan-program-for-civil-servant">公務員低息貸款</option>
+                            <option value="mortgage-loan">物業貸款</option>
+                            <option value="digital-currency-mortgage">數字貨幣抵押貸款</option>
+                        </select>
+                    </div>
+
+                    <div class="col-lg-6">
+
+                        <label for="customer-name">姓名*: </label>
+                        <input class="form-text" type="text" id="customer-name">
+
+                    </div>
+                    <div class="col-lg-6">
+
+                        <label for="customer-tel">聯絡電話*: </label>
+                        <input class="form-text" type="text" id="customer-tel">
+
+                    </div>
 
                 </div>
             </div>
