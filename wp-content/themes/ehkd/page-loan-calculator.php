@@ -61,7 +61,7 @@ get_header();
 
     <div id="calculator">
 
-        <img src="<?php echo get_template_directory_uri();?>/assets/images/cal-img.png" alt="">
+        <img class="cal-img" src="<?php echo get_template_directory_uri();?>/assets/images/cal-img.png" alt="">
         <div class="main container">
             <div class="mainImgWrapper row">
                 <div class="col-xs-12 col-md-6 input">
