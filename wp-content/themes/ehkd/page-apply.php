@@ -54,8 +54,8 @@ get_header();
 
     </div>
 
-    <img class="apply-flow-img w-100" src="<?php echo get_template_directory_uri();?>/assets/images/apply-flow-img.png"
-        alt="">
+    <img class="apply-flow-img w-100 mt-5"
+        src="<?php echo get_template_directory_uri();?>/assets/images/apply-flow-img.png" alt="">
 
 </div>
 
