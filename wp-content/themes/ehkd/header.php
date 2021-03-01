@@ -78,7 +78,7 @@
                                 </li>
                                 <li><a href="<?php echo get_site_url();?>/loan-calculator" class="level-1">貸款計數機</a>
                                 </li>
-                                <li><a href="javascript:void(0);" class="level-1">立即申請</a>
+                                <li><a href="<?php echo get_site_url();?>/apply" class="level-1">立即申請</a>
                                 </li>
                                 <li><a href="javascript:void(0);" class="level-1">聯絡我們</a>
                                 </li>
