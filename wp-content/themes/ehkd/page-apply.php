@@ -122,6 +122,21 @@ get_header();
                         </div>
                     </div>
 
+                    <div class="row">
+                        <div class="col-lg-12 ">
+                            <label for="loan-type">從哪裡知道我們: </label>
+
+                            <select name="loan-type" id="loan-type" class="form-select">
+                                <option value="ehkd">易用錢</option>
+                                <option value="property-owner-personal-loan">業主私人貸款</option>
+                                <option value="special-personal-loan-program-for-civil-servant">公務員低息貸款</option>
+                                <option value="mortgage-loan">物業貸款</option>
+                                <option value="digital-currency-mortgage">數字貨幣抵押貸款</option>
+                            </select>
+                        </div>
+                    </div>
+
+
 
                 </div>
             </div>
