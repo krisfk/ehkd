@@ -104,14 +104,14 @@ get_header();
 
                     <div class="col-lg-6">
 
-                        <label for="customer-name">身份証號碼*: </label>
-                        <input class="form-text" type="text" id="customer-name">
+                        <label for="customer-id">身份証號碼*: </label>
+                        <input class="form-text" type="text" id="customer-id">
 
                     </div>
                     <div class="col-lg-6">
 
-                        <label for="customer-tel">出生日期*: </label>
-                        <input placeholder="Selected date" type="date" id="date-picker-example"
+                        <label for="customer-dob">出生日期*: </label>
+                        <input placeholder="Selected date" type="date" id="customer-dob"
                             class="form-control datepicker">
 
 
