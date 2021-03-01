@@ -77,7 +77,7 @@ get_header();
 
                     <label for="loan-type">貸款類型: </label>
 
-                    <select name="loan-type" id="loan-type">
+                    <select name="loan-type" id="loan-type" class="form-select">
                         <option value="ehkd">易用錢</option>
                         <option value="property-owner-personal-loan">業主私人貸款</option>
                         <option value="special-personal-loan-program-for-civil-servant">公務員低息貸款</option>
