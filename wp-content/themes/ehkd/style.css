@@ -454,5 +454,7 @@ a.menu-products-a.level-1 {
 #apply-form .submit-btn {
     background: #0033a1;
     color: #fff;
-    font-size: 24px;
+    font-size: 18px;
+    text-decoration: none;
+    padding: 10px 40px;
 }
