@@ -450,3 +450,9 @@ a.menu-products-a.level-1 {
     color: #616161;
     font-size: 14px;
 }
+
+#apply-form .submit-btn {
+    background: #0033a1;
+    color: #fff;
+    font-size: 24px;
+}
