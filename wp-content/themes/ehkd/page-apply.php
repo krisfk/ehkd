@@ -76,7 +76,7 @@ get_header();
                 <div class="row">
 
 
-                    <div class="col-lg-12 mb-5">
+                    <di class="col-lg-12 mb-5">
                         <label for="loan-type">貸款類型: </label>
 
                         <select name="loan-type" id="loan-type" class="form-select">
@@ -86,35 +86,39 @@ get_header();
                             <option value="mortgage-loan">物業貸款</option>
                             <option value="digital-currency-mortgage">數字貨幣抵押貸款</option>
                         </select>
+                    </di>
+
+                    <div class="row mt-5">
+                        <div class="col-lg-6">
+
+                            <label for="customer-name">姓名*: </label>
+                            <input class="form-text" type="text" id="customer-name">
+
+                        </div>
+                        <div class="col-lg-6">
+
+                            <label for="customer-tel">聯絡電話*: </label>
+                            <input class="form-text" type="text" id="customer-tel">
+
+                        </div>
                     </div>
 
-                    <div class="col-lg-6">
+                    <div class="row mt-5">
 
-                        <label for="customer-name">姓名*: </label>
-                        <input class="form-text" type="text" id="customer-name">
+                        <div class="col-lg-6">
 
-                    </div>
-                    <div class="col-lg-6">
+                            <label for="customer-id">身份証號碼*: </label>
+                            <input class="form-text" type="text" id="customer-id">
 
-                        <label for="customer-tel">聯絡電話*: </label>
-                        <input class="form-text" type="text" id="customer-tel">
+                        </div>
+                        <div class="col-lg-6">
 
-                    </div>
-
-
-                    <div class="col-lg-6">
-
-                        <label for="customer-id">身份証號碼*: </label>
-                        <input class="form-text" type="text" id="customer-id">
-
-                    </div>
-                    <div class="col-lg-6">
-
-                        <label for="customer-dob">出生日期*: </label>
-                        <input placeholder="Selected date" type="date" id="customer-dob"
-                            class="form-control datepicker">
+                            <label for="customer-dob">出生日期*: </label>
+                            <input placeholder="Selected date" type="date" id="customer-dob"
+                                class="form-control datepicker">
 
 
+                        </div>
                     </div>
 
 
