@@ -76,7 +76,7 @@ get_header();
                 <div class="row">
 
 
-                    <di class="col-lg-12 mb-5">
+                    <di class="col-lg-12 ">
                         <label for="loan-type">貸款類型: </label>
 
                         <select name="loan-type" id="loan-type" class="form-select">
