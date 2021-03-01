@@ -392,7 +392,8 @@ a.menu-products-a.level-1 {
     height: 400px;
 }
 
-#calculator {
+#calculator,
+#apply-form {
     background: url(./assets/images/green-gradient.jpg) repeat-x;
     padding: 70px 0 70px 0;
     position: relative;
