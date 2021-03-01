@@ -111,7 +111,9 @@ get_header();
                     <div class="col-lg-6">
 
                         <label for="customer-tel">出生日期*: </label>
-                        <input class="form-text" type="text" id="customer-tel">
+                        <input placeholder="Selected date" type="date" id="date-picker-example"
+                            class="form-control datepicker">
+
 
                     </div>
 
