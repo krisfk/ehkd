@@ -64,7 +64,9 @@ get_header();
 
     <div id="apply-form">
 
-        fdsfs
+
+        <div class="container">fdsfs</div>
+
     </div>
 
 
