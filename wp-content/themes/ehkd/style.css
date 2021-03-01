@@ -433,4 +433,5 @@ a.menu-products-a.level-1 {
 .apply-form-container input,
 .apply-form-container select {
     height: 64px;
+    font-size: 20px;
 }
