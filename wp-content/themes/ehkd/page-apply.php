@@ -159,9 +159,9 @@ get_header();
                         </div>
                     </div>
 
-                    <div class="row">
+                    <div class="row mt-5">
 
-                        <div class="col">
+                        <div class="col text-center">
 
                             <a href="#" class="submit-btn">提交</a>
                         </div>
