@@ -420,3 +420,7 @@ a.menu-products-a.level-1 {
     top: -75px;
     right: -90px;
 }
+
+#apply-form-container {
+    max-width: 370px;
+}

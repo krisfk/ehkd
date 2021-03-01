@@ -65,7 +65,7 @@ get_header();
     <div id="apply-form">
 
 
-        <div class="container">
+        <div class="container apply-form-container ">
 
             <div class="apply-form-title text-center">申請表格 </div>
 
