@@ -424,3 +424,8 @@ a.menu-products-a.level-1 {
 .apply-form-container {
     max-width: 850px !important;
 }
+
+.apply-form-container label {
+    font-size: 20px;
+    color: #fff;
+}
