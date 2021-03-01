@@ -410,6 +410,10 @@ a.menu-products-a.level-1 {
     position: relative;
 }
 
+#apply-form {
+    max-width: 370px;
+}
+
 .cal-img {
     position: absolute;
     width: 250px;
