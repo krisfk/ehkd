@@ -444,6 +444,7 @@ a.menu-products-a.level-1 {
 .apply-form-container input[type='checkbox'] {
     height: 20px;
     width: 20px;
+    border: none;
 }
 
 .terms-txt {
