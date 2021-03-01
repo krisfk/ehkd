@@ -435,4 +435,5 @@ a.menu-products-a.level-1 {
 .apply-form-container select {
     height: 40px;
     font-size: 18px;
+    border: none;
 }
