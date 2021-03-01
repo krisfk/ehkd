@@ -54,6 +54,8 @@ get_header();
 
     </div>
 
+    <img src="<?php echo get_template_directory_uri();?>/assets/images/apply-flow-img.png" alt="">
+
 </div>
 
 <div class="purple-gradient-div mt-5 pt-5 pb-5">
