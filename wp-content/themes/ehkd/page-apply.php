@@ -115,7 +115,7 @@ get_header();
                         <div class="col-lg-6">
 
                             <label for="customer-dob">出生日期*: </label>
-                            <input class="form-text" type="text" id="customer-dob">
+                            <input placeholder="年/月/日" class="form-text" type="text" id="customer-dob">
 
 
                         </div>
