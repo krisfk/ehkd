@@ -479,3 +479,7 @@ a.menu-products-a.level-1 {
 .contact-form-container-heading {
     border-bottom: 4px solid #00a7e1;
 }
+
+.contact-form-container-heading td {
+    padding: 0 0 20px 0;
+}
