@@ -151,6 +151,8 @@ get_header();
         const map = new google.maps.Map(document.getElementById("map"), {
             // zoom: 4,
             center: myLatLng,
+            gestureHandling: 'greedy'
+
         });
 
         // const marker =

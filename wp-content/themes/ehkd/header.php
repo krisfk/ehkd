@@ -85,7 +85,7 @@
                                 </li>
                                 <li><a href="<?php echo get_site_url();?>/apply" class="level-1">立即申請</a>
                                 </li>
-                                <li><a href="javascript:void(0);" class="level-1">聯絡我們</a>
+                                <li><a href="<?php echo get_site_url();?>/contact" class="level-1">聯絡我們</a>
                                 </li>
 
                                 <li>
