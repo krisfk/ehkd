@@ -46,8 +46,8 @@ get_header();
 
 <?php 
 
-echo get_field('content_1');?>
-<!-- 
+// echo get_field('content_1');?>
+
 <div class="container mt-5">
 
 
@@ -75,9 +75,8 @@ echo get_field('content_1');?>
         </div>
     </div>
 
-</div> -->
+</div>
 
-<?php //echo get_field('content_2');?>
 
 
 <div class="row mt-5 g-0">
