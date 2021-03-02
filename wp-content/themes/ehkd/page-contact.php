@@ -163,7 +163,7 @@ get_header();
         var marker2 = new google.maps.Marker({
             position: myLatLng,
             map: map,
-            icon: '<?php echo get_template_directory_uri();?>/assets/images/ehkd-marker4@2x.png'
+            icon: '<?php echo get_template_directory_uri();?>/assets/images/ehkd-marker-svg.svg'
         });
 
 
