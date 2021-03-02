@@ -151,12 +151,12 @@ get_header();
             center: myLatLng,
         });
 
-        const marker =
-            new google.maps.Marker({
-                position: myLatLng,
-                map,
-                title: "Hello World!",
-            });
+        // const marker =
+        //     new google.maps.Marker({
+        //         position: myLatLng,
+        //         map,
+        //         title: "Hello World!",
+        //     });
 
         var marker2 = new google.maps.Marker({
             position: myLatLng,
