@@ -150,11 +150,17 @@ get_header();
             zoom: 4,
             center: myLatLng,
         });
-        new google.maps.Marker({
-            position: myLatLng,
-            map,
-            title: "Hello World!",
-        });
+
+        const marker =
+            new google.maps.Marker({
+                position: myLatLng,
+                map,
+                title: "Hello World!",
+            });
+
+        map.setZoom(17);
+        map.panTo(marker.position);
+
     }
     </script>
 
