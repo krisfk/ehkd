@@ -162,7 +162,7 @@ get_header();
         map.panTo(marker.position);
 
 
-        const contentString = '<div>fdsaf</div>';
+        const contentString = '<div class="infowindow">fdsaf</div>';
 
 
         const infowindow = new google.maps.InfoWindow({
