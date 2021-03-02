@@ -161,7 +161,7 @@ get_header();
         var marker2 = new google.maps.Marker({
             position: myLatLng,
             map: map,
-            icon: 'https://img.icons8.com/fluent/48/000000/marker-storm.png'
+            icon: '<?php echo get_template_directory_uri();?>/assets/images/ehkd-marker.png'
         });
 
 
@@ -169,16 +169,16 @@ get_header();
         map.panTo(marker.position);
 
 
-        const contentString = '<div class="infowindow">fdsaf</div>';
+        // const contentString = '<div class="infowindow">fdsaf</div>';
 
 
-        const infowindow = new google.maps.InfoWindow({
-            content: contentString,
-        });
+        // const infowindow = new google.maps.InfoWindow({
+        //     content: contentString,
+        // });
 
-        marker.addListener("click", () => {
-            infowindow.open(map, marker);
-        });
+        // marker.addListener("click", () => {
+        //     infowindow.open(map, marker);
+        // });
 
 
     }
