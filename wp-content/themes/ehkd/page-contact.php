@@ -133,10 +133,17 @@ get_header();
 </div>
 </div>
 
+<script src="https://maps.googleapis.com/maps/api/js?libraries=places&key=AIzaSyBcDNaL1X-ElylUXw8mb07ygWv7MXUYjJY">
+</script>
+<script src="<?php echo get_template_directory_uri();?>assets/js/gmaps.js"></script>
+
+
+
 <div class="purple-gradient-div mt-5 pt-5 pb-5">
 
 
-    fdsf
+    <div id="map"></div>
+
 
 </div>
 
@@ -152,12 +159,29 @@ get_header();
 
 
 
-
 <script>
-$(function() {
-    $("#customer-dob").datepicker({
-        dateFormat: 'yy/mm/dd'
-    });
+/* Map Object */
+// data-lat="22.279866" data-lon="114.184255"
+//22.279880, 114.184367
+var map = new GMaps({
+    el: '#map',
+    lat: 22.279866,
+    lng: 114.184255
+});
+
+map.drawRoute({
+    //22.2803747,114.1828534
+    //22.279922,114.1820828
+    //22.2798747,114.1841906
+    //22.280554, 114.186001
+    origin: [22.279880, 114.184255],
+    destination: [22.280554, 114.186001],
+    travelMode: 'walking',
+    strokeColor: '#00F',
+    strokeOpacity: 0.6,
+
+    strokeWeight: 6,
+    path: google.maps.SymbolPath.FORWARD_CLOSED_ARROW
 });
 </script>
 
