@@ -466,3 +466,8 @@ a.menu-products-a.level-1 {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 1.5em !important;
 }
+
+.blue-subtitle {
+    color: #0033a1;
+    font-size: 20px;
+}

@@ -49,7 +49,7 @@ get_header();
         <div class="col-lg-6 blue-title">香港數字資產信貸有限公司
         </div>
         <div class="col-lg-6">
-            <span>放債人牌照號碼:</span>
+            <span class="blue-subtitle">放債人牌照號碼:</span>
             <span>1688/2021</span>
 
 
