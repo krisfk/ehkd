@@ -1,5 +1,5 @@
-a {
-    text-decoration: none;
+#main a {
+    text-decoration: none !important;
 }
 
 .ehkd-logo {
