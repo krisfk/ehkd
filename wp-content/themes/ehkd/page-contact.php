@@ -46,14 +46,21 @@ get_header();
 
     <div class="row">
 
-        <div class="col-lg-6 blue-title">香港數字資產信貸有限公司
+
+        <div class="col-lg-12">
+            <table>
+                <tr>
+                    <td class="blue-title">香港數字資產信貸有限公司</td>
+                </tr>
+                <tr>
+                    <td> <span class="blue-subtitle">放債人牌照號碼:</span>
+                        <span>1688/2021</span>
+                    </td>
+                </tr>
+            </table>
         </div>
-        <div class="col-lg-6">
-            <span class="blue-subtitle">放債人牌照號碼:</span>
-            <span>1688/2021</span>
 
 
-        </div>
 
     </div>
 </div>
