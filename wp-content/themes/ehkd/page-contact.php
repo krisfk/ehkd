@@ -138,7 +138,7 @@ get_header();
 
 
     <script
-        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBN611NFShALGyApUBivJPfvqlEIvbPRNU&callback=initMap&libraries=&v=weekly&markers=scale:2|icon=ehkd-marker4@2x.png&scale=2"
+        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBN611NFShALGyApUBivJPfvqlEIvbPRNU&callback=initMap&libraries=&v=weekly"
         async>
     </script>
 
