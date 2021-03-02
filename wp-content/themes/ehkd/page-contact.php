@@ -160,7 +160,7 @@ get_header();
 
         var marker2 = new google.maps.Marker({
             position: myLatLng,
-            map: map
+            map: map,
             icon: 'https://img.icons8.com/fluent/48/000000/marker-storm.png'
         });
 
