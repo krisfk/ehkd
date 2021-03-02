@@ -65,7 +65,8 @@ $img_src=$img_arr[0];
 
 
         <div class="col-lg-3"> <img class="large-point-icon" src="<?php echo $img_src; ?>" alt="">
-            <?php echo get_field('icon_1_txt'); ?>
+            <div class="text-center large-point-txt"><?php echo get_field('icon_1_txt');?>
+            </div>
 
         </div>
         <?php
