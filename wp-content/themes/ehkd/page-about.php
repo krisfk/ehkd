@@ -88,7 +88,7 @@ $img_arr = wp_get_attachment_image_src($img_id,'full');
 $img_src=$img_arr[0];
 ?>
 
-    <a href="#" class="col g-0">
+    <a href="<?php echo get_field('bottom_img_1_link');?>" class="col g-0">
         <img class="rect-img" src="<?php echo $img_src;?>" alt="">
         <div class="rect-img-txt"><?php echo get_field('bottom_img_1_txt');?></div>
     </a>
@@ -99,7 +99,7 @@ $img_arr = wp_get_attachment_image_src($img_id,'full');
 $img_src=$img_arr[0];
 ?>
 
-    <a href="#" class="col g-0">
+    <a href="<?php echo get_field('bottom_img_2_link');?>" class="col g-0">
         <img class="rect-img" src="<?php echo $img_src;?>" alt="">
         <div class="rect-img-txt"><?php echo get_field('bottom_img_2_txt');?></div>
     </a>
@@ -109,7 +109,7 @@ $img_id = get_field('bottom_img_3');
 $img_arr = wp_get_attachment_image_src($img_id,'full');
 $img_src=$img_arr[0];
 ?>
-    <a href="#" class="col g-0">
+    <a href="<?php echo get_field('bottom_img_3_link');?>" class="col g-0">
         <img class="rect-img" src="<?php echo $img_src;?>" alt="">
 
         <div class="rect-img-txt"><?php echo get_field('bottom_img_3_txt');?></div>
@@ -120,7 +120,7 @@ $img_id = get_field('bottom_img_4');
 $img_arr = wp_get_attachment_image_src($img_id,'full');
 $img_src=$img_arr[0];
 ?>
-    <a href="#" class="col g-0">
+    <a href="<?php echo get_field('bottom_img_4_link');?>" class="col g-0">
         <img class="rect-img" src="<?php echo $img_src;?>" alt="">
         <div class="rect-img-txt"><?php echo get_field('bottom_img_4_txt');?></div>
     </a>
@@ -130,7 +130,7 @@ $img_id = get_field('bottom_img_5');
 $img_arr = wp_get_attachment_image_src($img_id,'full');
 $img_src=$img_arr[0];
 ?>
-    <a href="#" class="col g-0">
+    <a href="<?php echo get_field('bottom_img_5_link');?>" class="col g-0">
         <img class="rect-img" src="<?php echo $img_src;?>" alt="">
         <div class="rect-img-txt"><?php echo get_field('bottom_img_5_txt');?></div>
     </a>
