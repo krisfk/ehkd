@@ -169,20 +169,30 @@ var map = new GMaps({
     lng: 114.184255
 });
 
-map.drawRoute({
-    //22.2803747,114.1828534
-    //22.279922,114.1820828
-    //22.2798747,114.1841906
-    //22.280554, 114.186001
-    origin: [22.279880, 114.184255],
-    destination: [22.280554, 114.186001],
-    travelMode: 'walking',
-    strokeColor: '#00F',
-    strokeOpacity: 0.6,
 
-    strokeWeight: 6,
-    path: google.maps.SymbolPath.FORWARD_CLOSED_ARROW
+new google.maps.Marker({
+    position: {
+        lat: -25.363,
+        lng: 131.044
+    },
+    map,
+    title: "Hello World!",
 });
+
+// map.drawRoute({
+//     //22.2803747,114.1828534
+//     //22.279922,114.1820828
+//     //22.2798747,114.1841906
+//     //22.280554, 114.186001
+//     origin: [22.279880, 114.184255],
+//     destination: [22.280554, 114.186001],
+//     travelMode: 'walking',
+//     strokeColor: '#00F',
+//     strokeOpacity: 0.6,
+
+//     strokeWeight: 6,
+//     path: google.maps.SymbolPath.FORWARD_CLOSED_ARROW
+// });
 </script>
 
 <?php
