@@ -19,133 +19,156 @@ get_header();
 ?>
 <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
 
-<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+<scrip src="https://code.jquery.com/ui/1.12.1/jquery-ui.js">
+    </script>
 
 
 
-<div class="main-banner">
+    <div class="main-banner">
 
-    <div class="home-main-banner-inner-div">
+        <div class="home-main-banner-inner-div">
 
 
-        <div class="inner-msg-div-outer">
-            <div class="inner-msg-div container">
+            <div class="inner-msg-div-outer">
+                <div class="inner-msg-div container">
 
-                <h1 class="banner-title mt-5 ">聯絡我們</h1>
+                    <h1 class="banner-title mt-5 ">聯絡我們</h1>
+
+
+
+                </div>
+            </div>
+        </div>
+        <img src="<?php echo get_template_directory_uri();?>/assets/images/contact-banner.jpg" alt="">
+    </div>
+
+    <div class="container mt-5 contact-form-container">
+
+
+        <div class="row">
+
+
+            <div class="col-lg-12">
+                <table class="w-100 contact-form-container-heading ">
+                    <tr>
+                        <td class="blue-title align-bottom w-50">香港數字資產信貸有限公司</td>
+                        <td class=" align-bottom text-left w-50 "> <span class="blue-subtitle">放債人牌照號碼:</span>
+                            <span>1688/2021</span>
+                        </td>
+                    </tr>
+
+                </table>
+
+
+            </div>
+
+
+
+        </div>
+        <div class="row mt-4">
+            <div class="col-lg-6">
+
+                <span class="blue-subtitle"> 查詢熱線</span> <br>
+                +852 2628 2828
+            </div>
+            <div class="col-lg-6 g-0">
+
+                <span class="blue-subtitle"> 電郵</span> <br>
+                info@ehkd.com
 
 
 
             </div>
         </div>
+
+        <div class="row mt-4">
+
+
+
+            <div class="col-lg-6">
+
+                <span class="blue-subtitle"> WhatsApp</span> <br>
+                xxxx-xxxx
+            </div>
+            <div class="col-lg-6 g-0">
+
+                <span class="blue-subtitle"> 地址
+                </span> <br>
+                香港九龍彌敦道528號康佑大廈地下至二樓
+
+
+
+
+            </div>
+
+        </div>
+
+
+        <div class="row mt-4">
+
+
+
+            <div class="col-lg-6">
+
+                <span class="blue-subtitle"> 傳真</span> <br>
+                +852 2628 2828
+            </div>
+            <div class="col-lg-6 g-0">
+
+                <span class="blue-subtitle"> 辦公時間
+
+                </span> <br>
+
+                9:00am - 5:00pm (星期一至五) <br>
+                9:00am - 1:00pm (星期六)
+
+
+
+            </div>
+
+        </div>
+
+
+
+
     </div>
-    <img src="<?php echo get_template_directory_uri();?>/assets/images/contact-banner.jpg" alt="">
-</div>
-
-<div class="container mt-5 contact-form-container">
-
-
-    <div class="row">
-
-
-        <div class="col-lg-12">
-            <table class="w-100 contact-form-container-heading ">
-                <tr>
-                    <td class="blue-title align-bottom w-50">香港數字資產信貸有限公司</td>
-                    <td class=" align-bottom text-left w-50 "> <span class="blue-subtitle">放債人牌照號碼:</span>
-                        <span>1688/2021</span>
-                    </td>
-                </tr>
-
-            </table>
-
-
-        </div>
-
-
-
-    </div>
-    <div class="row mt-4">
-        <div class="col-lg-6">
-
-            <span class="blue-subtitle"> 查詢熱線</span> <br>
-            +852 2628 2828
-        </div>
-        <div class="col-lg-6 g-0">
-
-            <span class="blue-subtitle"> 電郵</span> <br>
-            info@ehkd.com
-
-
-
-        </div>
-    </div>
-
-    <div class="row mt-4">
-
-
-
-        <div class="col-lg-6">
-
-            <span class="blue-subtitle"> WhatsApp</span> <br>
-            xxxx-xxxx
-        </div>
-        <div class="col-lg-6 g-0">
-
-            <span class="blue-subtitle"> 地址
-            </span> <br>
-            香港九龍彌敦道528號康佑大廈地下至二樓
-
-
-
-
-        </div>
-
     </div>
 
 
-    <div class="row mt-4">
+    <script
+        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBN611NFShALGyApUBivJPfvqlEIvbPRNU&callback=initMap&libraries=&v=weekly"
+        async>
+    </script>
+
+    <script type="text/javascript">
+    function initMap() {
+        const myLatLng = {
+            lat: -25.363,
+            lng: 131.044
+        };
+        const map = new google.maps.Map(document.getElementById("map"), {
+            zoom: 4,
+            center: myLatLng,
+        });
+        new google.maps.Marker({
+            position: myLatLng,
+            map,
+            title: "Hello World!",
+        });
+    }
+    </script>
+
+    <div class="purple-gradient-div mt-5 pt-5 pb-5">
 
 
+        <div id="map"></div>
 
-        <div class="col-lg-6">
-
-            <span class="blue-subtitle"> 傳真</span> <br>
-            +852 2628 2828
-        </div>
-        <div class="col-lg-6 g-0">
-
-            <span class="blue-subtitle"> 辦公時間
-
-            </span> <br>
-
-            9:00am - 5:00pm (星期一至五) <br>
-            9:00am - 1:00pm (星期六)
-
-
-
-        </div>
 
     </div>
 
 
 
 
-</div>
-</div>
-
-<script src="https://maps.googleapis.com/maps/api/js?libraries=places&key=AIzaSyBcDNaL1X-ElylUXw8mb07ygWv7MXUYjJY">
-</script>
-<script src="<?php echo get_template_directory_uri();?>/assets/js/gmaps.js"></script>
-
-
-
-<div class="purple-gradient-div mt-5 pt-5 pb-5">
-
-
-    <div id="map"></div>
-
-
-</div>
 
 
 
@@ -153,47 +176,5 @@ get_header();
 
 
 
-
-
-
-
-
-
-<script>
-/* Map Object */
-// data-lat="22.279866" data-lon="114.184255"
-//22.279880, 114.184367
-var map = new GMaps({
-    el: '#map',
-    lat: 22.279866,
-    lng: 114.184255
-});
-
-
-new google.maps.Marker({
-    position: {
-        lat: -25.363,
-        lng: 131.044
-    },
-    map,
-    title: "Hello World!",
-});
-
-// map.drawRoute({
-//     //22.2803747,114.1828534
-//     //22.279922,114.1820828
-//     //22.2798747,114.1841906
-//     //22.280554, 114.186001
-//     origin: [22.279880, 114.184255],
-//     destination: [22.280554, 114.186001],
-//     travelMode: 'walking',
-//     strokeColor: '#00F',
-//     strokeOpacity: 0.6,
-
-//     strokeWeight: 6,
-//     path: google.maps.SymbolPath.FORWARD_CLOSED_ARROW
-// });
-</script>
-
-<?php
+    <?php
 get_footer();
