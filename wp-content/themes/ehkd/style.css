@@ -49,7 +49,9 @@ a.menu-products-a.level-1 {
     font-size: 21px;
 }
 
-.lang-div .sep {}
+.lang-div .sep {
+    padding: 0 4px;
+}
 
 .lang-div a {
     color: rgb(255, 255, 255) !important;
