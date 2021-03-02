@@ -91,9 +91,9 @@
                                 <li>
 
                                     <div class="lang-div">
-                                        <a href="javascript:void(0);">繁</a>/
-                                        <a href="javascript:void(0);">簡</a>/
-                                        <a href="javascript:void(0);">ENGLISH</a>
+                                        <a href="javascript:void(0);">繁</a><span class="sep">/</span><a
+                                            href="javascript:void(0);">簡</a><span class="sep">/</span><a
+                                            href="javascript:void(0);">ENGLISH</a>
 
                                     </div>
                                 </li>
