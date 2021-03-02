@@ -78,7 +78,7 @@ get_header();
         </div>
     </div>
 
-    <div class="row mt-5">
+    <div class="row mt-3">
 
 
 
@@ -101,7 +101,7 @@ get_header();
     </div>
 
 
-    <div class="row mt-5">
+    <div class="row mt-3">
 
 
 
