@@ -107,22 +107,55 @@ $img_src=$img_arr[0];
 
 <div class="row mt-5 g-0">
 
-    <a href="./property-owner-personal-loan" class="col-3 g-0">
-        <img class="rect-img" src="<?php echo get_template_directory_uri();?>/assets/images/home-rect-img-1.jpg" alt="">
-        <div class="rect-img-txt">業主私人貸款</div>
-    </a>
-    <a href="./special-personal-loan-program-for-civil-servant" class="col-3 g-0">
-        <img class="rect-img" src="<?php echo get_template_directory_uri();?>/assets/images/home-rect-img-2.jpg" alt="">
 
-        <div class="rect-img-txt">公務員低息貨款</div>
+
+    <?php
+$img_id = get_field('bottom_img_1');
+$img_arr = wp_get_attachment_image_src($img_id,'full');
+$img_src=$img_arr[0];
+?>
+
+    <a href="<?php echo get_field('bottom_img_1_link');?>" class="col-3 g-0">
+        <img class="rect-img" src="<?php echo $img_src; ?>" alt="">
+        <div class="rect-img-txt"><?php echo get_field('bottom_img_1_txt');?></div>
     </a>
-    <a href="./mortgage-loan" class="col-3 g-0">
-        <img class="rect-img" src="<?php echo get_template_directory_uri();?>/assets/images/home-rect-img-3.jpg" alt="">
-        <div class="rect-img-txt">物業貸款</div>
+
+
+    <?php
+$img_id = get_field('bottom_img_2');
+$img_arr = wp_get_attachment_image_src($img_id,'full');
+$img_src=$img_arr[0];
+?>
+
+
+    <a href="<?php echo get_field('bottom_img_2_link');?>" class="col-3 g-0">
+        <img class="rect-img" src="<?php echo $img_src; ?>" alt="">
+
+        <div class="rect-img-txt"><?php echo get_field('bottom_img_2_txt');?></div>
     </a>
-    <a href="./digital-currency-mortgage" class="col-3 g-0">
-        <img class="rect-img" src="<?php echo get_template_directory_uri();?>/assets/images/home-rect-img-4.jpg" alt="">
-        <div class="rect-img-txt">數字貨幣抵押貸款</div>
+
+
+    <?php
+$img_id = get_field('bottom_img_3');
+$img_arr = wp_get_attachment_image_src($img_id,'full');
+$img_src=$img_arr[0];
+?>
+
+    <a href="<?php echo get_field('bottom_img_3_link');?>" class="col-3 g-0">
+        <img class="rect-img" src="<?php echo $img_src; ?>" alt="">
+        <div class="rect-img-txt"><?php echo get_field('bottom_img_3_txt');?></div>
+    </a>
+
+
+    <?php
+$img_id = get_field('bottom_img_4');
+$img_arr = wp_get_attachment_image_src($img_id,'full');
+$img_src=$img_arr[0];
+?>
+
+    <a href="<?php echo get_field('bottom_img_4_link');?>" class="col-3 g-0">
+        <img class="rect-img" src="<?php echo $img_src; ?>" alt="">
+        <div class="rect-img-txt"><?php echo get_field('bottom_img_4_txt');?></div>
     </a>
 
 </div>
