@@ -77,7 +77,7 @@ echo get_field('content_1');?>
 
 </div> -->
 
-<?php echo get_field('content_2');?>
+<?php //echo get_field('content_2');?>
 
 
 <div class="row mt-5 g-0">
