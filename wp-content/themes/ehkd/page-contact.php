@@ -156,6 +156,8 @@ get_header();
             scaleControl: false,
             scrollwheel: false,
             disableDoubleClickZoom: true,
+            mapTypeControl: false,
+            streetViewControl: false
 
         });
 
