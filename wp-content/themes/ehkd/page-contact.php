@@ -149,7 +149,7 @@ get_header();
             lng: 114.17080511239944
         };
         const map = new google.maps.Map(document.getElementById("map"), {
-            zoom: 4,
+            // zoom: 4,
             center: myLatLng,
         });
 
@@ -167,7 +167,7 @@ get_header();
         });
 
 
-        map.setZoom(17);
+        map.setZoom(19);
         map.panTo(marker2.position);
 
 
