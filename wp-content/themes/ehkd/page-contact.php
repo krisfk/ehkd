@@ -44,7 +44,18 @@ get_header();
 <div class="container mt-5">
 
 
-    fdsf
+    <div class="row">
+
+        <div class="col-lg-6 blue-title">香港數字資產信貸有限公司
+        </div>
+        <div class="col-lg-6">
+            <span>放債人牌照號碼:</span>
+            <span>1688/2021</span>
+
+
+        </div>
+
+    </div>
 </div>
 
 <div class="purple-gradient-div mt-5 pt-5 pb-5">
