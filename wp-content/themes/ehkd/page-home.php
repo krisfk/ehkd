@@ -82,23 +82,23 @@ echo get_field('content_1');?>
 
 <div class="row mt-5 g-0">
 
-    <div class="col-3 g-0">
+    <a href="#" class="col-3 g-0">
         <img class="rect-img" src="<?php echo get_template_directory_uri();?>/assets/images/home-rect-img-1.jpg" alt="">
         <div class="rect-img-txt">業主私人貸款</div>
-    </div>
-    <div class="col-3 g-0">
+    </a>
+    <a href="#" class="col-3 g-0">
         <img class="rect-img" src="<?php echo get_template_directory_uri();?>/assets/images/home-rect-img-2.jpg" alt="">
 
         <div class="rect-img-txt">公務員低息貨款</div>
-    </div>
-    <div class="col-3 g-0">
+    </a>
+    <a href="#" class="col-3 g-0">
         <img class="rect-img" src="<?php echo get_template_directory_uri();?>/assets/images/home-rect-img-3.jpg" alt="">
         <div class="rect-img-txt">物業貸款</div>
-    </div>
-    <div class="col-3 g-0">
+    </a>
+    <a href="#" class="col-3 g-0">
         <img class="rect-img" src="<?php echo get_template_directory_uri();?>/assets/images/home-rect-img-4.jpg" alt="">
         <div class="rect-img-txt">數字貨幣抵押貸款</div>
-    </div>
+    </a>
 
 </div>
 
