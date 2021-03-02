@@ -48,7 +48,7 @@ get_header();
 
 
         <div class="col-lg-12">
-            <table>
+            <table class="w-100">
                 <tr>
                     <td class="blue-title align-bottom">香港數字資產信貸有限公司</td>
                     <td class=" align-bottom text-right"> <span class="blue-subtitle">放債人牌照號碼:</span>
