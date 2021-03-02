@@ -44,22 +44,7 @@ get_header();
 <div class="container mt-5">
 
 
-
-    <div class="blue-title text-center">
-
-
-
-        申請流程
-
-
-
-
-
-    </div>
-
-    <img class="apply-flow-img w-100 mt-5"
-        src="<?php echo get_template_directory_uri();?>/assets/images/apply-flow-img.png" alt="">
-
+    fdsf
 </div>
 
 <div class="purple-gradient-div mt-5 pt-5 pb-5">
