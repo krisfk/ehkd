@@ -28,14 +28,20 @@ get_header();
         <div class="inner-msg-div-outer">
             <div class="inner-msg-div container">
 
-                <h1 class="banner-title mt-5">關於我們</h1>
+                <h1 class="banner-title mt-5"><?php echo get_the_title();?></h1>
 
 
 
             </div>
         </div>
     </div>
-    <img src="<?php echo get_template_directory_uri();?>/assets/images/page-about-banner.jpg" alt="">
+    <?php
+$img_id = get_field('banner');
+$img_arr = wp_get_attachment_image_src($img_id,'full');
+$img_src=$img_arr[0];
+?>
+
+    <img src="<?php echo $img_src;?>" alt="">
 </div>
 
 <div class="container mt-5">
@@ -44,15 +50,22 @@ get_header();
     <div class="row">
 
         <div class="col-lg-6">
-            <img class="w-100" src="<?php echo get_template_directory_uri();?>/assets/images/page-about-img-1.jpg"
-                alt="">
+
+            <?php
+$img_id = get_field('image_1');
+$img_arr = wp_get_attachment_image_src($img_id,'full');
+$img_src=$img_arr[0];
+?>
+
+            <img class="w-100" src="<?php echo $img_src;?>" alt="">
         </div>
         <div class="col-lg-6">
-            <div class="blue-title">
+            <!-- <div class="blue-title">
                 香港數字資產信貸有限公司</div>
             <div class="content-txt mt-3 text-justify">
                 為香港數字資產交易所集團成員，香港持牌信貸機構。作為創新型的信貸機構，公司依托香港數字資產交易所（HKD.com）强大的技術及資金支持，與時俱進，結合金融科技，迎合數字資產熱潮，率先推出多個與數字資產相關的信貸產品，以滿足客戶與日俱增的財務需要。
-            </div>
+            </div> -->
+            <?php echo get_field('content_1');?>
 
 
         </div>
@@ -66,30 +79,61 @@ get_header();
 
 <div class="row mt-5 g-0">
 
-    <div class="col-12 five-points-top-div">立即申請</div>
-    <div class="col g-0">
-        <img class="rect-img" src="<?php echo get_template_directory_uri();?>/assets/images/about-rect-img-1.jpg"
-            alt="">
-        <div class="rect-img-txt">易用錢</div>
+    <div class="col-12 five-points-top-div"> <?php echo get_field('content_2');?>
     </div>
 
-    <div class="col g-0">
-        <img class="rect-img" src="<?php echo get_template_directory_uri();?>/assets/images/home-rect-img-1.jpg" alt="">
-        <div class="rect-img-txt">業主私人貸款</div>
-    </div>
-    <div class="col g-0">
-        <img class="rect-img" src="<?php echo get_template_directory_uri();?>/assets/images/home-rect-img-2.jpg" alt="">
+    <?php
+$img_id = get_field('bottom_img_1');
+$img_arr = wp_get_attachment_image_src($img_id,'full');
+$img_src=$img_arr[0];
+?>
 
-        <div class="rect-img-txt">公務員低息貨款</div>
-    </div>
-    <div class="col g-0">
-        <img class="rect-img" src="<?php echo get_template_directory_uri();?>/assets/images/home-rect-img-3.jpg" alt="">
-        <div class="rect-img-txt">物業貸款</div>
-    </div>
-    <div class="col g-0">
-        <img class="rect-img" src="<?php echo get_template_directory_uri();?>/assets/images/home-rect-img-4.jpg" alt="">
-        <div class="rect-img-txt">數字貨幣抵押貸款</div>
-    </div>
+    <a href="#" class="col g-0">
+        <img class="rect-img" src="<?php echo $img_src;?>" alt="">
+        <div class="rect-img-txt"><?php echo get_field('bottom_img_1_txt');?></div>
+    </a>
+
+    <?php
+$img_id = get_field('bottom_img_2');
+$img_arr = wp_get_attachment_image_src($img_id,'full');
+$img_src=$img_arr[0];
+?>
+
+    <a href="#" class="col g-0">
+        <img class="rect-img" src="<?php echo $img_src;?>" alt="">
+        <div class="rect-img-txt"><?php echo get_field('bottom_img_2_txt');?></div>
+    </a>
+
+    <?php
+$img_id = get_field('bottom_img_3');
+$img_arr = wp_get_attachment_image_src($img_id,'full');
+$img_src=$img_arr[0];
+?>
+    <a href="#" class="col g-0">
+        <img class="rect-img" src="<?php echo $img_src;?>" alt="">
+
+        <div class="rect-img-txt"><?php echo get_field('bottom_img_3_txt');?></div>
+    </a>
+
+    <?php
+$img_id = get_field('bottom_img_4');
+$img_arr = wp_get_attachment_image_src($img_id,'full');
+$img_src=$img_arr[0];
+?>
+    <a href="#" class="col g-0">
+        <img class="rect-img" src="<?php echo $img_src;?>" alt="">
+        <div class="rect-img-txt"><?php echo get_field('bottom_img_4_txt');?></div>
+    </a>
+
+    <?php
+$img_id = get_field('bottom_img_5');
+$img_arr = wp_get_attachment_image_src($img_id,'full');
+$img_src=$img_arr[0];
+?>
+    <a href="#" class="col g-0">
+        <img class="rect-img" src="<?php echo $img_src;?>" alt="">
+        <div class="rect-img-txt"><?php echo get_field('bottom_img_5_txt');?></div>
+    </a>
 
 </div>
 
