@@ -28,16 +28,13 @@ get_header();
 $img_id = get_field('banner');
 $img_arr = wp_get_attachment_image_src($img_id,'full');
 $img_src=$img_arr[0];
-echo $img_src;
 ?>
         <div class="inner-msg-div-outer">
             <div class="inner-msg-div container">
 
                 <div class="inner-msg-div-inner-div">
 
-                    <img class="home-banner-innner-img"
-                        src="<?php echo get_template_directory_uri();?>/assets/images/home-banner-innner-img.png"
-                        alt="">
+                    <img class="home-banner-innner-img" src="<?php echo $img_src;?>" alt="">
 
                     <div class="mt-5 text-center"> <a href="javascript:void(0);" class="apply-now-btn">立即申請</a>
                     </div>
@@ -45,7 +42,7 @@ echo $img_src;
             </div>
         </div>
     </div>
-    <img src="<?php echo get_template_directory_uri();?>/assets/images/home-banner.jpg" alt="">
+    <img src="<?php echo $img_src;?>" alt="">
 </div>
 
 
