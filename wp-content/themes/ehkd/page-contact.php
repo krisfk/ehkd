@@ -143,8 +143,8 @@ get_header();
     <script type="text/javascript">
     function initMap() {
         const myLatLng = {
-            lat: -25.363,
-            lng: 131.044
+            lat: 22.31321892272788,
+            lng: 114.17080511239944
         };
         const map = new google.maps.Map(document.getElementById("map"), {
             zoom: 4,
