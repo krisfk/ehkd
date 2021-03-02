@@ -57,7 +57,13 @@ get_header();
                 </tr>
 
             </table>
+
+
         </div>
+
+        <div class="col-lg-6">fdsf</div>
+        <div class="col-lg-6">fds</div>
+
 
 
 
