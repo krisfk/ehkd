@@ -162,8 +162,8 @@ get_header();
         map.panTo(marker.position);
 
 
-        const contentString =
-            '<div>fff</div>";
+        const contentString = '<div>fdsaf</div>';
+
 
         const infowindow = new google.maps.InfoWindow({
             content: contentString,
