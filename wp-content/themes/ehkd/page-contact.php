@@ -166,7 +166,7 @@ get_header();
 
 
         map.setZoom(17);
-        map.panTo(marker.position);
+        map.panTo(marker2.position);
 
 
         // const contentString = '<div class="infowindow">fdsaf</div>';
