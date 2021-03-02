@@ -76,6 +76,9 @@ get_header();
 
 
         </div>
+    </div>
+
+    <div class="row">
 
 
 
@@ -93,12 +96,12 @@ get_header();
 
         </div>
 
-
-
-
-
-
     </div>
+
+
+
+
+</div>
 </div>
 
 <div class="purple-gradient-div mt-5 pt-5 pb-5">
