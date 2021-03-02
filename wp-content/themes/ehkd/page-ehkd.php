@@ -28,47 +28,76 @@ get_header();
         <div class="inner-msg-div-outer">
             <div class="inner-msg-div container">
 
-                <h1 class="banner-title mt-5">易用錢 EHKD</h1>
+                <h1 class="banner-title mt-5"><?php echo get_the_title();?></h1>
 
 
 
             </div>
         </div>
     </div>
-    <img src="<?php echo get_template_directory_uri();?>/assets/images/page-ehkd-banner.jpg" alt="">
+    <!-- <img src="<?php echo get_template_directory_uri();?>/assets/images/page-ehkd-banner.jpg" alt=""> -->
+    <?php
+$img_id = get_field('banner');
+$img_arr = wp_get_attachment_image_src($img_id,'full');
+$img_src=$img_arr[0];
+?>
+
+    <img src="<?php echo $img_src;?>" alt="">
+
 </div>
 
 <div class="container mt-5">
 
-
-    <img class="ehkd-img" src="<?php echo get_template_directory_uri();?>/assets/images/ehkd.png" alt="">
+    <?php echo get_field('content_1');?>
+    <!-- <img class="ehkd-img" src="<?php echo get_template_directory_uri();?>/assets/images/ehkd.png" alt=""> -->
 
     <div class="content-txt text-center mt-5">
-        「易用錢」採用獨家貸款評估，無須提交TU信貸報告，最快15分鐘助你完成貸款審批。 <br>
-        零手續費， 100%現金極速到手！<br>
-        申請手續簡單，7X24專人跟進，資料絕對保密，現金周轉輕鬆搞掂！
+        <?php echo get_field('content_2');?>
+
     </div>
     <div class="row mt-5">
 
-        <div class="col-lg-3"> <img class="large-point-icon"
-                src="<?php echo get_template_directory_uri();?>/assets/images/home-icon-1.png" alt="">
-            <div class="text-center large-point-txt">獨家貸款評估 <br>
-                <span class="small">(免查TU信貸評級)</span>
+        <?php
+$img_id = get_field('icon_1');
+$img_arr = wp_get_attachment_image_src($img_id,'full');
+$img_src=$img_arr[0];
+?>
+
+
+        <div class="col-lg-3"> <img class="large-point-icon" src="<?php echo get_field('img_src'); ?>" alt="">
+            <?php echo get_field('icon_1_txt'); ?>
+
+        </div>
+        <?php
+$img_id = get_field('icon_2');
+$img_arr = wp_get_attachment_image_src($img_id,'full');
+$img_src=$img_arr[0];
+?>
+
+        <div class="col-lg-3"><img class="large-point-icon" src="<?php echo get_field('img_src'); ?>" alt="">
+            <div class="text-center large-point-txt"> <?php echo get_field('icon_2_txt'); ?>
             </div>
         </div>
-        <div class="col-lg-3"><img class="large-point-icon"
-                src="<?php echo get_template_directory_uri();?>/assets/images/home-icon-2.png" alt="">
-            <div class="text-center large-point-txt">最快15分鐘批核</div>
-        </div>
-        <div class="col-lg-3"><img class="large-point-icon"
-                src="<?php echo get_template_directory_uri();?>/assets/images/home-icon-3.png" alt="">
-            <div class="text-center large-point-txt">靈活慳息 <br>
-                利息逐日計</div>
-        </div>
-        <div class="col-lg-3"><img class="large-point-icon"
-                src="<?php echo get_template_directory_uri();?>/assets/images/home-icon-4.png" alt="">
+        <?php
+$img_id = get_field('icon_3');
+$img_arr = wp_get_attachment_image_src($img_id,'full');
+$img_src=$img_arr[0];
+?>
 
-            <div class="text-center large-point-txt">現金即到手</div>
+        <div class="col-lg-3"><img class="large-point-icon" src="<?php echo get_field('img_src'); ?>" alt="">
+            <div class="text-center large-point-txt"> <?php echo get_field('icon_3_txt'); ?>
+            </div>
+        </div>
+        <?php
+$img_id = get_field('icon_4');
+$img_arr = wp_get_attachment_image_src($img_id,'full');
+$img_src=$img_arr[0];
+?>
+
+        <div class="col-lg-3"><img class="large-point-icon" src="<?php echo get_field('img_src'); ?>" alt="">
+
+            <div class="text-center large-point-txt"> <?php echo get_field('icon_4_txt'); ?>
+            </div>
         </div>
     </div>
 
@@ -82,15 +111,17 @@ get_header();
 
     <div class="light-blue-inner-content text-center">
 
-        <div class="bold-title">申請條件</div>
+        <?php echo get_field('apply_requirement');?>
+        <!-- <div class="bold-title">申請條件</div>
 
         <div class="txt">
             年滿18歲香港永久居民 <br>
             最近3個月入息證明<br>
             最近3個月的住址證明
-        </div>
+        </div> -->
 
-        <a class="apply-btn" href="#">立即申請</a>
+        <a class="apply-btn" href="#"> <?php echo get_field('apply_btn');?>
+        </a>
 
 
     </div>
