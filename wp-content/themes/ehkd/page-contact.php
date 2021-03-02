@@ -84,13 +84,15 @@ get_header();
 
         <div class="col-lg-6">
 
-            <span class="blue-subtitle"> 查詢熱線</span> <br>
-            +852 2628 2828
+            <span class="blue-subtitle"> WhatsApp</span> <br>
+            xxxx-xxxx
         </div>
         <div class="col-lg-6 g-0">
 
-            <span class="blue-subtitle"> 電郵</span> <br>
-            info@ehkd.com
+            <span class="blue-subtitle"> 地址
+            </span> <br>
+            香港九龍彌敦道528號康佑大廈地下至二樓
+
 
 
 
