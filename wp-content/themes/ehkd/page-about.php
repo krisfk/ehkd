@@ -64,7 +64,7 @@ get_header();
 
 <!-- <div class="container"> -->
 
-<div class="row mt-5">
+<div class="row mt-5 g-0">
 
     <div class="col-12 five-points-top-div">立即申請</div>
     <div class="col g-0">
