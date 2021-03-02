@@ -135,7 +135,7 @@ get_header();
 
 <script src="https://maps.googleapis.com/maps/api/js?libraries=places&key=AIzaSyBcDNaL1X-ElylUXw8mb07ygWv7MXUYjJY">
 </script>
-<script src="<?php echo get_template_directory_uri();?>assets/js/gmaps.js"></script>
+<script src="<?php echo get_template_directory_uri();?>/assets/js/gmaps.js"></script>
 
 
 
