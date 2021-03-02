@@ -62,7 +62,7 @@ get_header();
         </div>
 
         <div class="col-lg-6">fdsf</div>
-        <div class="col-lg-6">fds</div>
+        <div class="col-lg-6 g-0">fds</div>
 
 
 
