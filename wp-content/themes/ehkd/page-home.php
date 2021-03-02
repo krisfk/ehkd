@@ -57,25 +57,47 @@ $img_src=$img_arr[0];
 
     <div class="row">
 
-        <div class="col-lg-3"> <img class="large-point-icon"
-                src="<?php echo get_template_directory_uri();?>/assets/images/home-icon-1.png" alt="">
-            <div class="text-center large-point-txt">獨家貸款評估 <br>
-                <span class="small">(免查TU信貸評級)</span>
+        <?php
+$img_id = get_field('icon_1');
+$img_arr = wp_get_attachment_image_src($img_id,'full');
+$img_src=$img_arr[0];
+?>
+        <div class="col-lg-3"> <img class="large-point-icon" src="<?php echo $img_src; ?>" alt="">
+            <div class="text-center large-point-txt"><?php echo get_field('icon_1_txt');?>
             </div>
         </div>
-        <div class="col-lg-3"><img class="large-point-icon"
-                src="<?php echo get_template_directory_uri();?>/assets/images/home-icon-2.png" alt="">
-            <div class="text-center large-point-txt">最快15分鐘批核</div>
-        </div>
-        <div class="col-lg-3"><img class="large-point-icon"
-                src="<?php echo get_template_directory_uri();?>/assets/images/home-icon-3.png" alt="">
-            <div class="text-center large-point-txt">靈活慳息 <br>
-                利息逐日計</div>
-        </div>
-        <div class="col-lg-3"><img class="large-point-icon"
-                src="<?php echo get_template_directory_uri();?>/assets/images/home-icon-4.png" alt="">
 
-            <div class="text-center large-point-txt">現金即到手</div>
+        <?php
+$img_id = get_field('icon_2');
+$img_arr = wp_get_attachment_image_src($img_id,'full');
+$img_src=$img_arr[0];
+?>
+
+        <div class="col-lg-3"><img class="large-point-icon" src="<?php echo $img_src; ?>" alt="">
+            <div class="text-center large-point-txt"><?php echo get_field('icon_2_txt');?></div>
+        </div>
+
+
+        <?php
+$img_id = get_field('icon_3');
+$img_arr = wp_get_attachment_image_src($img_id,'full');
+$img_src=$img_arr[0];
+?>
+
+        <div class="col-lg-3"><img class="large-point-icon" src="<?php echo $img_src; ?>" alt="">
+            <div class="text-center large-point-txt"><?php echo get_field('icon_3_txt');?></div>
+        </div>
+
+
+        <?php
+$img_id = get_field('icon_4');
+$img_arr = wp_get_attachment_image_src($img_id,'full');
+$img_src=$img_arr[0];
+?>
+
+        <div class="col-lg-3"><img class="large-point-icon" src="<?php echo $img_src; ?>" alt="">
+
+            <div class="text-center large-point-txt"><?php echo get_field('icon_4_txt');?></div>
         </div>
     </div>
 
