@@ -24,7 +24,12 @@ get_header();
 
     <div class="home-main-banner-inner-div">
 
-
+        <?php
+$img_id = get_field('banner');
+$img_arr = wp_get_attachment_image_src($img_id,'full');
+$img_src=$img_arr[0];
+echo $img_id;
+?>
         <div class="inner-msg-div-outer">
             <div class="inner-msg-div container">
 
