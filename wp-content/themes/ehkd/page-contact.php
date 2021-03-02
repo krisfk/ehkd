@@ -158,6 +158,13 @@ get_header();
                 title: "Hello World!",
             });
 
+        var marker2 = new google.maps.Marker({
+            position: myLatLng,
+            map: map
+            icon: 'https://img.icons8.com/fluent/48/000000/marker-storm.png'
+        });
+
+
         map.setZoom(17);
         map.panTo(marker.position);
 
