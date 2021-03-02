@@ -135,8 +135,10 @@ get_header();
     </div>
 
 
+
+
     <script
-        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBN611NFShALGyApUBivJPfvqlEIvbPRNU&callback=initMap&libraries=&v=weekly"
+        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBN611NFShALGyApUBivJPfvqlEIvbPRNU&callback=initMap&libraries=&v=weekly&markers=scale:2|icon=ehkd-marker4@2x.png&scale=2"
         async>
     </script>
 
@@ -161,7 +163,7 @@ get_header();
         var marker2 = new google.maps.Marker({
             position: myLatLng,
             map: map,
-            icon: '<?php echo get_template_directory_uri();?>/assets/images/ehkd-marker3.png'
+            icon: '<?php echo get_template_directory_uri();?>/assets/images/ehkd-marker4@2x.png'
         });
 
 
