@@ -61,7 +61,11 @@ get_header();
 
         </div>
 
-        <div class="col-lg-6">fdsf</div>
+        <div class="col-lg-6">
+
+            <span class="blue-subtitle"> 查詢熱線</span> <br>
+            +852 2628 2828
+        </div>
         <div class="col-lg-6 g-0">fds</div>
 
 
