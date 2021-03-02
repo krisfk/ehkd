@@ -43,6 +43,11 @@ get_header();
     <img src="<?php echo get_template_directory_uri();?>/assets/images/home-banner.jpg" alt="">
 </div>
 
+
+<?php 
+
+echo get_field('content_1');?>
+<!-- 
 <div class="container mt-5">
 
 
@@ -70,7 +75,7 @@ get_header();
         </div>
     </div>
 
-</div>
+</div> -->
 
 
 <!-- <div class="container"> -->
