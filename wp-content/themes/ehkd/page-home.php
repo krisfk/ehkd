@@ -34,7 +34,9 @@ $img_src=$img_arr[0];
 
                 <div class="inner-msg-div-inner-div">
 
-                    <img class="home-banner-innner-img" src="<?php echo $img_src;?>" alt="">
+                    <img class="home-banner-innner-img"
+                        src="<?php echo get_template_directory_uri();?>/assets/images/home-banner-innner-img.png"
+                        alt="">
 
                     <div class="mt-5 text-center"> <a href="javascript:void(0);" class="apply-now-btn">立即申請</a>
                     </div>
