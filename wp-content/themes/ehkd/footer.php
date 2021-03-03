@@ -15,14 +15,22 @@
 
 <?php 
 
-if ( $post = get_page_by_path( 'footer', OBJECT, 'page' ) )
-    $pid = $post->ID;
-else
-    $pid = 0;
+// if ( $post = get_page_by_path( 'footer', OBJECT, 'page' ) )
+//     $pid = $post->ID;
+// else
+//     $pid = 0;
  
     $page = get_page_by_path('footer');
-    $page = get_page(icl_object_id($page->ID, 'page', true, 'cn'));
-    echo $page->ID;
+    //$page = get_page(icl_object_id($page->ID, 'page', true, 'cn'));
+   // echo $page->ID;
+ 
+    if ( defined( 'ICL_LANGUAGE_CODE' ) ) {
+        $lang_code =  ICL_LANGUAGE_CODE;
+    }
+    $page = get_page(icl_object_id($page->ID, 'page', true, $lang_code));
+    $pid=$page->ID;
+   
+
  ?>
 
 <?php echo $pid;  ?>
