@@ -86,7 +86,8 @@ else
                     </div>
                     <div class="d-inline-block">
 
-                        <span class="footer-phone footer-phone-2"> <?php echo get_field('content_3',$pid);?></span>
+                        <span class="footer-phone footer-phone-2">
+                            <?php echo get_field('whatsapp_number',$pid);?></span>
                         <div class="footer-under-phone-txt"><?php echo get_field('content_4',$pid);?></div>
 
                     </div>
