@@ -159,7 +159,7 @@
                         $('.top-menu li a.level-1').mouseenter(function() {
 
                             if ($(this).hasClass('ehkd')) {
-                                $('.top-menu-submenu').fadeIn(200);
+                                $('.top-menu-submenu').fadeIn(0);
 
                             } else {
                                 $('.top-menu-submenu').fadeOut(0);
