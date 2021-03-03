@@ -63,8 +63,9 @@
                             $top_menu = wp_get_menu_array('top menu');
                             // print_r($top_menu);
                             foreach ($top_menu as $menu_item) {
+                                print_r($top_menu);
                                 // $value = $value * 2;
-                                echo $menu_item->children;
+                                // echo $menu_item->children;
                             }
 
 ?>
