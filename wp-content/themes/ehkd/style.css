@@ -557,6 +557,9 @@ a.menu-products-a.level-1 {
         text-align: left;
         font
     } */
+    .footer-sitemap {
+        float: none;
+    }
 }
 
 @media only screen and (max-width: 1024px) {
@@ -581,9 +584,6 @@ a.menu-products-a.level-1 {
         margin: 0px 0px 0px 10px;
         text-align: left;
     } */
-    .footer-sitemap {
-        float: none;
-    }
 }
 
 @media only screen and (max-width: 768px) {
