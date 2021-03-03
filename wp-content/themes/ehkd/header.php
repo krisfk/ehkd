@@ -91,8 +91,10 @@
                                 $url = $menu_item['url'];
                                 $title = $menu_item['title'];
                                 $temp_arr=explode(get_site_url(),$url);
-                                $slug=str_replace('/','',$temp_arr[1]);
-                              
+                                $slug=str_replace('/en/','',$temp_arr[1]);
+                                $slug=str_replace('/cn/','',$slug);
+                                $slug=str_replace('/','',$slug);
+
                                 
                                 if(count($menu_item['children']))
                                 {
@@ -101,7 +103,11 @@
                                     {
                                         $sub_url = $sub_menu_item['url'];
                                         $sub_temp_arr=explode(get_site_url(),$sub_url);
-                                        $sub_slug=str_replace('/','',$sub_temp_arr[1]);
+
+                                        $sub_slug=str_replace('/en/','',$sub_temp_arr[1]);
+                                        $sub_slug=str_replace('/cn/','',$sub_slug);
+                                        $sub_slug=str_replace('/','',$sub_slug);
+
                                         $sub_slugs.=$sub_slug.' ';
                                     }
                                     echo '<li><a class="level-1 '.$sub_slugs.'" href="'.$url.'">'.$title.'</a>';
@@ -113,8 +119,9 @@
                                         $sub_url = $sub_menu_item['url'];
                                         $sub_title = $sub_menu_item['title'];
                                         $sub_temp_arr=explode(get_site_url(),$sub_url);
-                                        $sub_slug=str_replace('/','',$sub_temp_arr[1]);
-
+                                        $sub_slug=str_replace('/en/','',$sub_temp_arr[1]);
+                                        $sub_slug=str_replace('/cn/','',$sub_slug);
+                                        $sub_slug=str_replace('/','',$sub_slug);
                                         echo'<li><a class="'.$sub_slug.'" href="'.$sub_url.'">'.$sub_title.'</a></li>';
                                     }
                                     echo '</ul>';
