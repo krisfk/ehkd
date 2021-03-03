@@ -157,22 +157,22 @@ a.menu-products-a.level-1 {
 
 .footer-lightblue-title {
     color: rgb(0, 167, 225);
-    font-size: 30px;
+    font-size: 28px;
     line-height: normal;
     font-weight: bold;
 }
 
 .footer-apply-btn-above-txt {
-    font-size: 24px;
+    font-size: 20px;
 }
 
 .footer-apply-btn {
     display: inline-block;
     background: rgb(0, 51, 161);
     color: #fff;
-    padding: 10px 15px;
+    padding: 10px 24px;
     border-radius: 6px;
-    font-size: 26px;
+    font-size: 22px;
     text-decoration: none;
 }
 
