@@ -28,14 +28,21 @@ get_header();
         <div class="inner-msg-div-outer">
             <div class="inner-msg-div container">
 
-                <h1 class="banner-title mt-5">業主私人貸款</h1>
+                <h1 class="banner-title mt-5"><?php echo get_the_title();?></h1>
 
 
 
             </div>
         </div>
     </div>
-    <img src="<?php echo get_template_directory_uri();?>/assets/images/personal-loan-banner.jpg" alt="">
+
+    <?php
+$img_id = get_field('banner');
+$img_arr = wp_get_attachment_image_src($img_id,'full');
+$img_src=$img_arr[0];
+?>
+
+    <img src="<?php echo $img_src;?>" alt="">
 </div>
 
 <div class="container mt-5">
@@ -43,15 +50,18 @@ get_header();
 
 
     <div class="blue-title text-center">
-        免估價 免抵押 免手續費 <br>
-        <span class="big">最高20萬</span> 即日批核
+        <!-- 免估價 免抵押 免手續費 <br>
+        <span class="big">最高20萬</span> 即日批核 -->
+        <?php echo get_field('content_1');?>
 
     </div>
 
     <div class="content-txt text-center mt-5">
 
-        只要你是居屋或公屋業主，毋須抵押物業，都可申請特大額私人貸款，助你抓住時代機遇， <br>
-        有效善用資金作投資、翻新家居或其他生活所需，靈活理財，解決燃眉之急。
+        <!-- 只要你是居屋或公屋業主，毋須抵押物業，都可申請特大額私人貸款，助你抓住時代機遇， <br>
+        有效善用資金作投資、翻新家居或其他生活所需，靈活理財，解決燃眉之急。 -->
+        <?php echo get_field('content_2');?>
+
     </div>
 
     <div class="container mt-5">
@@ -62,21 +72,31 @@ get_header();
             <!-- <div class="col-lg-6"> -->
 
             <div class="d-table-cell w-50">
-                <img class="w-100" src="<?php echo get_template_directory_uri();?>/assets/images/personal-loan-img.jpg"
-                    alt="">
+
+
+                <?php
+$img_id = get_field('image_1');
+$img_arr = wp_get_attachment_image_src($img_id,'full');
+$img_src=$img_arr[0];
+?>
+
+                <img class="w-100" src="<?php echo $img_src;?>" alt="">
                 <!-- </div> -->
                 <!-- <div class="col-lg-6"> -->
 
             </div>
             <div class="d-table-cell w-50 align-middle">
-                <ul class=" big-point-ul">
+                <!-- <ul class=" big-point-ul">
                     <li> 大額貸款</li>
                     <li>毋須抵押物業</li>
                     <li> 特長周轉期</li>
 
 
 
-                </ul>
+                </ul> -->
+
+                <?php echo get_field('content_3');?>
+
 
 
             </div>
@@ -99,16 +119,20 @@ get_header();
 
     <div class="light-blue-inner-content text-center">
 
-        <div class="bold-title">申請條件</div>
+        <!-- <div class="bold-title">申請條件</div>
 
         <div class="txt">
             公屋/居屋業主 <br>
             年滿18歲香港永久居民<br>
             最近3個月入息證明<br>
             最近3個月的住址證明
-        </div>
+        </div> -->
 
-        <a class="apply-btn" href="#">立即申請</a>
+        <?php echo get_field('apply_requirement');?>
+
+
+        <a class="apply-btn" href="#"> <?php echo get_field('apply_btn');?>
+        </a>
 
 
     </div>
