@@ -582,6 +582,8 @@ a.menu-products-a.level-1 {
     }
     .footer-sitemap-branch.license {
         margin: 20px 0 0 0;
+        display: block;
+        text-align: center;
     }
     /* .footer-sitemap .footer-sitemap-branch {
         display: inline-table;
