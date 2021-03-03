@@ -163,7 +163,9 @@
                     var page_slug = "<?php echo $page_slug?>";
                     $(function() {
 
-                        alert(page_slug);
+                        // alert(page_slug);
+
+                        $('.top-menu li a.level-1.' + page_slug).addClass('active');
 
                         $('.top-menu li a.level-1').mouseenter(function() {
 
