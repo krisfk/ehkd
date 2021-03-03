@@ -61,7 +61,12 @@
                             
 
                             $top_menu = wp_get_menu_array('top menu');
-                            print_r($top_menu);
+                            // print_r($top_menu);
+                            foreach ($top_menu as $menu_item) {
+                                // $value = $value * 2;
+                                print_r($menu_item);
+                            }
+
 ?>
 
                             <ul class="top-menu">
