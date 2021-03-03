@@ -543,6 +543,9 @@ a.menu-products-a.level-1 {
     .footer-apply-btn-above-txt {
         font-size: 18px;
     }
+    .footer-lightblue-title {
+        font-size: 24px;
+    }
 }
 
 @media only screen and (max-width: 1024px) {
