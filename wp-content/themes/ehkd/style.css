@@ -644,4 +644,13 @@ a.menu-products-a.level-1 {
         width: 230px;
         height: 180px !important;
     }
+    .footer-sitemap ul li {
+        list-style-type: none;
+        font-size: 16px;
+    }
+    .footer-sitemap .footer-sitemap-branch {
+        display: inline-table;
+        margin: 0px 0px 0px 10px;
+        text-align: left;
+    }
 }
