@@ -65,7 +65,7 @@
                             foreach ($top_menu as $menu_item) {
                                 // print_r($menu_item);
                                 // $value = $value * 2;
-                                print_r($menu_item->children);
+                                print_r($menu_item['children']);
                             }
 
 ?>
