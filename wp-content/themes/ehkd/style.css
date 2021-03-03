@@ -531,6 +531,9 @@ a.menu-products-a.level-1 {
     .top-menu {
         display: none;
     }
+    .inner-msg-div-inner-div {
+        width: 300px;
+    }
 }
 
 @media only screen and (max-width: 1024px) {}
