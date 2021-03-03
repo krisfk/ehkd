@@ -50,9 +50,13 @@
 
                     <div class="container">
 
+                        <?php
+
+$my_home_url = apply_filters( 'wpml_home_url', get_option( 'home' ) );?>
+
 
                         <div class="top-div">
-                            <a href="<?php echo get_site_url();?>" class="ehkd-logo-a"><img class="ehkd-logo"
+                            <a href="<?php echo $my_home_url;?>" class="ehkd-logo-a"><img class="ehkd-logo"
                                     src="<?php echo get_template_directory_uri();?>/assets/images/ehkd-logo.png"
                                     alt=""></a>
 
