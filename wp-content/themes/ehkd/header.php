@@ -56,19 +56,26 @@
                                     src="<?php echo get_template_directory_uri();?>/assets/images/ehkd-logo.png"
                                     alt=""></a>
 
-                            <?php
+                            <ul class="top-menu">
+
+                                <?php
                             
                             
 
                             $top_menu = wp_get_menu_array('top menu');
                             // print_r($top_menu);
                             foreach ($top_menu as $menu_item) {
-                                // print_r($menu_item);
-                                // $value = $value * 2;
-                                print_r($menu_item['children']);
-                            }
 
-?>
+                                // echo '<li><a class="level-1" href="'.get_site_url().'/about">關於我們</a>
+                                // </li>';
+                                print_r($menu_item);
+                                // $value = $value * 2;
+                                // print_r($menu_item['children']);
+                                }
+
+                                ?>
+
+                            </ul>
 
                             <ul class="top-menu">
                                 <li><a class="level-1" href="<?php echo get_site_url();?>/about">關於我們</a>
