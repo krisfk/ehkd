@@ -153,8 +153,17 @@
                         </div>
                     </div>
 
+                    <?php
+                    
+                    global $post;
+                     $page_slug= $post->post_name;
+                    ?>
+
                     <script type="text/javascript">
+                    var page_slug = "<? echo $page_slug?>";
                     $(function() {
+
+                        alert(page_slug);
 
                         $('.top-menu li a.level-1').mouseenter(function() {
 
