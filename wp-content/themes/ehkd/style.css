@@ -598,6 +598,13 @@ a.menu-products-a.level-1 {
         font-size: 19px;
         text-decoration: none;
     }
+    .apply-now-btn {
+        background: rgb(0, 167, 225);
+        color: rgb(255, 255, 255);
+        font-size: 18px;
+        text-decoration: none;
+        padding: 10px 20px;
+    }
     /* .footer-sitemap .footer-sitemap-branch {
         display: inline-table;
         margin: 0px 0px 0px 10px;
