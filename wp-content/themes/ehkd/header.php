@@ -76,7 +76,13 @@
                                 // $value = $value * 2;
                                 // print_r($menu_item['children']);
 
-                                echo '<li><a class="level-1 '.$slug.'" href="'.$url.'">'.$title.'</a></li>';
+                                echo '<li><a class="level-1 '.$slug.'" href="'.$url.'">'.$title.'</a>';
+                                
+                                if(count($menu_item['children']))
+                                {
+                                    echo 1;
+                                }
+                                echo'</li>';
 
 
                                 }
