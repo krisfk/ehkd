@@ -52,7 +52,7 @@
 
 
                         <div class="top-div">
-                            <a href="<?php echo wpml_home_url();?>" class="ehkd-logo-a"><img class="ehkd-logo"
+                            <a href="<?php echo get_site_url();?>" class="ehkd-logo-a"><img class="ehkd-logo"
                                     src="<?php echo get_template_directory_uri();?>/assets/images/ehkd-logo.png"
                                     alt=""></a>
 
