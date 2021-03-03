@@ -319,10 +319,7 @@ a.menu-products-a.level-1 {
     padding: 5px 0 3px 0;
     display: block;
     font-size: 16px;
-}
-
-.top-menu-submenu li a:hover {
-    text-decoration: underline !important;
+    transition: 0.2s all;
 }
 
 .page-ehkd .ehkd-img {
@@ -521,4 +518,9 @@ a.menu-products-a.level-1 {
 
 .top-menu li a.level-1:hover {
     color: #00a7e1;
+}
+
+.top-menu-submenu li a:hover {
+    color: #00a7e1;
+    /* text-decoration: underline !important; */
 }
