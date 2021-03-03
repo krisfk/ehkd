@@ -31,14 +31,21 @@ get_header();
         <div class="inner-msg-div-outer">
             <div class="inner-msg-div container">
 
-                <h1 class="banner-title mt-5 ">立即申請</h1>
+                <h1 class="banner-title mt-5 "><?php echo get_the_title();?></h1>
 
 
 
             </div>
         </div>
     </div>
-    <img src="<?php echo get_template_directory_uri();?>/assets/images/apply-now-banner.jpg" alt="">
+    <?php
+$img_id = get_field('banner');
+$img_arr = wp_get_attachment_image_src($img_id,'full');
+$img_src=$img_arr[0];
+?>
+
+    <img src="<?php echo $img_src;?>" alt="">
+    <!-- <img src="<?php echo get_template_directory_uri();?>/assets/images/apply-now-banner.jpg" alt=""> -->
 </div>
 
 <div class="container mt-5">
@@ -49,7 +56,10 @@ get_header();
 
 
 
-        申請流程
+
+        <?php echo get_field('content_1');?>
+
+
 
 
 
@@ -57,8 +67,16 @@ get_header();
 
     </div>
 
-    <img class="apply-flow-img w-100 mt-5"
-        src="<?php echo get_template_directory_uri();?>/assets/images/apply-flow-img.png" alt="">
+    <!-- <img class="apply-flow-img w-100 mt-5"
+        src="<?php echo get_template_directory_uri();?>/assets/images/apply-flow-img.png" alt=""> -->
+    <?php
+$img_id = get_field('image_1');
+$img_arr = wp_get_attachment_image_src($img_id,'full');
+$img_src=$img_arr[0];
+?>
+
+    <img class="apply-flow-img w-100 mt-5" src="<?php echo $img_src;?>" alt="">
+
 
 </div>
 
@@ -70,13 +88,18 @@ get_header();
 
         <div class="container apply-form-container ">
 
-            <div class="apply-form-title text-center">申請表格 </div>
+            <div class="apply-form-title text-center"> <?php echo get_field('content_2');?>
+            </div>
 
-            <div class="content-txt white  text-center mt-5">填寫以下簡單申請表格, 我們將有貸款顧問以電話或Whatsapp形式與您聯絡。 <br>
-                最快30分鐘初步批核，再後補交文件，快速便捷，且私隱度極高。</div>
+            <div class="content-txt white  text-center mt-5">
+                <?php echo get_field('content_3');?>
+            </div>
 
             <div class="mt-5">
-                <div class="row">
+                <?php echo get_field('content_4');?>
+
+
+                <!-- <div class="row">
 
                     <div class="row">
                         <div class="col-lg-12 ">
@@ -175,7 +198,7 @@ get_header();
 
 
 
-                </div>
+                </div> -->
             </div>
 
         </div>
