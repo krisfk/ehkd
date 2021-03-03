@@ -28,14 +28,22 @@ get_header();
         <div class="inner-msg-div-outer">
             <div class="inner-msg-div container">
 
-                <h1 class="banner-title mt-5">數字貨幣抵押貸款</h1>
+                <h1 class="banner-title mt-5"><?php echo get_the_title();?></h1>
 
 
 
             </div>
         </div>
     </div>
-    <img src="<?php echo get_template_directory_uri();?>/assets/images/digital-currency-mortgage-banner.jpg" alt="">
+
+    <?php
+$img_id = get_field('banner');
+$img_arr = wp_get_attachment_image_src($img_id,'full');
+$img_src=$img_arr[0];
+?>
+
+    <img src="<?php echo $img_src;?>" alt="">
+    <!-- <img src="<?php echo get_template_directory_uri();?>/assets/images/digital-currency-mortgage-banner.jpg" alt=""> -->
 </div>
 
 <div class="container mt-5">
@@ -45,9 +53,10 @@ get_header();
     <div class="blue-title text-center">
 
 
-        <span class="big"> 數字貨幣</span>在手 <br>
-        現金<span class="big">想借就有</span>
+        <!-- <span class="big"> 數字貨幣</span>在手 <br>
+        現金<span class="big">想借就有</span> -->
 
+        <?php echo get_field('content_1');?>
 
 
 
@@ -56,33 +65,50 @@ get_header();
     <div class="content-txt text-center mt-5">
 
 
-        一時手頭緊，又唔想賣出數字貨幣？質押指定數字資產，借入港幣，實現數字資產最大價值。 <br>
+        <!-- 一時手頭緊，又唔想賣出數字貨幣？質押指定數字資產，借入港幣，實現數字資產最大價值。 <br>
         質押幣種多元，支持BTC，ETH，USDT等，更可享特低利息循環貸款， <br>
-        最快即日批核現金，還款周期長，隨借隨還，周轉暢通無阻!
+        最快即日批核現金，還款周期長，隨借隨還，周轉暢通無阻! -->
+        <?php echo get_field('content_2');?>
 
     </div>
 
     <div class="row mt-5">
+        <?php
+$img_id = get_field('banner');
+$img_arr = wp_get_attachment_image_src($img_id,'full');
+$img_src=$img_arr[0];
+?>
 
 
-        <div class="col-lg-4"><img class="large-point-icon"
-                src="http://104.248.237.5/wp-content/themes/ehkd/assets/images/dcm-icon-1.png" alt="">
-            <div class="text-center large-point-txt"> <span class="big"> 多種幣種可供選擇</span><br>
-                可以選擇多種質押幣種</div>
-        </div>
-        <div class="col-lg-4"><img class="large-point-icon"
-                src="http://104.248.237.5/wp-content/themes/ehkd/assets/images/dcm-icon-2.png" alt="">
+        <div class="col-lg-4"><img class="large-point-icon" src="<?php echo get_field('img_src');?>" alt="">
             <div class="text-center large-point-txt">
-                <span class="big">安全</span><br>
-                不同的質押幣種有不同的質押率
+                <?php echo get_field('icon_1_txt');?>
             </div>
         </div>
-        <div class="col-lg-4"><img class="large-point-icon"
-                src="http://104.248.237.5/wp-content/themes/ehkd/assets/images/dcm-icon-3.png" alt="">
+        <?php
+$img_id = get_field('banner');
+$img_arr = wp_get_attachment_image_src($img_id,'full');
+$img_src=$img_arr[0];
+?>
+
+        <div class="col-lg-4"><img class="large-point-icon" src="<?php echo get_field('img_src');?>" alt="">
+            <div class="text-center large-point-txt">
+                <?php echo get_field('icon_2_txt');?>
+
+            </div>
+        </div>
+        <?php
+$img_id = get_field('banner');
+$img_arr = wp_get_attachment_image_src($img_id,'full');
+$img_src=$img_arr[0];
+?>
+
+        <div class="col-lg-4"><img class="large-point-icon" src="<?php echo get_field('img_src');?>" alt="">
 
             <div class="text-center large-point-txt">
-                <span class="big"> 便捷</span> <br>
-                借得的款項可立即提現
+
+                <?php echo get_field('icon_3_txt');?>
+
             </div>
         </div>
     </div>
