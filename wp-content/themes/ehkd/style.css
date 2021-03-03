@@ -536,12 +536,32 @@ a.menu-products-a.level-1 {
     }
 }
 
-@media only screen and (max-width: 1024px) {}
+@media only screen and (max-width: 1024px) {
+    .inner-msg-div-inner-div {
+        width: 500px;
+    }
+}
 
-@media only screen and (max-width: 991px) {}
+@media only screen and (max-width: 991px) {
+    .inner-msg-div-inner-div {
+        width: 400px;
+    }
+}
 
-@media only screen and (max-width: 768px) {}
+@media only screen and (max-width: 768px) {
+    .inner-msg-div-inner-div {
+        width: 300px;
+    }
+}
 
-@media only screen and (max-width: 640px) {}
+@media only screen and (max-width: 640px) {
+    .inner-msg-div-inner-div {
+        width: 250px;
+    }
+}
 
-@media only screen and (max-width: 480px) {}
+@media only screen and (max-width: 480px) {
+    .inner-msg-div-inner-div {
+        width: 230px;
+    }
+}
