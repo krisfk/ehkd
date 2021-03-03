@@ -66,6 +66,7 @@
                             if ( defined( 'ICL_LANGUAGE_CODE' ) ) {
                                 $lang_code =  ICL_LANGUAGE_CODE;
                             }
+                            echo $lang_code;
                             
                             switch ($lang_code)
                             {
