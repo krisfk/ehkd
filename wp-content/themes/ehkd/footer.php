@@ -21,7 +21,7 @@ else
     $pid = 0;
     ?>
 
-<?php //echo $id;  ?>
+<?php echo $pid;  ?>
 
 <div class="container">
 
