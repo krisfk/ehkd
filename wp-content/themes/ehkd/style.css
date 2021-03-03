@@ -653,4 +653,7 @@ a.menu-products-a.level-1 {
         margin: 30px 0px 0px 19px;
         text-align: left;
     }
+    .footer-sitemap ul li h2 {
+        font-size: 18px;
+    }
 }
