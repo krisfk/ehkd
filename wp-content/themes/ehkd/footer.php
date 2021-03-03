@@ -50,7 +50,7 @@
         <div class="col-lg-12 col-xl-8">
 
 
-            <div class=" footer-sitemap mt-5">
+            <div class=" footer-sitemap mt-3 mt-sm-3 mt-md-3 mt-lg-5">
                 <div class="footer-sitemap-branch">
 
                     <?php echo get_field('footer_sitemap_branch_1',$pid);?>
