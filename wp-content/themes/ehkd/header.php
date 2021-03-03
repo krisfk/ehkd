@@ -60,22 +60,13 @@
 
                                 <?php
                             $top_menu = wp_get_menu_array('top menu');
-                            // print_r($top_menu);
                             foreach ($top_menu as $menu_item) {
 
-                                // echo '<li><a class="level-1" href="'.get_site_url().'/about">關於我們</a>
-                                // </li>';
-                                // print_r($menu_item);
                                 $url = $menu_item['url'];
                                 $title = $menu_item['title'];
-                                // echo $url;
                                 $temp_arr=explode(get_site_url(),$url);
-                                // echo $temp_arr[1];
                                 $slug=str_replace('/','',$temp_arr[1]);
-                                // echo $slug;
-                                // $value = $value * 2;
-                                // print_r($menu_item['children']);
-
+                              
                                 
                                 if(count($menu_item['children']))
                                 {
@@ -83,18 +74,13 @@
                                     foreach ($menu_item['children'] as $sub_menu_item) 
                                     {
                                         $sub_url = $sub_menu_item['url'];
-                                        // $sub_title = $sub_menu_item['title'];
                                         $sub_temp_arr=explode(get_site_url(),$sub_url);
                                         $sub_slug=str_replace('/','',$sub_temp_arr[1]);
                                         $sub_slugs.=$sub_slug.' ';
                                     }
                                     echo '<li><a class="level-1 '.$sub_slugs.'" href="'.$url.'">'.$title.'</a>';
 
-                                    // echo '<li><a class="level-1 '.$slug.'" href="'.$url.'">'.$title.'</a>';
-
-                                    // echo count($menu_item['children']);
-                                    // print_r($menu_item['children']);
-
+                                 
                                     echo '<ul class="top-menu-submenu">';
                                     foreach ($menu_item['children'] as $sub_menu_item) 
                                     {
