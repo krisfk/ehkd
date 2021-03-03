@@ -573,6 +573,9 @@ a.menu-products-a.level-1 {
         margin: 0px 0px 0px 10px;
         text-align: left;
     } */
+}
+
+@media only screen and (max-width: 991px) {
     .inner-msg-div-inner-div {
         width: 400px;
         height: 350px !important;
@@ -611,8 +614,6 @@ a.menu-products-a.level-1 {
         padding: 0 10px;
     }
 }
-
-@media only screen and (max-width: 991px) {}
 
 @media only screen and (max-width: 768px) {
     .inner-msg-div-inner-div {
