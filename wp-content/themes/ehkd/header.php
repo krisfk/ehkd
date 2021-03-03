@@ -152,8 +152,9 @@ $my_home_url = apply_filters( 'wpml_home_url', get_option( 'home' ) );?>
 
                                     <div class="lang-div">
                                         <a href="<?php echo $langs['zh-hant']['url'];?>">繁</a><span
-                                            class="sep">/</span><a href="<?php echo $langs['cn']['url'];?>">簡</a><span
-                                            class="sep">/</span><a href="<?php echo $langs['en']['url'];?>">ENGLISH</a>
+                                            class="sep">/</span><a href="<?php echo $langs['cn']['url'];?>">簡</a>
+                                        <!-- <span
+                                            class="sep">/</span><a href="<?php echo $langs['en']['url'];?>">ENGLISH</a> -->
 
                                     </div>
                                 </li>
