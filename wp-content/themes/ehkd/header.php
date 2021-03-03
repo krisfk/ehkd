@@ -66,11 +66,11 @@
                             if ( defined( 'ICL_LANGUAGE_CODE' ) ) {
                                 $lang_code =  ICL_LANGUAGE_CODE;
                             }
-                            echo $lang_code;
+                            // echo $lang_code;
                             
                             switch ($lang_code)
                             {
-                                case 'zh-hants':
+                                case 'zh-hant':
                                     $top_menu = wp_get_menu_array('top menu');
 
                                     break;
