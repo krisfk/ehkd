@@ -77,6 +77,7 @@ $img_src=$img_arr[0];
 $img_id = get_field('icon_1');
 $img_arr = wp_get_attachment_image_src($img_id,'full');
 $img_src=$img_arr[0];
+echo $img_id;
 ?>
 
 
