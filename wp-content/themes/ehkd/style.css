@@ -510,3 +510,15 @@ a.menu-products-a.level-1 {
     font-size: 15px;
     font-weight: normal;
 }
+
+.top-menu li a.level-1 {
+    transition: 0.2s all;
+}
+
+.top-menu li a.level-1.active {
+    color: #00a7e1;
+}
+
+.top-menu li a.level-1:hover {
+    color: #00a7e1;
+}
