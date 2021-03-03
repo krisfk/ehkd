@@ -142,7 +142,7 @@
 
                                 <?php
                             
-                            $langs= icl_get_languages('skip_missing=N&orderby=KEY&order=DIR&link_empty_to=str');
+                            $langs= icl_get_languages('skip_missing=0&orderby=id&order=desc&link_empty_to=');
                             print_r($langs);
                             ?>
                                 <li>
