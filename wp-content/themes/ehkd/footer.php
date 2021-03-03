@@ -19,7 +19,11 @@ if ( $post = get_page_by_path( 'footer', OBJECT, 'page' ) )
     $pid = $post->ID;
 else
     $pid = 0;
-    ?>
+ 
+    $page = get_page_by_path('footer');
+    $page = get_page(icl_object_id($page->ID, 'page', true, 'cn'));
+    echo $page->ID;
+ ?>
 
 <?php echo $pid;  ?>
 
