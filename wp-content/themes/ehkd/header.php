@@ -65,8 +65,9 @@
 
                                 // echo '<li><a class="level-1" href="'.get_site_url().'/about">關於我們</a>
                                 // </li>';
-                                print_r($menu_item);
+                                // print_r($menu_item);
                                 $url = $menu_item['url'];
+                                $title = $menu_item['title'];
                                 // echo $url;
                                 $temp_arr=explode(get_site_url(),$url);
                                 // echo $temp_arr[1];
@@ -74,9 +75,12 @@
                                 // echo $slug;
                                 // $value = $value * 2;
                                 // print_r($menu_item['children']);
+
+                                echo '<li><a class="level-1 '.$slug.'" href="'.$url.'">'.$title.'</a></li>';
+
+
                                 }
 
-                                // echo '<li><a class="level-1" href="'.$url.'">關於我們</a></li>';
 
                                 ?>
 
