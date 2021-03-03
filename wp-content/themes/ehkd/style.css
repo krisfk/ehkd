@@ -640,6 +640,13 @@ a.menu-products-a.level-1 {
 }
 
 @media only screen and (max-width: 480px) {
+    .footer-phone {
+        font-size: 34px;
+        padding: 0px 0px 0px 36px;
+    }
+    .footer-under-phone-txt {
+        font-size: 20px;
+    }
     .inner-msg-div-inner-div {
         width: 230px;
         height: 180px !important;
