@@ -28,14 +28,21 @@ get_header();
         <div class="inner-msg-div-outer">
             <div class="inner-msg-div container">
 
-                <h1 class="banner-title mt-5 blue">貸款計算機</h1>
+                <h1 class="banner-title mt-5 blue"><?php echo get_the_title();?></h1>
 
 
 
             </div>
         </div>
     </div>
-    <img src="<?php echo get_template_directory_uri();?>/assets/images/loancal-banner.jpg" alt="">
+    <!-- <img src="<?php echo get_template_directory_uri();?>/assets/images/loancal-banner.jpg" alt=""> -->
+    <?php
+$img_id = get_field('banner');
+$img_arr = wp_get_attachment_image_src($img_id,'full');
+$img_src=$img_arr[0];
+?>
+
+    <img src="<?php echo $img_src;?>" alt="">
 </div>
 
 <div class="container mt-5">
@@ -46,7 +53,8 @@ get_header();
 
 
 
-        貸款計算機
+        <?php echo get_field('content_1');?>
+
 
 
 
@@ -66,7 +74,7 @@ get_header();
             <div class="mainImgWrapper row">
                 <div class="col-xs-12 col-md-6 input">
                     <div class="row">
-                        <div class="col-md-6 col-xs-5 calc_label">申請貸款額</div>
+                        <div class="col-md-6 col-xs-5 calc_label"><?php echo get_the_field('cal_txt_1');?></div>
                         <div class="col-md-6 col-xs-7 calc_value_wrapper">
                             <div class="calc_value">
                                 <input class="calc_loanAmount" type="text" value="0" placeholder="0" tabindex="1"><span
@@ -82,7 +90,7 @@ get_header();
                         </div>
                     </div>
                     <div class="row">
-                        <div class="col-md-6 col-xs-5 calc_label">每月利率</div>
+                        <div class="col-md-6 col-xs-5 calc_label"><?php echo get_the_field('cal_txt_1');?></div>
                         <div class="col-md-6 col-xs-7 calc_value_wrapper">
                             <div class="calc_value">
                                 <input class="calc_monthlyInterestRate" type="text" value="0" placeholder="0"
@@ -98,11 +106,11 @@ get_header();
                         </div>
                     </div>
                     <div class="row">
-                        <div class="col-md-6 col-xs-5 calc_label">還款期</div>
+                        <div class="col-md-6 col-xs-5 calc_label"><?php echo get_the_field('cal_txt_3');?></div>
                         <div class="col-md-6 col-xs-7 calc_value_wrapper">
                             <div class="calc_value">
                                 <input class="calc_repaymentPeriod" type="text" value="0" placeholder="0"
-                                    tabindex="3"><span class="calc_unit">個月</span>
+                                    tabindex="3"><span class="calc_unit"><?php echo get_the_field('cal_txt_4');?></span>
                             </div>
                         </div>
                     </div>
@@ -118,7 +126,7 @@ get_header();
                     <div class="output">
                         <div class="row">
                             <div class="col-md-12 col-xs-12">
-                                <div class="title">每月總還款額</div>
+                                <div class="title"><?php echo get_the_field('cal_txt_5');?></div>
                             </div>
                         </div>
                         <div class="row">
@@ -133,7 +141,7 @@ get_header();
                             <div class="col-md-8 col-xs-12">
                                 <div class="chart_wrapper">
                                     <div class="c100 big" id="circle">
-                                        <span class="circle_title">總還款額</span>
+                                        <span class="circle_title"><?php echo get_the_field('cal_txt_6');?></span>
                                         <span class="circle_value">HK$0</span>
                                         <div class="slice">
                                             <div class="bar"></div>
@@ -146,7 +154,7 @@ get_header();
                                 <div class="row">
                                     <div class="col-md-12 col-xs-5 principal_top_wrapper">
                                         <div class="principal_color"></div>
-                                        <div class="principal_label">本金</div>
+                                        <div class="principal_label"><?php echo get_the_field('cal_txt_7');?></div>
                                     </div>
                                     <div class="col-md-12 col-xs-7 principal_bottom_wrapper">
                                         <span class="principal_unit">HK$</span>
@@ -156,7 +164,7 @@ get_header();
                                 <div class="row interest_section">
                                     <div class="col-md-12 col-xs-5 interest_top_wrapper">
                                         <div class="interest_color"></div>
-                                        <div class="interest_label">利息</div>
+                                        <div class="interest_label"><?php echo get_the_field('cal_txt_8');?></div>
                                     </div>
                                     <div class="col-md-12 col-xs-7 interest_bottom_wrapper">
                                         <span class="interest_unit">HK$</span>
@@ -167,7 +175,7 @@ get_header();
                                     <div class="col-md-12 col-xs-12 applyWrapper">
 
                                         <a class="applyNow"
-                                            href="https://www.uaf.com.hk/tc/loans/imoney-loan/apply">立即申請</a>
+                                            href="https://www.uaf.com.hk/tc/loans/imoney-loan/apply"><?php echo get_the_field('cal_txt_9');?></a>
                                     </div>
                                 </div>
                             </div>
