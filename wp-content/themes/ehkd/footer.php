@@ -33,7 +33,7 @@
 
  ?>
 
-<?php echo $pid;  ?>
+<?php //echo $pid;  ?>
 
 <div class="container">
 
