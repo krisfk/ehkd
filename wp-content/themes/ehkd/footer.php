@@ -13,7 +13,15 @@
 
 ?>
 
-<?php echo 1121;?>
+<?php 
+
+if ( $post = get_page_by_path( 'footer', OBJECT, 'page' ) )
+    $id = $post->ID;
+else
+    $id = 0;
+    ?>
+
+<?php echo $id;  ?>
 
 <div class="container">
 
