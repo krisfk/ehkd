@@ -78,6 +78,7 @@ $img_id = get_field('icon_1');
 $img_arr = wp_get_attachment_image_src($img_id,'full');
 $img_src=$img_arr[0];
 ?>
+        11111
 
 
         <div class="col-lg-4"><img class="large-point-icon" src="<?php echo get_field('img_src');?>" alt="">
