@@ -93,6 +93,10 @@
 
                                         echo'<li><a class="'.$sub_slug.'" href="'.$sub_url.'">'.$sub_title.'</a></li>';
                                 }
+                                else
+                                {
+                                    echo 1;
+                                }
                                 echo '</ul>';
 
                             }
