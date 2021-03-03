@@ -106,7 +106,7 @@
 
                             </ul>
 
-                            <ul class="top-menu">
+                            <!-- <ul class="top-menu">
                                 <li><a class="level-1" href="<?php echo get_site_url();?>/about">關於我們</a>
                                 </li>
                                 <li><a class="menu-products-a level-1" href="<?php echo get_site_url();?>/ehkd">貸款產品</a>
@@ -147,7 +147,7 @@
 
                                     </div>
                                 </li>
-                            </ul>
+                            </ul> -->
 
 
                         </div>
