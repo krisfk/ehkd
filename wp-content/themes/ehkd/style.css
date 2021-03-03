@@ -525,7 +525,12 @@ a.menu-products-a.level-1 {
     /* text-decoration: underline !important; */
 }
 
-@media only screen and (max-width: 1920px) {}
+@media only screen and (max-width: 1920px) {
+    .inner-msg-div-inner-div {
+        width: 700px;
+        height: 650px ​ !important;
+    }
+}
 
 @media only screen and (max-width: 1200px) {
     .top-menu {
@@ -533,6 +538,7 @@ a.menu-products-a.level-1 {
     }
     .inner-msg-div-inner-div {
         width: 600px;
+        height: 550px ​ !important;
     }
 }
 
