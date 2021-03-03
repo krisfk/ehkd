@@ -539,29 +539,34 @@ a.menu-products-a.level-1 {
 @media only screen and (max-width: 1024px) {
     .inner-msg-div-inner-div {
         width: 500px;
+        height: 450px ​ !important;
     }
 }
 
 @media only screen and (max-width: 991px) {
     .inner-msg-div-inner-div {
         width: 400px;
+        height: 350px ​ !important;
     }
 }
 
 @media only screen and (max-width: 768px) {
     .inner-msg-div-inner-div {
         width: 300px;
+        height: 250px ​ !important;
     }
 }
 
 @media only screen and (max-width: 640px) {
     .inner-msg-div-inner-div {
         width: 250px;
+        height: 200px ​ !important;
     }
 }
 
 @media only screen and (max-width: 480px) {
     .inner-msg-div-inner-div {
         width: 230px;
+        height: 180px ​ !important;
     }
 }
