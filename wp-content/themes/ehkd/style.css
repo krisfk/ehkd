@@ -524,3 +524,17 @@ a.menu-products-a.level-1 {
     color: #00a7e1;
     /* text-decoration: underline !important; */
 }
+
+@media only screen and (max-width: 1920px) {}
+
+@media only screen and (max-width: 1200px) {}
+
+@media only screen and (max-width: 1024px) {}
+
+@media only screen and (max-width: 991px) {}
+
+@media only screen and (max-width: 768px) {}
+
+@media only screen and (max-width: 640px) {}
+
+@media only screen and (max-width: 480px) {}
