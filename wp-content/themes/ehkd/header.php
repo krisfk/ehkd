@@ -71,7 +71,7 @@
                                 // print_r($menu_item);
                                 $url = $menu_item['url'];
                                 // echo $url;
-                                $temp_arr=explode(get_site_url(),$url);
+                                $temp_arr=explode(get_site_url().'/',$url);
                                 $slug=$temp_arr[1];
                                 echo $slug;
                                 // $value = $value * 2;
