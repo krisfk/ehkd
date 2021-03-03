@@ -56,7 +56,13 @@
                                     src="<?php echo get_template_directory_uri();?>/assets/images/ehkd-logo.png"
                                     alt=""></a>
 
-                            fff
+                            <?php
+                            
+                            
+
+                            $top_menu = wp_get_menu_array('top menu');
+                            print_r($top_menu);
+?>
 
                             <ul class="top-menu">
                                 <li><a class="level-1" href="<?php echo get_site_url();?>/about">關於我們</a>
