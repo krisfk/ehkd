@@ -52,7 +52,7 @@ $img_src=$img_arr[0];
 
 // echo get_field('content_1');?>
 
-<div class="container mt-5">
+<div class="container mt-5 pe-5 ps-5">
 
 
     <div class="row">
