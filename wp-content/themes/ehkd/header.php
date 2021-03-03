@@ -72,7 +72,7 @@
                                 $url = $menu_item['url'];
                                 // echo $url;
                                 $temp_arr=explode(get_site_url(),$url);
-                                $slug=str_replace('/',$temp_arr[1]);
+                                $slug=str_replace('/',$temp_arr[0]);
                                 echo $slug;
                                 // $value = $value * 2;
                                 // print_r($menu_item['children']);
