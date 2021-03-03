@@ -85,7 +85,7 @@
                 </div>
 
 
-                <div class=" mt-4">
+                <div class="text-xl-start text-lg-center mt-4">
 
 
                     <div class="d-inline-block me-4 ">
