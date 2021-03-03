@@ -504,4 +504,8 @@ a.menu-products-a.level-1 {
     height: 700px;
 }
 
-#agree-label {}
+#agree-label {
+    color: #636363;
+    font-size: 15px;
+    font-weight: normal;
+}
