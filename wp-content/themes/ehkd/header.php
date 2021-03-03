@@ -76,12 +76,12 @@
                                 // $value = $value * 2;
                                 // print_r($menu_item['children']);
 
-                                echo '<li><a class="level-1 '.$slug.'" href="'.$url.'">'.$title.'</a>';
                                 
                                 if(count($menu_item['children']))
                                 {
                                     // echo count($menu_item['children']);
                                     // print_r($menu_item['children']);
+                                    echo '<li><a class="level-1 '.$slug.'" href="'.$url.'">'.$title.'</a>';
 
                                     echo '<ul class="top-menu-submenu">';
                                     foreach ($menu_item['children'] as $sub_menu_item) 
@@ -92,6 +92,11 @@
                                         $sub_slug=str_replace('/','',$sub_temp_arr[1]);
 
                                         echo'<li><a class="'.$sub_slug.'" href="'.$sub_url.'">'.$sub_title.'</a></li>';
+                                }
+                                else
+                                {
+                                    echo '<li><a class="level-1 '.$slug.'" href="'.$url.'">'.$title.'</a>';
+
                                 }
                                 echo '</ul>';
 
@@ -163,7 +168,6 @@
                     var page_slug = "<?php echo $page_slug?>";
                     $(function() {
 
-                        // alert(page_slug);
 
                         $('.top-menu li a.level-1.' + page_slug).addClass('active');
 
