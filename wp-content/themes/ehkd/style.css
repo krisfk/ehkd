@@ -568,6 +568,11 @@ a.menu-products-a.level-1 {
         width: 250px;
         height: 200px !important;
     }
+    .footer-sitemap .footer-sitemap-branch {
+        display: inline-table;
+        margin: 0px 0px 0px 10%;
+        text-align: left;
+    }
 }
 
 @media only screen and (max-width: 480px) {
