@@ -80,6 +80,7 @@
                                 
                                 if(count($menu_item['children']))
                                 {
+                                    echo count($menu_item['children']);
                                     // print_r($menu_item['children']);
 
                                     echo '<ul class="top-menu-submenu">';
