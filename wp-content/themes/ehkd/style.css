@@ -527,7 +527,11 @@ a.menu-products-a.level-1 {
 
 @media only screen and (max-width: 1920px) {}
 
-@media only screen and (max-width: 1200px) {}
+@media only screen and (max-width: 1200px) {
+    #top-menu {
+        display: none;
+    }
+}
 
 @media only screen and (max-width: 1024px) {}
 
