@@ -68,7 +68,9 @@
 
                                 // echo '<li><a class="level-1" href="'.get_site_url().'/about">關於我們</a>
                                 // </li>';
-                                print_r($menu_item);
+                                // print_r($menu_item);
+                                $url = $menu_item['url'];
+                                echo $url;
                                 // $value = $value * 2;
                                 // print_r($menu_item['children']);
                                 }
