@@ -540,6 +540,9 @@ a.menu-products-a.level-1 {
         width: 600px;
         height: 550px !important;
     }
+    .footer-apply-btn-above-txt {
+        font-size: 18px;
+    }
 }
 
 @media only screen and (max-width: 1024px) {
