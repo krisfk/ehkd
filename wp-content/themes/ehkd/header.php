@@ -64,7 +64,7 @@
                             // print_r($top_menu);
                             foreach ($top_menu as $menu_item) {
                                 // $value = $value * 2;
-                                echo count($menu_item->children);
+                                echo $menu_item->children;
                             }
 
 ?>
