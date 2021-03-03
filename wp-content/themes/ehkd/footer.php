@@ -43,8 +43,7 @@
 
             <div class="footer-lightblue-title mt-5"><?php echo get_field('content_1',$pid);?></div>
 
-            <div class="footer-apply-btn-above-txt mt-3 pe-md-3 ps-md-3 pe-lg-0 ps-lg-0">
-                <?php echo get_field('content_2',$pid);?></div>
+            <div class="footer-apply-btn-above-txt mt-3"><?php echo get_field('content_2',$pid);?></div>
 
             <a href="#" class="footer-apply-btn mt-4"><?php echo get_field('apply_btn',$pid);?></a>
         </div>
