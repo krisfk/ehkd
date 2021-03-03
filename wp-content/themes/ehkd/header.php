@@ -143,14 +143,14 @@
                                 <?php
                             
                             $langs= icl_get_languages('skip_missing=0&orderby=custom&order=asc&link_empty_to=');
-                            print_r($langs);
+                            // print_r($langs);
                             ?>
                                 <li>
 
                                     <div class="lang-div">
-                                        <a href="javascript:void(0);">繁</a><span class="sep">/</span><a
-                                            href="javascript:void(0);">簡</a><span class="sep">/</span><a
-                                            href="javascript:void(0);">ENGLISH</a>
+                                        <a href="<?php echo $langs['zh-hant']['url'];?>">繁</a><span
+                                            class="sep">/</span><a href="<?php echo $langs['cn']['url'];?>">簡</a><span
+                                            class="sep">/</span><a href="<?php echo $langs['en']['url'];?>">ENGLISH</a>
 
                                     </div>
                                 </li>
