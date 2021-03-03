@@ -646,11 +646,11 @@ a.menu-products-a.level-1 {
     }
     .footer-sitemap ul li {
         list-style-type: none;
-        font-size: 16px;
+        font-size: 15px;
     }
     .footer-sitemap .footer-sitemap-branch {
         display: inline-table;
-        margin: 0px 0px 0px 10px;
+        margin: 30px 0px 0px 19px;
         text-align: left;
     }
 }
