@@ -80,15 +80,26 @@
                                 
                                 if(count($menu_item['children']))
                                 {
-                                    echo 1;
+                                    echo '<ul class="top-menu-submenu">';
+                                    foreach ($menu_item['children'] as $sub_menu_item) 
+                                    {
+                                        $sub_url = $sub_menu_item['url'];
+                                        $sub_title = $sub_menu_item['title'];
+                                        $sub_temp_arr=explode(get_site_url(),$sub_url);
+                                        $sub_slug=str_replace('/','',$sub_temp_arr[1]);
+
+                                        echo'<li><a href="'.$sub_url.'">'.$sub_temp_arr.'</a></li>';
                                 }
-                                echo'</li>';
+                                echo '</ul>';
+
+                            }
+                            echo'</li>';
 
 
-                                }
+                            }
 
 
-                                ?>
+                            ?>
 
                             </ul>
 
