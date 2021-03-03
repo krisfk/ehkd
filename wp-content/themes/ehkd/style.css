@@ -585,6 +585,19 @@ a.menu-products-a.level-1 {
         display: block;
         text-align: center;
     }
+    .footer-lightblue-title {
+        text-align: center;
+    }
+    .footer-apply-btn {
+        display: table;
+        background: rgb(0, 51, 161);
+        color: #fff;
+        padding: 7px 20px;
+        margin: 0 auto;
+        border-radius: 6px;
+        font-size: 19px;
+        text-decoration: none;
+    }
     /* .footer-sitemap .footer-sitemap-branch {
         display: inline-table;
         margin: 0px 0px 0px 10px;
