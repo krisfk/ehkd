@@ -83,6 +83,7 @@
                                     echo '<ul class="top-menu-submenu">';
                                     foreach ($menu_item['children'] as $sub_menu_item) 
                                     {
+                                        print_r($sub_menu_item);
                                         $sub_url = $sub_menu_item['url'];
                                         $sub_title = $sub_menu_item['title'];
                                         $sub_temp_arr=explode(get_site_url(),$sub_url);
