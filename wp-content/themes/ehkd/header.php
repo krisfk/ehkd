@@ -140,6 +140,11 @@
 
                             ?>
 
+                                <?php
+                            
+                            $langs= icl_get_languages('skip_missing=N&orderby=KEY&order=DIR&link_empty_to=str');
+                            print_r($langs);
+                            ?>
                                 <li>
 
                                     <div class="lang-div">
