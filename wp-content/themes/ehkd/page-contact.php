@@ -32,17 +32,24 @@ get_header();
             <div class="inner-msg-div-outer">
                 <div class="inner-msg-div container">
 
-                    <h1 class="banner-title mt-5 ">聯絡我們</h1>
+                    <h1 class="banner-title mt-5 "><?php echo get_the_title();?></h1>
 
 
 
                 </div>
             </div>
         </div>
-        <img src="<?php echo get_template_directory_uri();?>/assets/images/contact-banner.jpg" alt="">
+        <?php
+$img_id = get_field('banner');
+$img_arr = wp_get_attachment_image_src($img_id,'full');
+$img_src=$img_arr[0];
+?>
+
+        <img src="<?php echo $img_src;?>" alt="">
     </div>
 
-    <div class="container mt-5 contact-form-container">
+    <?php echo get_the_content();?>
+    <!-- <div class="container mt-5 contact-form-container">
 
 
         <div class="row">
@@ -131,7 +138,7 @@ get_header();
 
 
 
-    </div>
+    </div> -->
     </div>
 
 
