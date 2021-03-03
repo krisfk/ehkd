@@ -580,6 +580,9 @@ a.menu-products-a.level-1 {
         width: 400px;
         height: 350px !important;
     }
+    .footer-sitemap-branch.license {
+        margin: 20px 0 0 0;
+    }
     /* .footer-sitemap .footer-sitemap-branch {
         display: inline-table;
         margin: 0px 0px 0px 10px;
