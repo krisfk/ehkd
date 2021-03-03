@@ -160,7 +160,7 @@
                     ?>
 
                     <script type="text/javascript">
-                    var page_slug = "<? echo $page_slug?>";
+                    var page_slug = "<?php echo $page_slug?>";
                     $(function() {
 
                         alert(page_slug);
