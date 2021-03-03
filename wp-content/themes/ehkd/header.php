@@ -59,25 +59,24 @@
                             <ul class="top-menu">
 
                                 <?php
-                            
-                            
-
                             $top_menu = wp_get_menu_array('top menu');
                             // print_r($top_menu);
                             foreach ($top_menu as $menu_item) {
 
                                 // echo '<li><a class="level-1" href="'.get_site_url().'/about">關於我們</a>
                                 // </li>';
-                                // print_r($menu_item);
+                                print_r($menu_item);
                                 $url = $menu_item['url'];
                                 // echo $url;
                                 $temp_arr=explode(get_site_url(),$url);
                                 // echo $temp_arr[1];
                                 $slug=str_replace('/','',$temp_arr[1]);
-                                echo $slug;
+                                // echo $slug;
                                 // $value = $value * 2;
                                 // print_r($menu_item['children']);
                                 }
+
+                                // echo '<li><a class="level-1" href="'.$url.'">關於我們</a></li>';
 
                                 ?>
 
