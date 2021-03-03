@@ -158,7 +158,7 @@
 
                         $('.top-menu li a.level-1').mouseenter(function() {
 
-                            if ($(this).hasClass('menu-products-a')) {
+                            if ($(this).hasClass('ehkd')) {
                                 $('.top-menu-submenu').fadeIn(0);
 
                             } else {
