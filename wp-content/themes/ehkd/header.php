@@ -59,6 +59,11 @@
                             <ul class="top-menu">
 
                                 <?php
+
+                            if ( defined( 'ICL_LANGUAGE_CODE' ) ) {
+                                echo ICL_LANGUAGE_CODE;
+                            }
+                            
                             $top_menu = wp_get_menu_array('top menu');
                             foreach ($top_menu as $menu_item) {
 
