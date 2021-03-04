@@ -16246,6 +16246,7 @@ button.addmore img {
 @media (min-width: 992px) {
     #calculator .main .mainImgWrapper .input .calc_label {
         padding-left: 0;
+        font-size: 20px;
     }
 }
 
