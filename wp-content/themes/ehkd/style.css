@@ -422,6 +422,7 @@ a.menu-products-a.level-1 {
     background: url(./assets/images/green-gradient.jpg) repeat-x;
     padding: 70px 0 70px 0;
     position: relative;
+    background-size: auto 100%;
 }
 
 #apply-form {
