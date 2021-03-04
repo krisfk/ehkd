@@ -16260,7 +16260,7 @@ button.addmore img {
 }
 
 #calculator .main .mainImgWrapper .input .calc_value {
-    width: 90%;
+    width: 75%;
     max-width: 300px;
     /* background: #F5F5F5; */
     text-align: center;
