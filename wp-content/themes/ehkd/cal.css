@@ -16270,6 +16270,13 @@ button.addmore img {
     #calculator .main .mainImgWrapper .input .calc_label {
         font-size: 20px;
     }
+    #calculator .main .mainImgWrapper .input .calc_value .calc_loanAmount~.calc_unit {
+        top: -7px;
+        left: -57px;
+        right: auto;
+        text-align: right;
+        font-size: 21px;
+    }
 }
 
 #calculator .main .mainImgWrapper .input .calc_value .calc_loanAmount,
