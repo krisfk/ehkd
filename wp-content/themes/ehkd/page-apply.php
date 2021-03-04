@@ -117,7 +117,7 @@ $img_src=$img_arr[0];
                         </div>
                         <div class="col-lg-6 mt-5 mt-sm-5 mt-md-5 mt-lg-0"><label for="customer-tel">聯絡電話*:
                             </label><input id="customer-tel" class="form-text" type="text" placeholder="聯絡電話*" />
-                            <div class="form-error text-danger mt-2">此欄必須填寫</div>
+                            <div class="form-error text-danger mt-2">電話格式不正確</div>
                         </div>
                     </div>
                     <div class="row mt-5 mx-auto">
@@ -208,6 +208,18 @@ $(function() {
         var customer_dob = $('#customer-dob').val();
         var where_from = $('#where-from').val();
         var agree = $('#agree').is(":checked");
+
+        $('.form-error').fadeOut(0);
+        if (!customer_name) {
+            $('#customer-name').next('.form-error').fadeIn(0);
+        }
+
+        if (!(/^[0-9]{8}$/.test(customer_tel))) {
+            $('#customer-name').next('.form-error').fadeIn(0);
+        }
+        // String regEx = "^[0-9]{8}$";
+
+
 
     })
 });
