@@ -100,7 +100,7 @@ $img_src=$img_arr[0];
 
                 <div class="row">
                     <div class="row">
-                        <div class="col-lg-12 "><label for="loan-type">貸款類型f: </label><select id="loan-type"
+                        <div class="col-lg-12 "><label for="loan-type">貸款類型: </label><select id="loan-type"
                                 class="form-select" name="loan-type">
                                 <option value="">--請選擇--</option>
                                 <option value="ehkd">易用錢</option>
