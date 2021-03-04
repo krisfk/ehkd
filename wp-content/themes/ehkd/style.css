@@ -537,6 +537,16 @@ a.menu-products-a.level-1 {
     } */
 }
 
+@media only screen and (max-width: 1450px) {
+    .cal-img {
+        position: absolute;
+        width: 250px;
+        top: 0;
+        right: 0;
+        opacity: 0.3;
+    }
+}
+
 @media only screen and (max-width: 1200px) {
     .top-menu {
         display: none;
