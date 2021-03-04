@@ -92,7 +92,7 @@ $my_home_url = apply_filters( 'wpml_home_url', get_option( 'home' ) );?>
                             {
                                 case 'zh-hant':
                                     $top_menu = wp_get_menu_array('top menu');
-                                    $top_menu = wp_get_menu_array('top menu');
+                                    // $top_menu = wp_get_menu_array('top menu');
 
                                     break;
                                     case 'cn':
