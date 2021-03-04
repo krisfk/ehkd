@@ -45,22 +45,22 @@ if ( defined( 'ICL_LANGUAGE_CODE' ) ) {
     $lang_code =  ICL_LANGUAGE_CODE;
 }
 
-switch ($lang_code)
-{
-    case 'zh-hant':
-        $top_menu = wp_get_menu_array('top menu');
+// switch ($lang_code)
+// {
+//     case 'zh-hant':
+//         $top_menu = wp_get_menu_array('top menu');
 
-        break;
-        case 'cn':
-            $top_menu = wp_get_menu_array('top menu cn');
+//         break;
+//         case 'cn':
+//             $top_menu = wp_get_menu_array('top menu cn');
 
 
-        break;
-            case 'en':
-                $top_menu = wp_get_menu_array('top menu en');
+//         break;
+//             case 'en':
+//                 $top_menu = wp_get_menu_array('top menu en');
 
-        break;
-}
+//         break;
+// }
 ?>
 
     </div>
