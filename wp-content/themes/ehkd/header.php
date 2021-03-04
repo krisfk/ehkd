@@ -95,7 +95,7 @@ if(count($menu_item['children']))
 
     //     $sub_slugs.=$sub_slug.' ';
     // }
-    echo '<li><a class="level-1 ehkd-parent" href="'.$url.'">'.$title.'</a>';
+    echo '<li><a class="level-1 parent" href="'.$url.'">'.$title.'</a>';
 
  
     echo '<ul class="top-menu-submenu">';
