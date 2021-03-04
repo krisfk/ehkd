@@ -112,9 +112,13 @@ $img_src=$img_arr[0];
                     </div>
                     <div class="row mt-5 mx-auto">
                         <div class="col-lg-6"><label for="customer-name">姓名*: </label><input id="customer-name"
-                                class="form-text" type="text" placeholder="姓名*" /></div>
+                                class="form-text" type="text" placeholder="姓名*" />
+                            <div>ff</div>
+                        </div>
                         <div class="col-lg-6 mt-5 mt-sm-5 mt-md-5 mt-lg-0"><label for="customer-tel">聯絡電話*:
-                            </label><input id="customer-tel" class="form-text" type="text" placeholder="聯絡電話*" /></div>
+                            </label><input id="customer-tel" class="form-text" type="text" placeholder="聯絡電話*" />
+                            <div>ff</div>
+                        </div>
                     </div>
                     <div class="row mt-5 mx-auto">
                         <div class="col-lg-6"><label for="customer-id">身份証號碼*: </label><input id="customer-id"
