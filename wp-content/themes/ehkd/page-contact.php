@@ -48,8 +48,10 @@ $img_src=$img_arr[0];
         <img src="<?php echo $img_src;?>" alt="">
     </div>
 
-    <?php echo get_the_content();?>
-    <!-- <div class="container mt-5 contact-form-container">
+    <?php //echo get_the_content();?>
+
+
+    <div class="container mt-5 contact-form-container">
 
 
         <div class="row">
@@ -57,13 +59,15 @@ $img_src=$img_arr[0];
 
             <div class="col-lg-12">
                 <table class="w-100 contact-form-container-heading ">
-                    <tr>
-                        <td class="blue-title align-bottom w-50">香港數字資產信貸有限公司</td>
-                        <td class=" align-bottom text-left w-50 "> <span class="blue-subtitle">放債人牌照號碼:</span>
-                            <span>1688/2021</span>
-                        </td>
-                    </tr>
+                    <tbody>
+                        <tr>
+                            <td class="blue-title align-bottom w-50">香港數字資產信貸有限公司</td>
+                            <td class=" align-bottom text-left w-50 "> <span class="blue-subtitle">放債人牌照號碼:</span>
+                                <span>1688/2021</span>
+                            </td>
+                        </tr>
 
+                    </tbody>
                 </table>
 
 
@@ -138,7 +142,7 @@ $img_src=$img_arr[0];
 
 
 
-    </div> -->
+    </div>
     </div>
 
 
