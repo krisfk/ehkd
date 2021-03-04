@@ -38,7 +38,9 @@
 <body <?php body_class(); ?>>
     <?php wp_body_open(); ?>
 
-    <div>
+
+    <div id="page" class="site">
+
         <?php
 
 if ( defined( 'ICL_LANGUAGE_CODE' ) ) {
@@ -64,8 +66,7 @@ switch ($lang_code)
 }
 ?>
 
-    </div>
-    <div id="page" class="site">
+
         <!-- <a class="skip-link screen-reader-text"
             href="#content"><?php esc_html_e( 'Skip to content', 'twentytwentyone' ); ?></a> -->
 
