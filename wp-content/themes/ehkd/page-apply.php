@@ -215,7 +215,7 @@ $(function() {
         }
 
         if (!(/^[0-9]{8}$/.test(customer_tel))) {
-            $('#customer-name').next('.form-error').fadeIn(0);
+            $('#customer-tel').next('.form-error').fadeIn(0);
         }
         // String regEx = "^[0-9]{8}$";
 
