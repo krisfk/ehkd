@@ -51,7 +51,7 @@ $img_src=$img_arr[0];
     <?php echo get_field('content_1');?>
     <!-- <img class="ehkd-img" src="<?php echo get_template_directory_uri();?>/assets/images/ehkd.png" alt=""> -->
 
-    <div class="content-txt text-center mt-5">
+    <div class="content-txt text-center mt-5 pe-5 ps-5">
         <?php echo get_field('content_2');?>
 
     </div>
