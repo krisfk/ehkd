@@ -92,12 +92,12 @@ $img_src=$img_arr[0];
 
         </div>
         <div class="row mt-4">
-            <div class="col-lg-6">
+            <div class="col-12 col-sm-12 col-md-6 col-lg-6">
 
                 <span class="blue-subtitle"> 查詢熱線</span> <br>
                 +852 2628 2828
             </div>
-            <div class="col-lg-6 g-0">
+            <div class="col-12 col-sm-12 col-md-6 col-lg-6 g-0">
 
                 <span class="blue-subtitle"> 電郵</span> <br>
                 info@ehkd.com
@@ -111,12 +111,12 @@ $img_src=$img_arr[0];
 
 
 
-            <div class="col-lg-6">
+            <div class="col-12 col-sm-12 col-md-6 col-lg-6">
 
                 <span class="blue-subtitle"> WhatsApp</span> <br>
                 xxxx-xxxx
             </div>
-            <div class="col-lg-6 g-0">
+            <div class="col-12 col-sm-12 col-md-6 col-lg-6 g-0">
 
                 <span class="blue-subtitle"> 地址
                 </span> <br>
@@ -134,12 +134,12 @@ $img_src=$img_arr[0];
 
 
 
-            <div class="col-lg-6">
+            <div class="col-12 col-sm-12 col-md-6 col-lg-6">
 
                 <span class="blue-subtitle"> 傳真</span> <br>
                 +852 2628 2828
             </div>
-            <div class="col-lg-6 g-0">
+            <div class="col-12 col-sm-12 col-md-6 col-lg-6 g-0">
 
                 <span class="blue-subtitle"> 辦公時間
 
