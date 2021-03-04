@@ -64,7 +64,8 @@ $img_src=$img_arr[0];
 ?>
 
 
-        <div class="col-lg-3"> <img class="large-point-icon" src="<?php echo $img_src; ?>" alt="">
+        <div class="col-6 col-sm-6 col-md-6 col-lg-3"> <img class="large-point-icon" src="<?php echo $img_src; ?>"
+                alt="">
             <div class="text-center large-point-txt"><?php echo get_field('icon_1_txt');?>
             </div>
 
@@ -75,7 +76,8 @@ $img_arr = wp_get_attachment_image_src($img_id,'full');
 $img_src=$img_arr[0];
 ?>
 
-        <div class="col-lg-3"><img class="large-point-icon" src="<?php echo $img_src; ?>" alt="">
+        <div class="col-6 col-sm-6 col-md-6 col-lg-3"><img class="large-point-icon" src="<?php echo $img_src; ?>"
+                alt="">
             <div class="text-center large-point-txt"> <?php echo get_field('icon_2_txt'); ?>
             </div>
         </div>
@@ -85,7 +87,8 @@ $img_arr = wp_get_attachment_image_src($img_id,'full');
 $img_src=$img_arr[0];
 ?>
 
-        <div class="col-lg-3"><img class="large-point-icon" src="<?php echo $img_src; ?>" alt="">
+        <div class="col-6 col-sm-6 col-md-6 col-lg-3"><img class="large-point-icon" src="<?php echo $img_src; ?>"
+                alt="">
             <div class="text-center large-point-txt"> <?php echo get_field('icon_3_txt'); ?>
             </div>
         </div>
@@ -95,7 +98,8 @@ $img_arr = wp_get_attachment_image_src($img_id,'full');
 $img_src=$img_arr[0];
 ?>
 
-        <div class="col-lg-3"><img class="large-point-icon" src="<?php echo $img_src; ?>" alt="">
+        <div class="col-6 col-sm-6 col-md-6 col-lg-3"><img class="large-point-icon" src="<?php echo $img_src; ?>"
+                alt="">
 
             <div class="text-center large-point-txt"> <?php echo get_field('icon_4_txt'); ?>
             </div>
