@@ -88,7 +88,7 @@
                 <div class="text-xl-start text-lg-center mt-4">
 
 
-                    <div class="d-inline-block me-0 me-sm-4 me-md-4 me-lg-4 ">
+                    <div class="d-inline-block me-0 me-sm-0 me-md-4 me-lg-4 ">
 
                         <span class="footer-phone footer-phone-1"> <?php echo get_field('phone_number',$pid);?></span>
 
