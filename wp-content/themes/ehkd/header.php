@@ -300,6 +300,8 @@ $my_home_url = apply_filters( 'wpml_home_url', get_option( 'home' ) );?>
                     $(function() {
 
 
+
+
                         $('.top-menu li a.level-1.' + page_slug).addClass('active');
 
                         $('.top-menu li a.level-1').mouseenter(function() {
@@ -322,5 +324,11 @@ $my_home_url = apply_filters( 'wpml_home_url', get_option( 'home' ) );?>
                             $('.top-menu-submenu').fadeOut(0);
                         })
 
+
+
+                        $('.mobile-menu-overlay .mobile-menu a.parent').click(function(e) {
+                            e.preventDefault();
+
+                        })
                     })
                     </script>
