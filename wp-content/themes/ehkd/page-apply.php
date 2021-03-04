@@ -183,6 +183,11 @@ $img_src=$img_arr[0];
 
 
 
+<style type="text/css">
+.form-error {
+    display: none;
+}
+</style>
 
 
 
@@ -202,7 +207,6 @@ $(function() {
         var customer_dob = $('#customer-dob').val();
         var where_from = $('#where-from').val();
         var agree = $('#agree').is(":checked");
-        alert(agree);
 
     })
 });
