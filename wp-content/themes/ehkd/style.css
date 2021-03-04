@@ -684,6 +684,12 @@ a.menu-products-a.level-1 {
 }
 
 @media only screen and (max-width: 480px) {
+    .ehkd-logo {
+        height: 40px;
+    }
+    .top-div {
+        height: 80px;
+    }
     #calculator .main .mainImgWrapper .input .calc_value .calc_unit {
         font-size: 20px;
         padding: 0 3px;
