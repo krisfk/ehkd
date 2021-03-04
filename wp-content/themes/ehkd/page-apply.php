@@ -125,7 +125,7 @@ $img_src=$img_arr[0];
                                 id="customer-id" class="form-text w-50" type="text" /> <span class="p-2">(</span> <input
                                 type="text" class="form-text " id="customer-id2" maxlength="1" /><span
                                 class="p-2">)</span>
-                            <div class="form-error text-danger mt-2">身份証號碼格式不正確</div>
+                            <div class="hkid-error form-error text-danger mt-2">身份証號碼格式不正確</div>
                         </div>
                         <div class="col-lg-6 mt-5 mt-sm-5 mt-md-5 mt-lg-0"><label for="customer-dob">出生日期*:
                             </label><input id="customer-dob" class="form-text " type="text" placeholder="年/月/日" />
@@ -223,8 +223,8 @@ $(function() {
         }
 
         var input_id = customer_id + '(' + customer_id2 + ')';
-        if (IsHKID(input_id)) {
-            $('#customer_id2').next('.form-error').fadeIn(0);
+        if (!IsHKID(input_id)) {
+            $('.hkid-error').fadeIn(0);
         }
 
 
