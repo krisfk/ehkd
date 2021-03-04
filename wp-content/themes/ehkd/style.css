@@ -860,11 +860,11 @@ a.menu-products-a.level-1 {
 @media only screen and (max-width: 480px) {
     .big-point-ul li {
         list-style-type: none;
-        font-size: 20px;
+        font-size: 17px;
         color: #00a7e1;
-        padding: 10px 0 10px 40px;
+        padding: 5px 0 5px 32px;
         background: url(./assets/images/tick-checkbox.png) no-repeat;
-        background-size: auto 28px;
+        background-size: auto 23px;
         background-position: 0 center;
     }
     .ehkd-logo-a {
