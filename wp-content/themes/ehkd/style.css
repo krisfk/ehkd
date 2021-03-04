@@ -600,6 +600,14 @@ a.menu-products-a.level-1 {
 }
 
 @media only screen and (max-width: 991px) {
+    .blue-title {
+        color: #0033a1;
+        font-size: 25px;
+        line-height: normal;
+    }
+    .apply-form-title {
+        font-size: 25px;
+    }
     #calculator {
         margin: 0 20px;
     }
