@@ -214,29 +214,43 @@ $(function() {
         var where_from = $('#where-from').val();
         var agree = $('#agree').is(":checked");
 
+        var valid = true;
+
         $('.form-error').fadeOut(0);
         if (!customer_name) {
             $('#customer-name').next('.form-error').fadeIn(0);
+            valid = false;
         }
 
         if (!(/^[0-9]{8}$/.test(customer_tel))) {
             $('#customer-tel').next('.form-error').fadeIn(0);
+            valid = false;
+
         }
 
         if (!customer_dob) {
             $('#customer-dob').next('.form-error').fadeIn(0);
+            valid = false;
+
         }
 
         var input_id = customer_id + '(' + customer_id2 + ')';
         if (!IsHKID(input_id)) {
             $('.hkid-error').fadeIn(0);
+            valid = false;
+
         }
 
         if (!agree) {
             $('.agree-error').fadeIn(0);
+            valid = false;
+
         }
 
 
+        if (valid) {
+
+        }
 
 
         // String regEx = "^[0-9]{8}$";
