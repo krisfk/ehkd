@@ -594,6 +594,10 @@ a.menu-products-a.level-1 {
     z-index: 100;
 }
 
+.mobile-menu-overlay .mobile-menu li {
+    list-style-type: none;
+}
+
 .mobile-menu-overlay .mobile-menu a {
     color: #fff;
     text-decoration: none;
