@@ -664,6 +664,10 @@ a.menu-products-a.level-1 {
     border-bottom: 4px solid #00a7e1;
 }
 
+.form-error {
+    font-size: 14px;
+}
+
 @media only screen and (max-width: 1920px) {
     .inner-msg-div-inner-div {
         width: 700px;
