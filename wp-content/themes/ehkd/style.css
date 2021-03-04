@@ -552,6 +552,9 @@ a.menu-products-a.level-1 {
     .top-menu {
         display: none;
     }
+    .ehkd-logo {
+        height: 30px;
+    }
     .inner-msg-div-inner-div {
         width: 600px;
         height: 550px !important;
