@@ -594,6 +594,11 @@ a.menu-products-a.level-1 {
     z-index: 100;
 }
 
+.mobile-menu-overlay .mobile-menu a {
+    color: #fff;
+    text-decoration: none;
+}
+
 @media only screen and (max-width: 1920px) {
     .inner-msg-div-inner-div {
         width: 700px;
