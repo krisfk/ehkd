@@ -100,7 +100,9 @@ $img_src=$img_arr[0];
             <div class="col-12 col-sm-12 col-md-6 col-lg-6  g-4 g-sm-4 g-md-0 g-lg-0">
 
                 <span class="blue-subtitle"> 電郵</span> <br>
-                info@ehkd.com
+
+                <a href="mailto:info@ehkd.com" target="_blank">info@ehkd.com</a>
+
 
 
 
