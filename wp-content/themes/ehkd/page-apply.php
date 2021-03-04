@@ -103,11 +103,11 @@ $img_src=$img_arr[0];
                         <div class="col-lg-12 "><label for="loan-type">貸款類型: </label><select id="loan-type"
                                 class="form-select" name="loan-type">
                                 <option value="">--請選擇--</option>
-                                <option value="ehkd">易用錢</option>
-                                <option value="property-owner-personal-loan">業主私人貸款</option>
-                                <option value="special-personal-loan-program-for-civil-servant">公務員低息貸款</option>
-                                <option value="mortgage-loan">物業貸款</option>
-                                <option value="digital-currency-mortgage">數字貨幣抵押貸款</option>
+                                <option value="易用錢">易用錢</option>
+                                <option value="業主私人貸款">業主私人貸款</option>
+                                <option value="公務員低息貸款">公務員低息貸款</option>
+                                <option value="物業貸款">物業貸款</option>
+                                <option value="數字貨幣抵押貸款">數字貨幣抵押貸款</option>
                             </select></div>
                     </div>
                     <div class="row mt-5 mx-auto">
@@ -137,11 +137,11 @@ $img_src=$img_arr[0];
                         <div class="col-lg-12 "><label for="where-from">從哪裡知道我們: </label><select id="loan-type"
                                 class="form-select" name="where-from">
                                 <option value="">--請選擇--</option>
-                                <option value="facebook">Facebook</option>
-                                <option value="google">Google</option>
-                                <option value="outdoor-advertising">戶外廣告</option>
-                                <option value="friend-referral">朋友介紹</option>
-                                <option value="other">其他</option>
+                                <option value="Facebook">Facebook</option>
+                                <option value="Google">Google</option>
+                                <option value="戶外廣告">戶外廣告</option>
+                                <option value="朋友介紹">朋友介紹</option>
+                                <option value="其他">其他</option>
                             </select></div>
                     </div>
                     <div class="row mt-5 mx-auto">
