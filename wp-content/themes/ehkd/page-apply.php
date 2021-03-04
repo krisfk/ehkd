@@ -217,6 +217,12 @@ $(function() {
         if (!(/^[0-9]{8}$/.test(customer_tel))) {
             $('#customer-tel').next('.form-error').fadeIn(0);
         }
+
+        if (!customer_dob) {
+            $('#customer-dob').next('.form-error').fadeIn(0);
+        }
+
+
         // String regEx = "^[0-9]{8}$";
 
 
