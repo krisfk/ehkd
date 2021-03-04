@@ -124,8 +124,7 @@ $img_src=$img_arr[0];
                         <div class="col-lg-6"><label for="customer-id">身份証號碼*: </label><input id="customer-id"
                                 class="form-text" type="text" placeholder="例如：A123456(7)" /></div>
                         <div class="col-lg-6 mt-5 mt-sm-5 mt-md-5 mt-lg-0"><label for="customer-dob">出生日期*:
-                            </label><input id="customer-dob" class="form-text hasDatepicker" type="text"
-                                placeholder="年/月/日" /></div>
+                            </label><input id="customer-dob" class="form-text " type="text" placeholder="年/月/日" /></div>
                     </div>
                     <div class="row mt-5 mx-auto">
                         <div class="col-lg-12 "><label for="where-from">從哪裡知道我們: </label><select id="loan-type"
