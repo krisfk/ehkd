@@ -576,6 +576,10 @@ a.menu-products-a.level-1 {
 }
 
 @media only screen and (max-width: 991px) {
+    .content-txt {
+        font-size: 20px;
+        padding: 0 20px;
+    }
     .main-banner .banner-title {
         font-size: 25px;
     }
