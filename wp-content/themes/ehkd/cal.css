@@ -16263,6 +16263,12 @@ button.addmore img {
 }
 
 @media (max-width: 992px) {
+    #calculator .main .mainImgWrapper .input .calc_value .calc_loanAmount~.calc_unit {
+        top: -6px;
+        left: -53px;
+        right: auto;
+        text-align: right;
+    }
     .en #calculator .main .mainImgWrapper .input .calc_value {
         width: 60%;
         margin-right: 40%;
