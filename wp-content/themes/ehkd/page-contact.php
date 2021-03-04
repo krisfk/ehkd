@@ -97,7 +97,7 @@ $img_src=$img_arr[0];
                 <span class="blue-subtitle"> 查詢熱線</span> <br>
                 +852 2628 2828
             </div>
-            <div class="col-12 col-sm-12 col-md-6 col-lg-6 g-0">
+            <div class="col-12 col-sm-12 col-md-6 col-lg-6  g-3 g-sm-3 g-md-0 g-lg-0">
 
                 <span class="blue-subtitle"> 電郵</span> <br>
                 info@ehkd.com
