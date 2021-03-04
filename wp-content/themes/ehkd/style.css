@@ -576,6 +576,18 @@ a.menu-products-a.level-1 {
 }
 
 @media only screen and (max-width: 991px) {
+    .big-point-ul {
+        padding: 0 0 0 30px;
+    }
+    .big-point-ul li {
+        list-style-type: none;
+        font-size: 20px;
+        color: #00a7e1;
+        padding: 10px 0 10px 40px;
+        background: url(./assets/images/tick-checkbox.png) no-repeat;
+        background-size: auto 58%;
+        background-position: 0 center;
+    }
     .content-txt {
         font-size: 20px;
         padding: 0 20px;
