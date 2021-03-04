@@ -267,6 +267,8 @@ th {
         padding: 0 3px;
         left: 100%;
         margin: -7px 0 0 0;
+        font-size: 20px !important;
+        width: 60px !important;
     }
     .row .verificationGroup {
         margin-left: -2px !important;
