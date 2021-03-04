@@ -16506,7 +16506,8 @@ button.addmore img {
 }
 
 #calculator .main .mainImgWrapper .output .interest_top_wrapper .interest_label {
-    font-size: 1.71429em;
+    /* font-size: 1.71429em; */
+    font-size: 20px;
     color: #555554;
     color: #00a7e1;
     display: inline-block;
