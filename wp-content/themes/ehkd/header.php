@@ -330,6 +330,10 @@ $my_home_url = apply_filters( 'wpml_home_url', get_option( 'home' ) );?>
                             e.preventDefault();
                             $(this).toggleClass('active');
 
+                            if ($(this).hasClass('active')) {
+                                $('.mobile-menu-submenu').fadeIn(0);
+                            }
+
                         })
                     })
                     </script>
