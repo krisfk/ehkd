@@ -98,7 +98,7 @@ if(count($menu_item['children']))
     echo '<li><a class="level-1 parent" href="'.$url.'">'.$title.'</a>';
 
  
-    echo '<ul class="top-menu-submenu">';
+    echo '<ul class="mobile-menu-submenu">';
     foreach ($menu_item['children'] as $sub_menu_item) 
     {
         $sub_url = $sub_menu_item['url'];
