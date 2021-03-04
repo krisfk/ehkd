@@ -183,11 +183,9 @@ $img_src=$img_arr[0];
 
 <script>
 $(function() {
-    // alert(6);
-    // $("#customer-dob").datepicker({
-    //     dateFormat: 'yy/mm/dd'
-    // });
-    $("#customer-dob").datepicker();
+    $("#customer-dob").datepicker({
+        dateFormat: 'yy/mm/dd'
+    });
 });
 </script>
 
