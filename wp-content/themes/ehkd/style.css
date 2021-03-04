@@ -576,6 +576,9 @@ a.menu-products-a.level-1 {
 }
 
 @media only screen and (max-width: 991px) {
+    .main-banner .banner-title {
+        font-size: 25px;
+    }
     .inner-msg-div-inner-div {
         width: 400px;
         height: 350px !important;
