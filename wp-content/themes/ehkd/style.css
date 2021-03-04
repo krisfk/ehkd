@@ -532,6 +532,7 @@ a.menu-products-a.level-1 {
     cursor: pointer;
     display: none;
     padding: 0;
+    float: right;
 }
 
 .line {
