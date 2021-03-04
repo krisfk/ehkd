@@ -96,7 +96,7 @@ $img_src=$img_arr[0];
             </div>
 
             <div class="mt-5">
-                <?php echo get_field('content_4');?>
+                <?php //echo get_field('content_4');?>
 
                 <div class="row">
                     <div class="row">
