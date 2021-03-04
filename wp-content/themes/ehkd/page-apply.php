@@ -122,7 +122,7 @@ $img_src=$img_arr[0];
                     </div>
                     <div class="row mt-5 mx-auto">
                         <div class="col-lg-6"><label for="customer-id">身份証號碼*: </label><input id="customer-id"
-                                class="form-text" type="text" placeholder="例如：A123456(7)" />
+                                class="form-text" type="text" />( <input type="text" class="form-text">)
                             <div class="form-error text-danger mt-2">此欄必須填寫</div>
                         </div>
                         <div class="col-lg-6 mt-5 mt-sm-5 mt-md-5 mt-lg-0"><label for="customer-dob">出生日期*:
