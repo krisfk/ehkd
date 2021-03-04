@@ -553,6 +553,9 @@ a.menu-products-a.level-1 {
         float: left;
         margin: 24px 0px 0px 10px;
     }
+    .main-banner .banner-title {
+        padding: 0 0 0 10px;
+    }
     .top-menu {
         display: none;
     }
