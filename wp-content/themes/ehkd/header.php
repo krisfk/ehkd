@@ -328,6 +328,7 @@ $my_home_url = apply_filters( 'wpml_home_url', get_option( 'home' ) );?>
 
                         $('.mobile-menu-overlay .mobile-menu a.parent').click(function(e) {
                             e.preventDefault();
+                            $(this).toggleClass('active');
 
                         })
                     })
