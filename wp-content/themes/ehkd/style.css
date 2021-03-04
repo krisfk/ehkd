@@ -598,6 +598,11 @@ a.menu-products-a.level-1 {
     list-style-type: none;
 }
 
+.mobile-menu-overlay .mobile-menu ul {
+    margin: 0;
+    padding: 0;
+}
+
 .mobile-menu-overlay .mobile-menu a {
     color: #fff;
     text-decoration: none;
