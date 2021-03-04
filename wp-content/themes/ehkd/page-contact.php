@@ -62,10 +62,10 @@ $img_src=$img_arr[0];
 
                 <div class="row contact-headline-div g-0">
 
-                    <div class="col-6 ">
+                    <div class="col-12 col-sm-12 col-md-6 col-lg-6">
                         <span class="blue-title">香港數字資產信貸有限公司</span>
                     </div>
-                    <div class="col-6">
+                    <div class="col-12 col-sm-12 col-md-6 col-lg-6">
                         <div class="mt-3"><span class="blue-subtitle">放債人牌照號碼:</span>
                             <span>1688/2021</span>
                         </div>
