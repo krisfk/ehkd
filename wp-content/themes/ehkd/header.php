@@ -40,33 +40,6 @@
 
 
     <div id="page" class="site">
-
-        <?php
-
-if ( defined( 'ICL_LANGUAGE_CODE' ) ) {
-    $lang_code =  ICL_LANGUAGE_CODE;
-}
-
-// echo $lang_code;
-switch ($lang_code)
-{
-    case 'zh-hant':
-        $top_menu2 = wp_get_menu_array('top menu');
-
-        break;
-        case 'cn':
-            $top_menu2 = wp_get_menu_array('top menu cn');
-
-
-        break;
-            case 'en':
-                $top_menu2 = wp_get_menu_array('top menu en');
-
-        break;
-}
-?>
-
-
         <!-- <a class="skip-link screen-reader-text"
             href="#content"><?php esc_html_e( 'Skip to content', 'twentytwentyone' ); ?></a> -->
 
@@ -118,6 +91,7 @@ $my_home_url = apply_filters( 'wpml_home_url', get_option( 'home' ) );?>
                             switch ($lang_code)
                             {
                                 case 'zh-hant':
+                                    $top_menu = wp_get_menu_array('top menu');
                                     $top_menu = wp_get_menu_array('top menu');
 
                                     break;
