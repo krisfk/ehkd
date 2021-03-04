@@ -99,7 +99,7 @@ $img_src=$img_arr[0];
                 <?php //echo get_field('content_4');?>
 
                 <div class="row">
-                    <div class="row">
+                    <div class="row mx-auto">
                         <div class="col-lg-12 "><label for="loan-type">貸款類型: </label><select id="loan-type"
                                 class="form-select" name="loan-type">
                                 <option value="">--請選擇--</option>
