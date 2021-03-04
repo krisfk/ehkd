@@ -530,7 +530,7 @@ a.menu-products-a.level-1 {
     background-color: transparent;
     border: none;
     cursor: pointer;
-    display: flex;
+    display: none;
     padding: 0;
 }
 
@@ -606,6 +606,9 @@ a.menu-products-a.level-1 {
     }
     .top-menu {
         display: none;
+    }
+    .mobile-menu-btn {
+        display: flex;
     }
     .ehkd-logo {
         height: 50px;
