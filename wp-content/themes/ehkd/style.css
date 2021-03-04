@@ -678,6 +678,18 @@ a.menu-products-a.level-1 {
 }
 
 @media only screen and (max-width: 480px) {
+    #calculator .main .mainImgWrapper .input .calc_value .calc_unit {
+        font-size: 20px;
+        padding: 0 3px;
+        left: 100%;
+        margin: -7px 0 0 0;
+        font-size: 16px !important;
+        width: 60px !important;
+    }
+    #calculator .main .mainImgWrapper .input .calc_label {
+        font-size: 17px;
+        margin: 0 0 5px 0;
+    }
     .footer-phone {
         font-size: 34px;
         padding: 0px 0px 0px 36px;
