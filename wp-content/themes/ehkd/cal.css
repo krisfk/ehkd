@@ -16392,9 +16392,9 @@ button.addmore img {
 }
 
 #calculator .main .mainImgWrapper .output a {
-    font-size: 1.785em;
+    font-size: 20px;
     font-weight: normal;
-    padding: 1.357em 0;
+    padding: 10px 20px;
     display: inline-block;
     border-radius: 0.25em;
     background: white;
@@ -16412,7 +16412,7 @@ button.addmore img {
 
 #calculator .main .mainImgWrapper .output a.applyNow {
     margin-top: 30px;
-    width: 9.85714em;
+    width: 120px;
     background: #0033a1;
 }
 
