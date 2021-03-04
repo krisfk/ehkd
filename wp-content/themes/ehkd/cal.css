@@ -16190,6 +16190,7 @@ button.addmore img {
     #calculator .main.container {
         padding-left: 15px;
         padding-right: 15px;
+        max-width: 100%;
     }
 }
 
@@ -16222,7 +16223,7 @@ button.addmore img {
 }
 
 #calculator .main .mainImgWrapper>div {
-    padding: 0;
+    padding: 0 30px;
 }
 
 @media (min-width: 992px) {
@@ -16264,8 +16265,8 @@ button.addmore img {
 
 @media (max-width: 992px) {
     #calculator .main .mainImgWrapper .input .calc_value .calc_loanAmount~.calc_unit {
-        top: -6px;
-        left: -53px;
+        top: -6px !important;
+        left: -53px !important;
         right: auto;
         text-align: right;
     }
