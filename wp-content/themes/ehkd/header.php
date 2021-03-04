@@ -83,19 +83,19 @@ $slug=str_replace('/','',$slug);
 
 if(count($menu_item['children']))
 {
-    $sub_slugs='';
-    foreach ($menu_item['children'] as $sub_menu_item) 
-    {
-        $sub_url = $sub_menu_item['url'];
-        $sub_temp_arr=explode(get_site_url(),$sub_url);
+    // $sub_slugs='';
+    // foreach ($menu_item['children'] as $sub_menu_item) 
+    // {
+    //     $sub_url = $sub_menu_item['url'];
+    //     $sub_temp_arr=explode(get_site_url(),$sub_url);
 
-        $sub_slug=str_replace('/en/','',$sub_temp_arr[1]);
-        $sub_slug=str_replace('/cn/','',$sub_slug);
-        $sub_slug=str_replace('/','',$sub_slug);
+    //     $sub_slug=str_replace('/en/','',$sub_temp_arr[1]);
+    //     $sub_slug=str_replace('/cn/','',$sub_slug);
+    //     $sub_slug=str_replace('/','',$sub_slug);
 
-        $sub_slugs.=$sub_slug.' ';
-    }
-    echo '<li><a class="level-1 '.$sub_slugs.'" href="'.$url.'">'.$title.'</a>';
+    //     $sub_slugs.=$sub_slug.' ';
+    // }
+    echo '<li><a class="level-1 ehkd-parent" href="'.$url.'">'.$title.'</a>';
 
  
     echo '<ul class="top-menu-submenu">';
