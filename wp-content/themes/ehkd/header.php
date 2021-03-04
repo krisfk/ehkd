@@ -344,6 +344,9 @@ $my_home_url = apply_filters( 'wpml_home_url', get_option( 'home' ) );?>
                             if ($(this).hasClass('opened')) {
 
                                 $('.mobile-menu-overlay').fadeIn(200);
+                            } else {
+                                $('.mobile-menu-overlay').fadeOut(0);
+
                             }
                         })
                     })
