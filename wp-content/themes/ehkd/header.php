@@ -38,6 +38,33 @@
 <body <?php body_class(); ?>>
     <?php wp_body_open(); ?>
 
+    <div>
+
+        <?php
+    
+    if ( defined( 'ICL_LANGUAGE_CODE' ) ) {
+        $lang_code =  ICL_LANGUAGE_CODE;
+    }
+    
+    switch ($lang_code)
+    {
+        case 'zh-hant':
+            $main_menu = wp_get_menu_array('top menu');
+            // $top_menu = wp_get_menu_array('top menu');
+
+            break;
+            case 'cn':
+                $main_menu = wp_get_menu_array('top menu cn');
+
+
+            break;
+                case 'en':
+                    $main_menu = wp_get_menu_array('top menu en');
+
+            break;
+    }
+    ?>
+    </div>
 
     <div id="page" class="site">
         <!-- <a class="skip-link screen-reader-text"
@@ -91,17 +118,17 @@ $my_home_url = apply_filters( 'wpml_home_url', get_option( 'home' ) );?>
                             switch ($lang_code)
                             {
                                 case 'zh-hant':
-                                    $top_menu = wp_get_menu_array('top menu');
+                                    $top_menu = $main_menu;
                                     // $top_menu = wp_get_menu_array('top menu');
 
                                     break;
                                     case 'cn':
-                                        $top_menu = wp_get_menu_array('top menu cn');
+                                        $top_menu =$main_menu;
 
 
                                     break;
                                         case 'en':
-                                            $top_menu = wp_get_menu_array('top menu en');
+                                            $top_menu = $main_menu;
 
                                     break;
                             }
