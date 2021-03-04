@@ -633,8 +633,8 @@ a.menu-products-a.level-1 {
     font-size: 33px;
 }
 
-.mobile-menu-submenu {
-    padding: 0;
+.mobile-menu-submenu a {
+    /* padding: 0; */
 }
 
 .mobile-menu-overlay .mobile-menu a {}
