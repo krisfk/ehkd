@@ -635,6 +635,7 @@ a.menu-products-a.level-1 {
 
 .mobile-menu-submenu {
     padding: 0;
+    display: none;
 }
 
 .mobile-menu-submenu a {
@@ -654,6 +655,10 @@ a.menu-products-a.level-1 {
     background: url(./assets/images/arrow-d.svg) no-repeat;
     background-position: 100% center;
     background-size: 38px;
+}
+
+.mobile-menu-overlay .mobile-menu a.parent.active .mobile-menu-submenu {
+    display: block;
 }
 
 @media only screen and (max-width: 1920px) {
