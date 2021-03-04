@@ -38,7 +38,32 @@
 <body <?php body_class(); ?>>
     <?php wp_body_open(); ?>
 
-    <div>fdsf</div>
+    <div>
+        <?php
+
+if ( defined( 'ICL_LANGUAGE_CODE' ) ) {
+    $lang_code =  ICL_LANGUAGE_CODE;
+}
+
+switch ($lang_code)
+{
+    case 'zh-hant':
+        $top_menu = wp_get_menu_array('top menu');
+
+        break;
+        case 'cn':
+            $top_menu = wp_get_menu_array('top menu cn');
+
+
+        break;
+            case 'en':
+                $top_menu = wp_get_menu_array('top menu en');
+
+        break;
+}
+?>
+
+    </div>
     <div id="page" class="site">
         <!-- <a class="skip-link screen-reader-text"
             href="#content"><?php esc_html_e( 'Skip to content', 'twentytwentyone' ); ?></a> -->
