@@ -28,7 +28,7 @@ get_header();
         <div class="inner-msg-div-outer">
             <div class="inner-msg-div container">
 
-                <h1 class="banner-title mt-5"><?php echo get_the_title();?></h1>
+                <h1 class="banner-title mt-lg-5 mt-md-3"><?php echo get_the_title();?></h1>
 
 
 
