@@ -191,6 +191,20 @@ $(function() {
     $("#customer-dob").datepicker({
         dateFormat: 'yy/mm/dd'
     });
+
+    $('.submit-btn').click(function(e) {
+        e.preventDefault();
+        var loan_type = $('#loan-type').val()
+        var customer_name = $('#customer-name').val();
+        var customer_tel = $('#customer-tel').val();
+        var customer_id = $('#customer-id').val();
+        var customer_id2 = $('#customer-id2').val();
+        var customer_dob = $('#customer-dob').val();
+        var where_from = $('#where-from').val();
+        var agree = $('#agree').is(":checked");
+        alert(agree);
+
+    })
 });
 </script>
 
