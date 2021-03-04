@@ -96,9 +96,65 @@ $img_src=$img_arr[0];
             </div>
 
             <div class="mt-5">
-                <?php echo get_field('content_4');?>
+                <?php //echo get_field('content_4');?>
 
-
+                <div class="row">
+                    <div class="row">
+                        <div class="col-lg-12 "><label for="loan-type">貸款類型: </label><select id="loan-type"
+                                class="form-select" name="loan-type">
+                                <option value="">--請選擇--</option>
+                                <option value="ehkd">易用錢</option>
+                                <option value="property-owner-personal-loan">業主私人貸款</option>
+                                <option value="special-personal-loan-program-for-civil-servant">公務員低息貸款</option>
+                                <option value="mortgage-loan">物業貸款</option>
+                                <option value="digital-currency-mortgage">數字貨幣抵押貸款</option>
+                            </select></div>
+                    </div>
+                    <div class="row mt-5 mx-auto">
+                        <div class="col-lg-6"><label for="customer-name">姓名*: </label><input id="customer-name"
+                                class="form-text" type="text" placeholder="姓名*" /></div>
+                        <div class="col-lg-6 mt-5 mt-sm-5 mt-md-5 mt-lg-0"><label for="customer-tel">聯絡電話*:
+                            </label><input id="customer-tel" class="form-text" type="text" placeholder="聯絡電話*" /></div>
+                    </div>
+                    <div class="row mt-5 mx-auto">
+                        <div class="col-lg-6"><label for="customer-id">身份証號碼*: </label><input id="customer-id"
+                                class="form-text" type="text" placeholder="例如：A123456(7)" /></div>
+                        <div class="col-lg-6 mt-5 mt-sm-5 mt-md-5 mt-lg-0"><label for="customer-dob">出生日期*:
+                            </label><input id="customer-dob" class="form-text hasDatepicker" type="text"
+                                placeholder="年/月/日" /></div>
+                    </div>
+                    <div class="row mt-5 mx-auto">
+                        <div class="col-lg-12 "><label for="where-from">從哪裡知道我們: </label><select id="loan-type"
+                                class="form-select" name="where-from">
+                                <option value="">--請選擇--</option>
+                                <option value="facebook">Facebook</option>
+                                <option value="google">Google</option>
+                                <option value="outdoor-advertising">戶外廣告</option>
+                                <option value="friend-referral">朋友介紹</option>
+                                <option value="other">其他</option>
+                            </select></div>
+                    </div>
+                    <div class="row mt-5 mx-auto">
+                        <div class="col-lg-12">
+                            <div class="terms-txt">
+                                <table>
+                                    <tbody>
+                                        <tr>
+                                            <td class="align-top pe-3"><input class="form-checkbox" type="checkbox"
+                                                    id="agree" /></td>
+                                            <td><label for="agree"
+                                                    id="agree-label">*本人已詳細閱讀及明白下列的免責聲明及私隱政策，並同意授權貴公司向任何第三方人士索取有關本人的資料，包括但不限於向信貸資料服務機構/環聯資訊有限公司索取本人之信貸報告，用作是次及日後審核或覆核用途。*必須填寫</label>
+                                            </td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row mt-5">
+                        <div class="col text-center"><a class="submit-btn" href="#">提交</a></div>
+                    </div>
+                </div>
 
             </div>
 
