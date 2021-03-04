@@ -16239,7 +16239,7 @@ button.addmore img {
 }
 
 #calculator .main .mainImgWrapper .input .calc_label {
-    font-size: 1.71429em;
+    font-size: 31px;
     color: #fff;
 }
 
@@ -16350,12 +16350,12 @@ button.addmore img {
 
 @media (min-width: 992px) {
     #calculator .main .mainImgWrapper .input .calc_value .calc_loanAmount~.calc_unit {
-        left: -120px;
+        left: -97px;
     }
 }
 
 #calculator .main .mainImgWrapper .input .calc_value .calc_unit {
-    font-size: 1.42857em;
+    font-size: 25px;
     padding: 0 3px;
 }
 
