@@ -66,7 +66,7 @@
     ?>
 
 
-        <ul class="top-menu">
+        <ul class="mobile-menu">
 
             <?php
 
