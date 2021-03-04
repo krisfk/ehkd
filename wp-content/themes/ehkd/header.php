@@ -332,6 +332,9 @@ $my_home_url = apply_filters( 'wpml_home_url', get_option( 'home' ) );?>
 
                             if ($(this).hasClass('active')) {
                                 $('.mobile-menu-submenu').fadeIn(0);
+                            } else {
+                                $('.mobile-menu-submenu').fadeOut(0);
+
                             }
 
                         })
