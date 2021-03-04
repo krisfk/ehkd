@@ -121,7 +121,7 @@ $img_src=$img_arr[0];
                         </div>
                     </div>
                     <div class="row mt-5 mx-auto">
-                        <div class="col-lg-6"><label for="customer-id">身份証號碼*: 例如：[A123456(7)] </label><input
+                        <div class="col-lg-6"><label for="customer-id">身份証號碼*: e.g.A123456(7) </label><input
                                 id="customer-id" class="form-text w-50" type="text" /> <span class="p-2">(</span> <input
                                 type="text" class="form-text " id="customer-id2" maxlength="1" /><span
                                 class="p-2">)</span>
