@@ -16425,6 +16425,7 @@ button.addmore img {
 
 #calculator .main .mainImgWrapper .output .custom_margin {
     margin: 30px 0;
+    padding: 0 20px;
 }
 
 @media (min-width: 992px) {
