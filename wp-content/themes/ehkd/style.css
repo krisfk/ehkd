@@ -668,6 +668,10 @@ a.menu-products-a.level-1 {
     font-size: 14px;
 }
 
+#customer-id2 {
+    width: 10px;
+}
+
 @media only screen and (max-width: 1920px) {
     .inner-msg-div-inner-div {
         width: 700px;
