@@ -154,8 +154,12 @@ $img_src=$img_arr[0];
                                                     id="agree" /></td>
                                             <td><label for="agree"
                                                     id="agree-label">*本人已詳細閱讀及明白下列的免責聲明及私隱政策，並同意授權貴公司向任何第三方人士索取有關本人的資料，包括但不限於向信貸資料服務機構/環聯資訊有限公司索取本人之信貸報告，用作是次及日後審核或覆核用途。*必須填寫</label>
+
+                                                <div class="agree-error form-error text-danger mt-2">必須同意免責聲明及私隱政策</div>
+
                                             </td>
                                         </tr>
+
                                     </tbody>
                                 </table>
                             </div>
@@ -226,6 +230,10 @@ $(function() {
         var input_id = customer_id + '(' + customer_id2 + ')';
         if (!IsHKID(input_id)) {
             $('.hkid-error').fadeIn(0);
+        }
+
+        if (!agree) {
+            $('.agree-error').fadeIn(0);
         }
 
 
