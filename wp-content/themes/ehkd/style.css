@@ -657,10 +657,6 @@ a.menu-products-a.level-1 {
     background-size: 38px;
 }
 
-.mobile-menu-overlay .mobile-menu a.parent.active .mobile-menu-submenu {
-    display: block;
-}
-
 @media only screen and (max-width: 1920px) {
     .inner-msg-div-inner-div {
         width: 700px;
