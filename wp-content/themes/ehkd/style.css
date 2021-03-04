@@ -576,6 +576,11 @@ a.menu-products-a.level-1 {
 }
 
 @media only screen and (max-width: 991px) {
+    .big-light-blue {
+        font-size: 24px;
+        color: #00a7e1;
+        padding: 0 10px;
+    }
     .big-point-ul {
         padding: 0 0 0 30px;
     }
