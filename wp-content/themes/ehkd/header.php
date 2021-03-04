@@ -38,7 +38,11 @@
 <body <?php body_class(); ?>>
     <?php wp_body_open(); ?>
 
-    <div class="mobile-menu-overlay">
+
+
+    <img class="d-none" src="<?php echo get_template_directory_uri();?>/assets/images/arrow-d.svg" alt="">
+
+    <div class=" mobile-menu-overlay">
 
         <?php
     
