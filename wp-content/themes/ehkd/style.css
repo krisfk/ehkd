@@ -553,7 +553,10 @@ a.menu-products-a.level-1 {
         display: none;
     }
     .ehkd-logo {
-        height: 30px;
+        height: 50px;
+    }
+    .top-div {
+        height: 100px;
     }
     .inner-msg-div-inner-div {
         width: 600px;
