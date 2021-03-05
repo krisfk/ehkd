@@ -695,8 +695,25 @@ add_action( 'rest_api_init', function () {
 
 function testing($request)
 {
-	$param = $request->get_param( 'abc' );
-	echo $param;
+
+	// insert the post and set the category
+$post_id = wp_insert_post(array (
+    'post_type' => 'application',
+    'post_title' => 'test title',
+    'post_status' => 'publish',
+    'comment_status' => 'closed',   // if you prefer
+    'ping_status' => 'closed',      // if you prefer
+));
+
+// if ($post_id) {
+//     // insert post meta
+//     add_post_meta($post_id, '_your_custom_1', $custom1);
+//     add_post_meta($post_id, '_your_custom_2', $custom2);
+//     add_post_meta($post_id, '_your_custom_3', $custom3);
+// }
+
+	// $param = $request->get_param( 'abc' );
+	// echo $param;
 	// http://104.248.237.5/wp-json/api/test
 	// echo json_encode(array("status"=>"1", "msg"=>"email sent"));
 }
