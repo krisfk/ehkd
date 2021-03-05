@@ -162,7 +162,7 @@ $(function() {
         }
 
         if (!customer_dob) {
-            $('.dob-error').next('.form-error').fadeIn(0);
+            $('.dob-error').fadeIn(0);
             valid = false;
 
         }
