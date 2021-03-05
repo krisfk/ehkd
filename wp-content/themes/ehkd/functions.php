@@ -748,6 +748,9 @@ if ($post_id) {
 
 	add_post_meta($post_id, 'customer_ip', $clientIP);
 
+	echo json_encode(array("status"=>"1", "msg"=>"Record was added"));
+
+	
 }
 
 }
