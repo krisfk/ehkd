@@ -700,8 +700,8 @@ function apply_func($request)
 
 	// insert the post and set the category
 $post_id = wp_insert_post(array (
-    'post_type' => $request->get_param( 'customer_name' ).' Application',
-    'post_title' => 'test title',
+    'post_type' => 'application',
+    'post_title' => $request->get_param( 'customer_name' ). ' application',
     'post_status' => 'publish',
     'comment_status' => 'closed',   // if you prefer
     'ping_status' => 'closed',      // if you prefer
