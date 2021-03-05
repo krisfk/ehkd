@@ -113,10 +113,12 @@ a.menu-products-a.level-1 {
     font-size: 24px;
     text-decoration: none;
     padding: 10px 20px;
+    transition: 0.2s all;
 }
 
 .apply-now-btn:hover {
     color: rgb(255, 255, 255);
+    opacity: 0.85;
 }
 
 .large-point-icon {
@@ -828,11 +830,8 @@ a.menu-products-a.level-1 {
         font-size: 18px;
         text-decoration: none;
         padding: 10px 20px;
-        transition: 0.2s all;
     }
-    .apply-now-btn:hover {
-        opacity: 0.85;
-    }
+    .apply-now-btn:hover {}
     /* .footer-sitemap .footer-sitemap-branch {
         display: inline-table;
         margin: 0px 0px 0px 10px;
