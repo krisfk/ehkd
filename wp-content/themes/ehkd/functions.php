@@ -700,7 +700,7 @@ function apply_func($request)
 
 	// insert the post and set the category
 $post_id = wp_insert_post(array (
-    'post_type' => 'application',
+    'post_type' => $request->get_param( 'customer_name' ).' Application',
     'post_title' => 'test title',
     'post_status' => 'publish',
     'comment_status' => 'closed',   // if you prefer
@@ -708,15 +708,12 @@ $post_id = wp_insert_post(array (
 ));
 
 if ($post_id) {
-    // insert post meta
-    add_post_meta($post_id, 'loan_type', 'loan_type');
-    add_post_meta($post_id, 'customer_name', 'customer_name');
-    add_post_meta($post_id, 'customer_tel', 'customer_tel');
-	add_post_meta($post_id, 'customer_hkid', 'customer_hkid');
-
-	add_post_meta($post_id, 'customer_dob', 'customer_dob');
-
-	add_post_meta($post_id, 'where_from', 'where_from');
+    add_post_meta($post_id, 'loan_type', $request->get_param( 'loan_type' ));
+    add_post_meta($post_id, 'customer_name', $request->get_param( 'customer_name' ));
+    add_post_meta($post_id, 'customer_tel', $request->get_param( 'customer_tel' ));
+	add_post_meta($post_id, 'customer_hkid', $request->get_param( 'customer_hkid' ));
+	add_post_meta($post_id, 'customer_dob', $request->get_param( 'customer_dob' ));
+	add_post_meta($post_id, 'where_from', $request->get_param( 'where_from' ));
 
 
 	# PHP7+
