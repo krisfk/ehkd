@@ -91,11 +91,11 @@ $img_src=$img_arr[0];
             <div class="apply-form-title text-center"> <?php echo get_field('content_2');?>
             </div>
 
-            <div class="content-txt white  text-center mt-5">
+            <div class="content-txt white result-txt-div  text-center mt-5">
                 <?php echo get_field('content_3');?>
             </div>
 
-            <div class="mt-5">
+            <div class="mt-5 form-div">
                 <?php //echo get_field('content_4');?>
 
                 <div class="row">
@@ -269,10 +269,14 @@ $(function() {
                 dataType: "json",
             }).done(function(response) {
 
-                console.log(8880);
+                if (response.status) {
+
+                    $('.form-div').fadeOut(0);
+                    $('.result-txt-div').html('您的申請已發送，我們會盡快再聯絡您，謝謝。');
+
+                }
 
             }).fail(function(Response) {
-                console.log(Response);
                 //do something when any error occurs.
             });
 
