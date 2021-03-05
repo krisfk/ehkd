@@ -368,10 +368,12 @@ a.menu-products-a.level-1 {
     padding: 5px 20px;
     margin: 10px 0 0 0;
     display: inline-block;
+    transition: 0.2s all;
 }
 
 .light-blue-gradient-div .apply-btn:hover {
     color: #fff;
+    opacity: 0.85;
 }
 
 .light-blue-inner-content .txt {
