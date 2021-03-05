@@ -757,3 +757,4 @@ if ($post_id) {
 
 
 remove_filter( 'the_content', 'shortcode_unautop' );
+remove_filter( 'meta_content', 'shortcode_unautop' );
