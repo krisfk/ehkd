@@ -174,10 +174,12 @@ a.menu-products-a.level-1 {
     border-radius: 6px;
     font-size: 22px;
     text-decoration: none;
+    transition: 0.2s all;
 }
 
 .footer-apply-btn:hover {
     color: #fff;
+    opacity: 0.85;
 }
 
 .footer-sitemap {
