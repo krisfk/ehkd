@@ -34,11 +34,19 @@ $img_src=$img_arr[0];
 
                 <div class="inner-msg-div-inner-div">
 
-                    <img class="home-banner-innner-img"
-                        src="<?php echo get_template_directory_uri();?>/assets/images/home-banner-innner-img.png"
-                        alt="">
 
-                    <div class="mt-5 text-center"> <a href="./apply" class="apply-now-btn">立即申請</a>
+                    <?php
+$img_id = get_field('ehkd_logo_in_banner');
+$img_arr = wp_get_attachment_image_src($img_id,'full');
+$img_src2=$img_arr[0];
+?>
+
+                    <img class="home-banner-innner-img" src="<?php echo $img_src2;?>" alt="">
+
+
+
+                    <div class="mt-5 text-center"> <a href="./apply"
+                            class="apply-now-btn"><?php echo get_field('apply-btn');?></a>
                     </div>
                 </div>
             </div>
