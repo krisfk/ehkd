@@ -685,3 +685,15 @@ function add_slug_body_class( $classes ) {
 	
 	}
 	
+
+add_action( 'rest_api_init', function () {
+  register_rest_route( 'api', '/test', array(
+    'methods' => 'GET',
+    'callback' => 'testing',
+  ) );
+} );
+
+function testing()
+{
+	echo json_encode(array("status"=>"1", "msg"=>"email sent"));
+}
