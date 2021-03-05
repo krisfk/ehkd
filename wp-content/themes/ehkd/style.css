@@ -479,6 +479,11 @@ a.menu-products-a.level-1 {
     font-size: 18px;
     text-decoration: none;
     padding: 10px 40px;
+    transition: 0.2s all;
+}
+
+#apply-form .submit-btn:hover {
+    opacity: 0.85;
 }
 
 .ui-widget {
