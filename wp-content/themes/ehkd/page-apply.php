@@ -134,7 +134,7 @@ $img_src=$img_arr[0];
                         </div>
                     </div>
                     <div class="row mt-5 mx-auto">
-                        <div class="col-lg-12 "><label for="where-from">從哪裡知道我們: </label><select id="loan-type"
+                        <div class="col-lg-12 "><label for="where-from">從哪裡知道我們: </label><select id="where-from"
                                 class="form-select" name="where-from">
                                 <option value="">--請選擇--</option>
                                 <option value="Facebook">Facebook</option>
