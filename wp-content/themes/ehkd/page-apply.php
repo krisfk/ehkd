@@ -270,6 +270,10 @@ $(function() {
                     console.log(111);
                     //
                 },
+                fail(function(Response) {
+                    console.log(9990);
+                    //do something when any error occurs.
+                });
                 // dataType: dataType
             });
 
