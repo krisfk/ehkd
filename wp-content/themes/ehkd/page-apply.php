@@ -131,7 +131,9 @@ $img_src=$img_arr[0];
 $(function() {
 
     var hash_idx = window.location.hash.substring(1);
-    alert(hash_idx)
+
+    $('select#loan-type option').eq(hash_idx).attr('selected', 'selected')
+
 
 
     $("#customer-dob").datepicker({
