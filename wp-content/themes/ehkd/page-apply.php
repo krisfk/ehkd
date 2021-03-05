@@ -265,7 +265,8 @@ $(function() {
                     customer_dob: customer_dob,
                     where_from: where_from,
                     agree: agree
-                }
+                },
+                dataType: "json",
             }).done(function(response) {
 
                 console.log(8880);
