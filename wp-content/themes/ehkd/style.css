@@ -680,6 +680,14 @@ a.menu-products-a.level-1 {
     text-decoration: underline !important;
 }
 
+.bottom-img-link {
+    transition: 0.2s all;
+}
+
+.bottom-img-link:hover {
+    opacity: 0.85;
+}
+
 @media only screen and (max-width: 1920px) {
     .inner-msg-div-inner-div {
         width: 700px;
