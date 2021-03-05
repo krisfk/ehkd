@@ -693,7 +693,10 @@ add_action( 'rest_api_init', function () {
   ) );
 } );
 
-function testing()
+function testing($request)
 {
-	echo json_encode(array("status"=>"1", "msg"=>"email sent"));
+	$param = $request->get_param( 'abc' );
+	echo $param;
+	// http://104.248.237.5/wp-json/api/test
+	// echo json_encode(array("status"=>"1", "msg"=>"email sent"));
 }
