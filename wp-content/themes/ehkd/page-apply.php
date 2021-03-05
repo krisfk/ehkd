@@ -202,7 +202,7 @@ $(function() {
                 if (response.status) {
 
                     $('.form-div').fadeOut(0);
-                    $('.result-txt-div').html('您的申請已發送，我們會盡快再聯絡您，謝謝。');
+                    $('.result-txt-div').html('<?php echo get_field('applied_txt');?>');
 
                 }
 
