@@ -707,9 +707,17 @@ $post_id = wp_insert_post(array (
 
 if ($post_id) {
     // insert post meta
-    add_post_meta($post_id, 'loan_type', 'abc');
-    // add_post_meta($post_id, '_your_custom_2', $custom2);
-    // add_post_meta($post_id, '_your_custom_3', $custom3);
+    add_post_meta($post_id, 'loan_type', 'loan_type');
+    add_post_meta($post_id, 'customer_name', 'customer_name');
+    add_post_meta($post_id, 'customer_tel', 'customer_tel');
+	add_post_meta($post_id, 'customer_hkid', 'customer_hkid');
+
+	add_post_meta($post_id, 'customer_dob', 'customer_dob');
+
+	add_post_meta($post_id, 'where_from', 'where_from');
+
+	add_post_meta($post_id, 'customer_ip', 'customer_ip');
+
 }
 
 	// $param = $request->get_param( 'abc' );
