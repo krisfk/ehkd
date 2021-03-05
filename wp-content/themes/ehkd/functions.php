@@ -705,12 +705,12 @@ $post_id = wp_insert_post(array (
     'ping_status' => 'closed',      // if you prefer
 ));
 
-// if ($post_id) {
-//     // insert post meta
-//     add_post_meta($post_id, '_your_custom_1', $custom1);
-//     add_post_meta($post_id, '_your_custom_2', $custom2);
-//     add_post_meta($post_id, '_your_custom_3', $custom3);
-// }
+if ($post_id) {
+    // insert post meta
+    add_post_meta($post_id, 'loan_type', 'abc');
+    // add_post_meta($post_id, '_your_custom_2', $custom2);
+    // add_post_meta($post_id, '_your_custom_3', $custom3);
+}
 
 	// $param = $request->get_param( 'abc' );
 	// echo $param;
