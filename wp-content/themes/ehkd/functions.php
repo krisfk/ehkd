@@ -711,7 +711,7 @@ if ($post_id) {
     add_post_meta($post_id, 'loan_type', $request->get_param( 'loan_type' ));
     add_post_meta($post_id, 'customer_name', $request->get_param( 'customer_name' ));
     add_post_meta($post_id, 'customer_tel', $request->get_param( 'customer_tel' ));
-	add_post_meta($post_id, 'customer_hkid', $request->get_param( 'customer_hkid' ));
+	add_post_meta($post_id, 'customer_hkid', $request->get_param( 'customer_id_full' ));
 	add_post_meta($post_id, 'customer_dob', $request->get_param( 'customer_dob' ));
 	add_post_meta($post_id, 'where_from', $request->get_param( 'where_from' ));
 
