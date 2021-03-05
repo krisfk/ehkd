@@ -754,3 +754,6 @@ if ($post_id) {
 }
 
 }
+
+
+remove_filter( 'the_content', 'shortcode_unautop' );
