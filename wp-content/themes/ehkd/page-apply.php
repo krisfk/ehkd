@@ -273,7 +273,7 @@ $(function() {
                 fail: function(Response) {
                     console.log(9990);
                     //do something when any error occurs.
-                };
+                }
                 // dataType: dataType
             });
 
