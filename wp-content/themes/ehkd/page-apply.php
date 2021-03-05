@@ -214,6 +214,9 @@ $(function() {
         var where_from = $('#where-from').val();
         var agree = $('#agree').is(":checked");
 
+        var customer_id_full = customer_id.toUpperCase() + '(' + customer_id2.toUpperCase() + ')';
+
+
         var valid = true;
 
         $('.form-error').fadeOut(0);
@@ -249,6 +252,8 @@ $(function() {
 
 
         if (valid) {
+
+            console.log(customer_id_full);
 
         }
 

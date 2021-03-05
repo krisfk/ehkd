@@ -747,14 +747,8 @@ if ($post_id) {
 	$clientIP = $_SERVER['REMOTE_ADDR'];
 	}
 
-	// echo "My client IP: ", $clientIP;
-
 	add_post_meta($post_id, 'customer_ip', $clientIP);
 
 }
 
-	// $param = $request->get_param( 'abc' );
-	// echo $param;
-	// http://104.248.237.5/wp-json/api/test
-	// echo json_encode(array("status"=>"1", "msg"=>"email sent"));
 }
