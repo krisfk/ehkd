@@ -253,7 +253,39 @@ $(function() {
 
         if (valid) {
 
-            console.log(customer_id_full);
+
+            $.ajax({
+                type: "POST",
+                url: '<?php echo get_site_url();?>/wp-json/api/apply',
+                data: {
+                    loan_type: loan_type,
+                    customer_name: customer_name,
+                    customer_tel: customer_tel,
+                    customer_id_full: customer_id_full,
+                    customer_dob: customer_dob,
+                    where_from: where_from,
+                    agree: agree
+                },
+                success: function(response) {
+                    console.log(response);
+                    //
+                },
+                // dataType: dataType
+            });
+
+
+            // var loan_type = $('#loan-type').val()
+            // var customer_name = $('#customer-name').val();
+            // var customer_tel = $('#customer-tel').val();
+            // var customer_id = $('#customer-id').val();
+            // var customer_id2 = $('#customer-id2').val();
+            // var customer_dob = $('#customer-dob').val();
+            // var where_from = $('#where-from').val();
+            // var agree = $('#agree').is(":checked");
+
+            // var customer_id_full = customer_id.toUpperCase() + '(' + customer_id2.toUpperCase() + ')';
+
+            // console.log(customer_id_full);
 
         }
 

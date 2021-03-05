@@ -687,13 +687,15 @@ function add_slug_body_class( $classes ) {
 	
 
 add_action( 'rest_api_init', function () {
-  register_rest_route( 'api', '/test', array(
+  register_rest_route( 'api', '/apply', array(
     'methods' => 'GET',
-    'callback' => 'testing',
+    'callback' => 'apply_func',
   ) );
 } );
 
-function testing($request)
+
+
+function apply_func($request)
 {
 
 	// insert the post and set the category
