@@ -125,7 +125,7 @@ $img_src=$img_arr[0];
             最近3個月的住址證明
         </div> -->
 
-        <a class="apply-btn" href="../apply"> <?php echo get_field('apply_btn');?>
+        <a class="apply-btn" href="../apply#1"> <?php echo get_field('apply_btn');?>
         </a>
 
 
