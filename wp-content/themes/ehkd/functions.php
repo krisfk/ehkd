@@ -688,7 +688,7 @@ function add_slug_body_class( $classes ) {
 
 add_action( 'rest_api_init', function () {
   register_rest_route( 'api', '/apply', array(
-    'methods' => 'GET',
+    'methods' => 'POST',
     'callback' => 'apply_func',
   ) );
 } );
