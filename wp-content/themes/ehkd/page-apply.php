@@ -129,6 +129,10 @@ $img_src=$img_arr[0];
 
 <script>
 $(function() {
+
+    var hash = window.location.hash;
+    alert(hash);
+
     $("#customer-dob").datepicker({
         dateFormat: 'yy/mm/dd'
     });
