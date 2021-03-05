@@ -267,7 +267,7 @@ $(function() {
                     agree: agree
                 },
                 success: function(response) {
-                    console.log(response);
+                    console.log(111);
                     //
                 },
                 // dataType: dataType
