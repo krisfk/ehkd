@@ -151,18 +151,18 @@ $(function() {
 
         $('.form-error').fadeOut(0);
         if (!customer_name) {
-            $('#customer-name').next('.form-error').fadeIn(0);
+            $('.name-error').fadeIn(0);
             valid = false;
         }
 
         if (!(/^[0-9]{8}$/.test(customer_tel))) {
-            $('#customer-tel').next('.form-error').fadeIn(0);
+            $('.tel-error').fadeIn(0);
             valid = false;
 
         }
 
         if (!customer_dob) {
-            $('#customer-dob').next('.form-error').fadeIn(0);
+            $('.dob-error').next('.form-error').fadeIn(0);
             valid = false;
 
         }
