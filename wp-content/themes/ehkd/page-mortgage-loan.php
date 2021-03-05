@@ -131,7 +131,7 @@ $img_src=$img_arr[0];
         <?php echo get_field('apply_requirement');?>
 
         <div class="text-center mt-3">
-            <a class="apply-btn" href="#"> <?php echo get_field('apply_btn');?>
+            <a class="apply-btn" href="../apply"> <?php echo get_field('apply_btn');?>
             </a>
         </div>
 
