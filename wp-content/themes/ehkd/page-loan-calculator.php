@@ -174,8 +174,7 @@ $img_src=$img_arr[0];
                                 <div class="row">
                                     <div class="col-md-12 col-xs-12 applyWrapper">
 
-                                        <a class="applyNow"
-                                            href="https://www.uaf.com.hk/tc/loans/imoney-loan/apply"><?php echo get_field('cal_txt_9');?></a>
+                                        <a class="applyNow" href="./apply"><?php echo get_field('cal_txt_9');?></a>
                                     </div>
                                 </div>
                             </div>
