@@ -672,6 +672,10 @@ a.menu-products-a.level-1 {
     width: 30px;
 }
 
+.footer-sitemap ul li a:hover {
+    text-decoration: underline;
+}
+
 @media only screen and (max-width: 1920px) {
     .inner-msg-div-inner-div {
         width: 700px;
