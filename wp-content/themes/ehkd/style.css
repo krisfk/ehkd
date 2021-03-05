@@ -67,6 +67,11 @@ a.menu-products-a.level-1 {
 .lang-div a {
     color: rgb(255, 255, 255) !important;
     font-size: 15px !important;
+    transition: 0.2s all;
+}
+
+.lang-div a:hover {
+    opacity: 0.85;
 }
 
 .site {
