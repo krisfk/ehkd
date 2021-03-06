@@ -132,10 +132,14 @@ $(function() {
 
     var hash_idx = window.location.hash.substring(1);
 
-    $('select#loan-type option').eq(hash_idx).attr('selected', 'selected');
+    // $('select#loan-type option').eq(hash_idx).attr('selected', 'selected');
 
-    // var default_value = $('select#loan-type option').eq(hash_idx).html();
-    // $('select#loan-type').val(default_value);
+    if (hash_idx) {
+
+        var default_value = $('select#loan-type option').eq(hash_idx).html();
+        $('select#loan-type').val(default_value);
+
+    }
 
 
 
