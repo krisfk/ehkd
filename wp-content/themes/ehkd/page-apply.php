@@ -131,8 +131,13 @@ $img_src=$img_arr[0];
 $(function() {
 
     var hash_idx = window.location.hash.substring(1);
-    var default_value = $('select#loan-type option').eq(hash_idx).html();
-    $('select#loan-type').val(default_value);
+
+    $('select#loan-type option').eq(hash_idx).attr('selected', 'selected');
+
+    // var default_value = $('select#loan-type option').eq(hash_idx).html();
+    // $('select#loan-type').val(default_value);
+
+
 
 
     $("#customer-dob").datepicker({
