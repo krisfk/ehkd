@@ -700,7 +700,13 @@ a.menu-products-a.level-1 {
     opacity: 0.85;
 }
 
-.wts-icon-a {}
+.wts-icon-a {
+    background: url(./assets/images/wts-icon2.png) no-repeat;
+    display: block;
+    width: 10px;
+    height: 10px;
+    position: fixed;
+}
 
 @media only screen and (max-width: 1920px) {
     .inner-msg-div-inner-div {
