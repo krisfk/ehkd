@@ -99,7 +99,20 @@
                     <div class="d-inline-block">
 
                         <span class="footer-phone footer-phone-2">
-                            <?php echo get_field('whatsapp_number',$pid);?></span>
+
+                            <?php  
+                            $args = array('post_type'=> 'config');              
+        $the_query = new WP_Query( $args );
+        if($the_query->have_posts() ) {
+               $the_query->the_post(); 
+               $whatsapp =  get_field('whatsapp');
+                   wp_reset_postdata(); 
+        }
+        ?>
+                            <a target="_blank"
+                                href="https://api.whatsapp.com/send?phone=852<?php echo $whatsapp;?>"><?php echo get_field('whatsapp_number',$pid);?></a>
+
+                        </span>
                         <div class="footer-under-phone-txt"><?php echo get_field('content_4',$pid);?></div>
 
                     </div>
