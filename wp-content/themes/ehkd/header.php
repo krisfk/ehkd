@@ -39,7 +39,6 @@
     <?php wp_body_open(); ?>
 
     <?php
-
 $args = array('post_type'=> 'config');              
 $the_query = new WP_Query( $args );
 if($the_query->have_posts() ) {
@@ -48,8 +47,6 @@ if($the_query->have_posts() ) {
         $no1 = substr($whatsapp, 0, 4);
         $no2 = substr($whatsapp, 4, 4);
         echo $no1.' '.$no2;
-// multibyte strings
-
     wp_reset_postdata(); 
 }
 ?>

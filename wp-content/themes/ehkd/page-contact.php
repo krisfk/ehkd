@@ -48,7 +48,7 @@ $img_src=$img_arr[0];
         <img src="<?php echo $img_src;?>" alt="">
     </div>
 
-    <?php echo get_the_content();?>
+    <?php echo get_field('contact_content');?>
 
 
 
