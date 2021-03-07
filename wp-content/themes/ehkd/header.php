@@ -372,7 +372,8 @@ $my_home_url = apply_filters( 'wpml_home_url', get_option( 'home' ) );?>
         $the_query = new WP_Query( $args );
         if($the_query->have_posts() ) {
                $the_query->the_post(); 
-        //        $whatsapp =  get_field('whatsapp');
+               $whatsapp =  get_field('whatsapp');
+                   wp_reset_postdata(); 
         }
         ?>
                     <!-- <a class="wts-icon-a" href="https://api.whatsapp.com/send?phone=852<?php echo $whatsapp;?>"></a> -->
