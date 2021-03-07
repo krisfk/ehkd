@@ -38,7 +38,17 @@
 <body <?php body_class(); ?>>
     <?php wp_body_open(); ?>
 
+    <?php
 
+$args = array('post_type'=> 'config');              
+$the_query = new WP_Query( $args );
+if($the_query->have_posts() ) {
+       $the_query->the_post(); 
+       echo get_field('whatsapp');
+       // content goes here
+    wp_reset_postdata(); 
+}
+?>
 
     <img class="d-none" src="<?php echo get_template_directory_uri();?>/assets/images/arrow-d.svg" alt="">
 
