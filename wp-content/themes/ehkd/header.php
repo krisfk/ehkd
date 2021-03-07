@@ -37,7 +37,7 @@
 
 <body <?php body_class(); ?>>
     <?php wp_body_open(); ?>
-
+    fffff
     <?php
 $args = array('post_type'=> 'config');              
 $the_query = new WP_Query( $args );
