@@ -98,7 +98,8 @@
                     </div>
                     <div class="d-inline-block">
 
-                        <span class="footer-phone footer-phone-2">
+                        <a target="_blank" href="https://api.whatsapp.com/send?phone=852<?php echo $whatsapp;?>"
+                            class="footer-phone footer-phone-2">
 
                             <?php  
                             $args = array('post_type'=> 'config');              
@@ -108,11 +109,9 @@
                $whatsapp =  get_field('whatsapp');
                    wp_reset_postdata(); 
         }
-        ?>
-                            <a target="_blank"
-                                href="https://api.whatsapp.com/send?phone=852<?php echo $whatsapp;?>"><?php echo get_field('whatsapp_number',$pid);?></a>
+        ?><?php echo get_field('whatsapp_number',$pid);?>
 
-                        </span>
+                        </a>
                         <div class="footer-under-phone-txt"><?php echo get_field('content_4',$pid);?></div>
 
                     </div>
