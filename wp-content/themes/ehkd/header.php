@@ -46,7 +46,7 @@ if($the_query->have_posts() ) {
        $the_query->the_post(); 
        $whatsapp =  get_field('whatsapp');
         $no1 = substr($whatsapp, 0, 4);
-        $no2 = substr($whatsapp, 5, 5);
+        $no2 = substr($whatsapp, 4, 4);
         echo $no1.' '.$no2;
 // multibyte strings
 
