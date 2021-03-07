@@ -44,8 +44,12 @@ $args = array('post_type'=> 'config');
 $the_query = new WP_Query( $args );
 if($the_query->have_posts() ) {
        $the_query->the_post(); 
-       echo get_field('whatsapp');
-       // content goes here
+       $whatsapp =  get_field('whatsapp');
+        $no1 = substr($whatsapp, 0, 4);
+        $no2 = substr($whatsapp, 5, 4);
+        echo $no1.' '.$no2;
+// multibyte strings
+
     wp_reset_postdata(); 
 }
 ?>
