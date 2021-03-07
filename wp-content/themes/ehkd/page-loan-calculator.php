@@ -90,7 +90,7 @@ $img_src=$img_arr[0];
                         </div>
                     </div>
                     <div class="row">
-                        <div class="col-md-6 col-xs-5 calc_label"><?php echo get_field('cal_txt_1');?></div>
+                        <div class="col-md-6 col-xs-5 calc_label"><?php echo get_field('cal_txt_2');?></div>
                         <div class="col-md-6 col-xs-7 calc_value_wrapper">
                             <div class="calc_value">
                                 <input class="calc_monthlyInterestRate" type="text" value="0" placeholder="0"
