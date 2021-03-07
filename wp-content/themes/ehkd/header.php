@@ -376,4 +376,4 @@ $my_home_url = apply_filters( 'wpml_home_url', get_option( 'home' ) );?>
                    wp_reset_postdata(); 
         }
         ?>
-                    <!-- <a class="wts-icon-a" href="https://api.whatsapp.com/send?phone=852<?php echo $whatsapp;?>"></a> -->
+                    <a class="wts-icon-a" href="https://api.whatsapp.com/send?phone=852<?php echo $whatsapp;?>"></a>
