@@ -241,6 +241,10 @@ a.menu-products-a.level-1 {
     background-position: 0 center;
 }
 
+.footer-phone-2 a {
+    color: #000;
+}
+
 .phone-icon {
     height: 40px;
 }
