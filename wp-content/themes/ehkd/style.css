@@ -240,6 +240,7 @@ a.menu-products-a.level-1 {
     background-size: auto 70%;
     background-position: 0 center;
     color: #000;
+    text-decoration: none;
 }
 
 .footer-phone-2:hover {
