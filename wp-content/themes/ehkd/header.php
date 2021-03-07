@@ -368,11 +368,11 @@ $my_home_url = apply_filters( 'wpml_home_url', get_option( 'home' ) );?>
                     </script>
 
                     <?php
-        // $args = array('post_type'=> 'config');              
-        // $the_query = new WP_Query( $args );
-        // if($the_query->have_posts() ) {
-        //        $the_query->the_post(); 
-        //        $whatsapp =  get_field('whatsapp');
-        // }
+        $args = array('post_type'=> 'config');              
+        $the_query = new WP_Query( $args );
+        if($the_query->have_posts() ) {
+               $the_query->the_post(); 
+               $whatsapp =  get_field('whatsapp');
+        }
         ?>
                     <!-- <a class="wts-icon-a" href="https://api.whatsapp.com/send?phone=852<?php echo $whatsapp;?>"></a> -->
