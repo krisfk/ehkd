@@ -37,18 +37,18 @@
 
 <body <?php body_class(); ?>>
     <?php wp_body_open(); ?>
-    fffff
+
     <?php
-$args = array('post_type'=> 'config');              
-$the_query = new WP_Query( $args );
-if($the_query->have_posts() ) {
-       $the_query->the_post(); 
-       $whatsapp =  get_field('whatsapp');
-        $no1 = substr($whatsapp, 0, 4);
-        $no2 = substr($whatsapp, 4, 4);
-        echo $no1.' '.$no2;
-    wp_reset_postdata(); 
-}
+// $args = array('post_type'=> 'config');              
+// $the_query = new WP_Query( $args );
+// if($the_query->have_posts() ) {
+//        $the_query->the_post(); 
+//        $whatsapp =  get_field('whatsapp');
+//         $no1 = substr($whatsapp, 0, 4);
+//         $no2 = substr($whatsapp, 4, 4);
+//         echo $no1.' '.$no2;
+//     wp_reset_postdata(); 
+// }
 ?>
 
     <img class="d-none" src="<?php echo get_template_directory_uri();?>/assets/images/arrow-d.svg" alt="">
