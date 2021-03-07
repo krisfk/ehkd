@@ -249,33 +249,35 @@ function IsHKID(str) {
     var matchArray = str.match(hkidPat);
 
     // not match, return false
-    if (matchArray == null)
+    if (matchArray == null) {
         return false;
-
-    // the character part, numeric part and check digit part
-    var charPart = matchArray[1];
-    var numPart = matchArray[2];
-    var checkDigit = matchArray[3];
-
-    // calculate the checksum for character part
-    var checkSum = 0;
-    if (charPart.length == 2) {
-        checkSum += 9 * (10 + strValidChars.indexOf(charPart.charAt(0)));
-        checkSum += 8 * (10 + strValidChars.indexOf(charPart.charAt(1)));
     } else {
-        checkSum += 9 * 36;
-        checkSum += 8 * (10 + strValidChars.indexOf(charPart));
+        return true;
     }
+    // // the character part, numeric part and check digit part
+    // var charPart = matchArray[1];
+    // var numPart = matchArray[2];
+    // var checkDigit = matchArray[3];
 
-    // calculate the checksum for numeric part
-    for (var i = 0, j = 7; i < numPart.length; i++, j--)
-        checkSum += j * numPart.charAt(i);
+    // // calculate the checksum for character part
+    // var checkSum = 0;
+    // if (charPart.length == 2) {
+    //     checkSum += 9 * (10 + strValidChars.indexOf(charPart.charAt(0)));
+    //     checkSum += 8 * (10 + strValidChars.indexOf(charPart.charAt(1)));
+    // } else {
+    //     checkSum += 9 * 36;
+    //     checkSum += 8 * (10 + strValidChars.indexOf(charPart));
+    // }
 
-    // verify the check digit
-    var remaining = checkSum % 11;
-    var verify = remaining == 0 ? 0 : 11 - remaining;
+    // // calculate the checksum for numeric part
+    // for (var i = 0, j = 7; i < numPart.length; i++, j--)
+    //     checkSum += j * numPart.charAt(i);
 
-    return verify == checkDigit || (verify == 10 && checkDigit == 'A');
+    // // verify the check digit
+    // var remaining = checkSum % 11;
+    // var verify = remaining == 0 ? 0 : 11 - remaining;
+
+    // return verify == checkDigit || (verify == 10 && checkDigit == 'A');
 }
 </script>
 
