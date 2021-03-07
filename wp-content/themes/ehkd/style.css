@@ -245,6 +245,10 @@ a.menu-products-a.level-1 {
     color: #000;
 }
 
+.footer-phone-2 a:hover {
+    color: #000;
+}
+
 .phone-icon {
     height: 40px;
 }
