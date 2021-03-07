@@ -355,3 +355,4 @@ $my_home_url = apply_filters( 'wpml_home_url', get_option( 'home' ) );?>
                         })
                     })
                     </script>
+                    <a href="wts-icon-a"></a>
