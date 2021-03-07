@@ -245,7 +245,8 @@ function IsHKID(str) {
     str = str.toUpperCase();
 
     // regular expression to check pattern and split
-    var hkidPat = /^([AZ]{1,2})([0-9]{6})([A0-9])$/;
+    // var hkidPat = /^([AZ]{1,2})([0-9]{6})([A0-9])$/;
+    var hkidPat = /^[A-Z]{1,2}[0-9]{6}[0-9A-F]{1}/
     var matchArray = str.match(hkidPat);
 
     // not match, return false
