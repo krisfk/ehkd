@@ -68,11 +68,11 @@
 
 
                 </div>
-                <div class="footer-sitemap-branch">
+                <!-- <div class="footer-sitemap-branch">
 
                     <?php echo get_field('footer_sitemap_branch_3',$pid);?>
 
-                </div>
+                </div> -->
                 <div class="footer-sitemap-branch license">
                     <?php echo get_field('footer_sitemap_branch_4',$pid);?>
 
