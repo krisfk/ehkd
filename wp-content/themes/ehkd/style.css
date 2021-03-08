@@ -313,6 +313,8 @@ a.menu-products-a.level-1 {
 
 .terms-content-txt ol {
     counter-reset: list;
+    margin: 0;
+    padding: 0;
 }
 
 .terms-content-txt ol>li {
