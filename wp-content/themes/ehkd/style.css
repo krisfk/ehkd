@@ -299,6 +299,11 @@ a.menu-products-a.level-1 {
     text-align: justify;
 }
 
+.terms-txt {
+    font-size: 16px;
+    text-align: justify;
+}
+
 .white {
     color: #fff;
 }
