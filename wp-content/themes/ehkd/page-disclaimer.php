@@ -22,27 +22,9 @@ get_header();
 
 <div class="main-banner">
 
-    <div class="home-main-banner-inner-div">
-
-
-        <div class="inner-msg-div-outer">
-            <div class="inner-msg-div container">
-
-                <h1 class="banner-title mt-4 mt-sm-4 mt-md-4 mt-lg-5"><?php echo get_the_title();?></h1>
 
 
 
-            </div>
-        </div>
-    </div>
-
-    <?php
-$img_id = get_field('banner');
-$img_arr = wp_get_attachment_image_src($img_id,'full');
-$img_src=$img_arr[0];
-?>
-
-    <img src="<?php echo $img_src;?>" alt="">
 </div>
 
 <div class="container mt-5">
