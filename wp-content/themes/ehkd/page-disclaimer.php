@@ -33,7 +33,7 @@ get_header();
 
     </div>
 
-    <div class="content-txt text-center mt-5">
+    <div class="content-txt text-center mt-5 text-left">
 
         <?php echo get_the_content();?>
 
