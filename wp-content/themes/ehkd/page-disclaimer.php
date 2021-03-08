@@ -20,7 +20,7 @@ get_header();
 
 
 
-<!-- <div class="main-banner">
+<div class="main-banner">
 
     <div class="home-main-banner-inner-div">
 
@@ -42,7 +42,7 @@ $img_arr = wp_get_attachment_image_src($img_id,'full');
 $img_src=$img_arr[0];
 ?>
 
-    <img src="<?php echo $img_src;?>" alt=""> -->
+    <img src="<?php echo $img_src;?>" alt="">
 </div>
 
 <div class="container mt-5">
