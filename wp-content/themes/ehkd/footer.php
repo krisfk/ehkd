@@ -39,7 +39,7 @@
 
     <div class="row">
 
-        <div class="col-lg-12 col-xl-6">
+        <div class="col-lg-12 col-xl-5">
 
             <div class="footer-lightblue-title mt-5"><?php echo get_field('content_1',$pid);?></div>
 
@@ -47,7 +47,7 @@
 
             <a href="./apply" class="footer-apply-btn mt-4"><?php echo get_field('apply_btn',$pid);?></a>
         </div>
-        <div class="col-lg-12 col-xl-6">
+        <div class="col-lg-12 col-xl-7">
 
 
             <div class=" footer-sitemap mt-5 mt-sm-5 mt-md-5 mt-lg-5">
