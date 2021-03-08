@@ -311,6 +311,19 @@ a.menu-products-a.level-1 {
     margin: 0 0 0 20px;
 }
 
+.terms-content-txt ol {
+    counter-reset: list;
+}
+
+.terms-content-txt ol>li {
+    list-style: none;
+}
+
+.terms-content-txt ol>li:before {
+    content: counter(list, lower-alpha) ') ';
+    counter-increment: list;
+}
+
 .white {
     color: #fff;
 }
