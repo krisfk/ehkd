@@ -302,6 +302,7 @@ a.menu-products-a.level-1 {
 .terms-content-txt {
     font-size: 16px;
     text-align: justify;
+    border-bottom: 1px solid #9c9c9b;
 }
 
 .white {
