@@ -20,12 +20,7 @@ get_header();
 
 
 
-<div class="main-banner">
-
-
-
-
-</div>
+<div class="main-banner"></div>
 
 <div class="container mt-5">
 
@@ -34,10 +29,9 @@ get_header();
     <div class="blue-title text-center">
 
 
-        <!-- <span class="big"> 數字貨幣</span>在手 <br>
-        現金<span class="big">想借就有</span> -->
+        <span class="big">fsdfds</span>
 
-        <?php echo get_field('content_1');?>
+
 
 
 
