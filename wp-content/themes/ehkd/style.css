@@ -320,7 +320,7 @@ a.menu-products-a.level-1 {
 }
 
 .terms-content-txt ol>li:before {
-    content: counter(list, lower-roman) ') ';
+    content: '(' counter(list, lower-roman) ') ';
     counter-increment: list;
 }
 
