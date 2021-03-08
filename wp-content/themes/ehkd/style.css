@@ -323,7 +323,7 @@ a.menu-products-a.level-1 {
     display: none;
     position: absolute;
     top: 30px;
-    width: max-content;
+    width: 170px;
     z-index: 100;
     padding: 0;
     background: #ffffffeb;
