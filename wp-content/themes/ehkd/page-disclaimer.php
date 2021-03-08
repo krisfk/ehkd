@@ -29,21 +29,13 @@ get_header();
     <div class="blue-title text-center">
 
 
-        <span class="big">fsdfds</span>
-
-
-
-
+        <span class="big"><?php echo get_the_title();?></span>
 
     </div>
 
     <div class="content-txt text-center mt-5">
 
-
-        <!-- 一時手頭緊，又唔想賣出數字貨幣？質押指定數字資產，借入港幣，實現數字資產最大價值。 <br>
-        質押幣種多元，支持BTC，ETH，USDT等，更可享特低利息循環貸款， <br>
-        最快即日批核現金，還款周期長，隨借隨還，周轉暢通無阻! -->
-        <?php echo get_field('content_2');?>
+        <?php echo get_the_content();?>
 
     </div>
 
