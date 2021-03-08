@@ -45,7 +45,7 @@
 
             <div class="footer-apply-btn-above-txt mt-3"><?php echo get_field('content_2',$pid);?></div>
 
-            <a href="./apply" class="footer-apply-btn mt-4"><?php echo get_field('apply_btn',$pid);?></a>
+            <a href="./apply" class="footer-apply-btn mt-5"><?php echo get_field('apply_btn',$pid);?></a>
         </div>
         <div class="col-lg-12 col-xl-7">
 
