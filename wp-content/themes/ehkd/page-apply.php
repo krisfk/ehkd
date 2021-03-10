@@ -145,7 +145,8 @@ $(function() {
 
 
     $("#customer-dob").datepicker({
-        dateFormat: 'yy/mm/dd'
+        dateFormat: 'yy/mm/dd',
+        changeYear: true
     });
 
     $('.submit-btn').click(function(e) {

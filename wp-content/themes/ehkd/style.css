@@ -558,6 +558,12 @@ a.menu-products-a.level-1 {
     font-weight: normal;
 }
 
+.apply-form-remark {
+    color: #636363;
+    font-size: 15px;
+    font-weight: normal;
+}
+
 .top-menu li a.level-1 {
     transition: 0.2s all;
 }
@@ -942,6 +948,11 @@ a.menu-products-a.level-1 {
 }
 
 @media only screen and (max-width: 480px) {
+    .large-point-txt {
+        color: rgb(0, 51, 161);
+        font-size: 18px;
+        line-height: 24px;
+    }
     .big-point-ul li {
         list-style-type: none;
         font-size: 17px;
@@ -965,7 +976,7 @@ a.menu-products-a.level-1 {
         line-height: 60px;
     }
     .content-txt {
-        /* font-size: 20px; */
+        font-size: 18px;
         padding: 0 10px;
     }
     .ehkd-logo {
