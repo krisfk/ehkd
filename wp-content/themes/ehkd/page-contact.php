@@ -65,8 +65,9 @@ $img_src=$img_arr[0];
     <script type="text/javascript">
     function initMap() {
         const myLatLng = {
-            lat: 22.31321892272788,
-            lng: 114.17080511239944
+
+            lat: 22.303107160517847,
+            lng: 114.1723140002062
         };
         const map = new google.maps.Map(document.getElementById("map"), {
             // zoom: 4,
