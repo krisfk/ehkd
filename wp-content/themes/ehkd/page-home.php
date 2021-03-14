@@ -19,7 +19,7 @@ get_header();
 ?>
 
 
-fff
+<?php echo current_datetime();?>
 <div class="main-banner">
 
     <div class="home-main-banner-inner-div">
