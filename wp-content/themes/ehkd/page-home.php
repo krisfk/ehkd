@@ -19,7 +19,7 @@ get_header();
 ?>
 
 
-<?php echo current_datetime();?>
+<?php echo current_time( 'mysql' ) ;?>
 <div class="main-banner">
 
     <div class="home-main-banner-inner-div">
