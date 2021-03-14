@@ -714,7 +714,7 @@ if ($post_id) {
 	add_post_meta($post_id, 'customer_hkid', $request->get_param( 'customer_id_full' ));
 	add_post_meta($post_id, 'customer_dob', $request->get_param( 'customer_dob' ));
 	add_post_meta($post_id, 'where_from', $request->get_param( 'where_from' ));
-	// add_post_meta($post_id, 'submission_date_time', );
+	add_post_meta($post_id, 'submission_date_time',current_time( 'mysql' )  );
 
 
 	# PHP7+
