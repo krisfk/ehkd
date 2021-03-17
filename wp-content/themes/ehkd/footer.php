@@ -87,17 +87,19 @@
 
                 <div class="text-xl-start text-lg-center mt-4">
 
+                    <div class="row">
+                        <!-- <div class="d-inline-block me-0 me-sm-0 me-md-4 me-lg-4 col-6"> -->
+                        <div class="d-inline-block  col-6">
 
-                    <div class="d-inline-block me-0 me-sm-0 me-md-4 me-lg-4 ">
+                            <span class="footer-phone footer-phone-1">
+                                <?php echo get_field('phone_number',$pid);?></span>
 
-                        <span class="footer-phone footer-phone-1"> <?php echo get_field('phone_number',$pid);?></span>
-
-                        <div class="footer-under-phone-txt"><?php echo get_field('content_3',$pid);?></div>
+                            <div class="footer-under-phone-txt"><?php echo get_field('content_3',$pid);?></div>
 
 
-                    </div>
-                    <div class="d-inline-block">
-                        <?php  
+                        </div>
+                        <div class="d-inline-block col-6">
+                            <?php  
                             $args = array('post_type'=> 'config');              
         $the_query = new WP_Query( $args );
         if($the_query->have_posts() ) {
@@ -106,17 +108,22 @@
                    wp_reset_postdata(); 
         }
         ?>
-                        <a target="_blank" href="https://api.whatsapp.com/send?phone=852<?php echo $whatsapp;?>"
-                            class="footer-phone footer-phone-2">
+                            <a target="_blank" href="https://api.whatsapp.com/send?phone=852<?php echo $whatsapp;?>"
+                                class="footer-phone footer-phone-2">
 
 
 
-                            <?php echo get_field('whatsapp_number',$pid);?>
+                                <?php echo get_field('whatsapp_number',$pid);?>
 
-                        </a>
-                        <div class="footer-under-phone-txt"><?php echo get_field('content_4',$pid);?></div>
+                            </a>
+                            <div class="footer-under-phone-txt"><?php echo get_field('content_4',$pid);?></div>
+
+                        </div>
 
                     </div>
+
+
+
                 </div>
             </div>
         </div>
