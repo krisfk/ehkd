@@ -87,7 +87,7 @@
 
                 <div class="text-xl-start text-lg-center mt-4">
 
-                    <div class="row">
+                    <div class="row footer-phone-div-row">
                         <!-- <div class="d-inline-block me-0 me-sm-0 me-md-4 me-lg-4 col-6"> -->
                         <div class="d-inline-block footer-phone-div  col-lg-6 col-md-12 col-sm-12 col-12">
 
