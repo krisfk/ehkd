@@ -1023,6 +1023,19 @@ html[lang^='en-US'] .footer-sitemap .footer-sitemap-branch.footer-sitemap-branch
 }
 
 @media only screen and (max-width: 480px) {
+    html[lang^='en-US'] .footer-sitemap .footer-sitemap-branch.footer-sitemap-branch-1 {
+        margin: 0;
+        /* width: 170px; */
+        width: 258px;
+        text-align: center;
+    }
+    html[lang^='en-US'] .footer-sitemap .footer-sitemap-branch.footer-sitemap-branch-2 {
+        width: 203px;
+        text-align: center;
+    }
+    html[lang^='en-US'] .footer-sitemap .footer-sitemap-branch.footer-sitemap-branch-3 {
+        text-align: center;
+    }
     .large-point-txt {
         color: rgb(0, 51, 161);
         font-size: 18px;
