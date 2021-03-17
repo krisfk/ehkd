@@ -783,6 +783,11 @@ html[lang^='en-US'] .light-blue-inner-content .txt {
     padding: 0 10px;
 }
 
+html[lang^='en-US'] .content-txt {
+    font-size: 22px;
+    text-align: justify;
+}
+
 @media only screen and (max-width: 1920px) {
     .inner-msg-div-inner-div {
         width: 700px;
