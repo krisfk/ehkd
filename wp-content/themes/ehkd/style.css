@@ -825,6 +825,8 @@ html[lang^='en-US'] .footer-phone-div {
     margin: 0 10px;
 }
 
+html[lang^='en-US'] .footer-phone-div-row-div {}
+
 @media only screen and (max-width: 1920px) {
     .inner-msg-div-inner-div {
         width: 700px;
@@ -869,7 +871,7 @@ html[lang^='en-US'] .footer-phone-div {
         margin: 0;
         /* width: 170px; */
         width: 258px;
-        fl
+        float: left;
     }
     .ehkd-logo-a {
         float: left;
