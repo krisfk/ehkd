@@ -734,6 +734,8 @@ a.menu-products-a.level-1 {
 
 .bottom-img-link {
     transition: 0.2s all;
+    position: relative;
+    background: #00a7e1;
 }
 
 .bottom-img-link:hover {
