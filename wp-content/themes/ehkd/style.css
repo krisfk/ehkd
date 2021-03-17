@@ -816,7 +816,7 @@ html[lang^='en-US'] .footer-sitemap .footer-sitemap-branch.footer-sitemap-branch
     width: 203px;
 }
 
-html[lang^='en-US'] .footer-sitemap .footer-sitemap-branch.footer-sitemap-branch-4 {}
+html[lang^='en-US'] .footer-sitemap .footer-sitemap-branch.footer-sitemap-branch-3 {}
 
 @media only screen and (max-width: 1920px) {
     .inner-msg-div-inner-div {
@@ -908,6 +908,7 @@ html[lang^='en-US'] .footer-sitemap .footer-sitemap-branch.footer-sitemap-branch
 }
 
 @media only screen and (max-width: 991px) {
+    html[lang^='en-US'] .footer-sitemap .footer-sitemap-branch.footer-sitemap-branch-3 {}
     .five-points-top-div {
         background: #00a7e1;
         color: #fff;
