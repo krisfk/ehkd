@@ -1022,7 +1022,7 @@ html[lang^='en-US'] .footer-sitemap .footer-sitemap-branch.footer-sitemap-branch
     } */
 }
 
-@media only screen and (max-width: 480px) {
+@media only screen and (max-width: 510px) {
     html[lang^='en-US'] .footer-sitemap .footer-sitemap-branch.footer-sitemap-branch-1 {
         margin: 0;
         /* width: 170px; */
