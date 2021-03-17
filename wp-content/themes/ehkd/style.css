@@ -834,6 +834,10 @@ html[lang^='en-US'] .footer-phone-div-row-div {
     float: left;
 }
 
+html[lang^='en-US'] .footer-under-phone-txt {
+    font-size: 18px;
+}
+
 @media only screen and (max-width: 1920px) {
     .inner-msg-div-inner-div {
         width: 700px;
