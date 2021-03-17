@@ -884,6 +884,8 @@ html[lang^='en-US'] .footer-under-phone-txt {
         width: 258px;
         float: left;
     }
+    html[lang^='en-US'] .footer-sitemap .footer-sitemap-branch.footer-sitemap-branch-2 {}
+    html[lang^='en-US'] .footer-sitemap .footer-sitemap-branch.footer-sitemap-branch-3 {}
     .ehkd-logo-a {
         float: left;
         margin: 24px 0px 0px 10px;
