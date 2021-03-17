@@ -51,7 +51,7 @@
 
 
             <div class=" footer-sitemap mt-5 mt-sm-5 mt-md-5 mt-lg-5">
-                <div class="footer-sitemap-branch">
+                <div class="footer-sitemap-branch footer-sitemap-branch-1">
 
                     <?php echo get_field('footer_sitemap_branch_1',$pid);?>
 
@@ -59,7 +59,7 @@
 
 
                 </div>
-                <div class="footer-sitemap-branch">
+                <div class="footer-sitemap-branch footer-sitemap-branch-2">
 
                     <?php echo get_field('footer_sitemap_branch_2',$pid);?>
 
@@ -73,7 +73,7 @@
                     <?php echo get_field('footer_sitemap_branch_3',$pid);?>
 
                 </div> -->
-                <div class="footer-sitemap-branch license">
+                <div class="footer-sitemap-branch license  footer-sitemap-branch-3">
                     <?php echo get_field('footer_sitemap_branch_4',$pid);?>
 
 
