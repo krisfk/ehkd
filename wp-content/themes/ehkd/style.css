@@ -757,6 +757,11 @@ a.menu-products-a.level-1 {
     opacity: 0.85;
 }
 
+html[lang^='en-US'] .rect-img-txt {
+    font-size: 19px;
+    /* padding: 14px; */
+}
+
 @media only screen and (max-width: 1920px) {
     .inner-msg-div-inner-div {
         width: 700px;
