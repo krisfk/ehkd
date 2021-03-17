@@ -44,7 +44,7 @@ $img_src2=$img_arr[0];
 
 
 
-                    <div class="mt-5 text-center"> <a href="./apply"
+                    <div class="mt-4 text-center"> <a href="./apply"
                             class="apply-now-btn"><?php echo get_field('apply_btn');?></a>
                     </div>
                 </div>
