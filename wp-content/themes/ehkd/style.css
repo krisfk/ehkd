@@ -810,6 +810,7 @@ html[lang^='en-US'] .footer-sitemap .footer-sitemap-branch.footer-sitemap-branch
     margin: 0;
     /* width: 170px; */
     width: 258px;
+    float: left;
 }
 
 html[lang^='en-US'] .footer-sitemap .footer-sitemap-branch.footer-sitemap-branch-2 {
@@ -868,6 +869,7 @@ html[lang^='en-US'] .footer-phone-div {
         margin: 0;
         /* width: 170px; */
         width: 258px;
+        fl
     }
     .ehkd-logo-a {
         float: left;
