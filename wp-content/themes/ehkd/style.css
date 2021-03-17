@@ -825,7 +825,9 @@ html[lang^='en-US'] .footer-phone-div {
     margin: 0 10px;
 }
 
-html[lang^='en-US'] .footer-phone-div-row-div {}
+html[lang^='en-US'] .footer-phone-div-row-div {
+    float: left;
+}
 
 @media only screen and (max-width: 1920px) {
     .inner-msg-div-inner-div {
