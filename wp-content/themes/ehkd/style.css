@@ -794,7 +794,7 @@ html[lang^='en-US'] .contact-form-container {
 
 html[lang^='en-US'] .contact-form-container {
     font-size: 20px;
-    max-width: auto !important;
+    max-width: 1320px im !important;
 }
 
 @media only screen and (max-width: 1920px) {
