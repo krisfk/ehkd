@@ -849,6 +849,7 @@ html[lang^='en-US'] .footer-sitemap .footer-sitemap-branch.footer-sitemap-branch
     .footer-phone-div {
         width: auto !important;
         float: none !important;
+        margin: 0 10px;
     }
     .footer-phone-div-row {
         display: block !important;
