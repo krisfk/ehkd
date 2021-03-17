@@ -1003,7 +1003,10 @@ html[lang^='en-US'] .footer-sitemap .footer-sitemap-branch.footer-sitemap-branch
 }
 
 @media only screen and (max-width: 768px) {
-    .footer-sitemap-branch.license {}
+    .footer-sitemap-branch.license {
+        text-align: center;
+        margin: 30px 0 0 0;
+    }
     .inner-msg-div-inner-div {
         width: 300px;
         height: 250px !important;
