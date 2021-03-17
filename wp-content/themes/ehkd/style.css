@@ -762,6 +762,10 @@ html[lang^='en-US'] .rect-img-txt {
     /* padding: 14px; */
 }
 
+html[lang^='en-US'] .large-point-txt {
+    font-weight: bold;
+}
+
 @media only screen and (max-width: 1920px) {
     .inner-msg-div-inner-div {
         width: 700px;
