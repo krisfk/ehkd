@@ -797,6 +797,13 @@ html[lang^='en-US'] .contact-form-container {
     max-width: 1320px !important;
 }
 
+html[lang^='en-US'] .footer-sitemap .footer-sitemap-branch {
+    display: inline-table;
+    margin: 0px 0px 0px 20px;
+    text-align: left;
+    width: 220px;
+}
+
 @media only screen and (max-width: 1920px) {
     .inner-msg-div-inner-div {
         width: 700px;
