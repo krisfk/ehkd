@@ -881,11 +881,18 @@ html[lang^='en-US'] .footer-under-phone-txt {
     html[lang^='en-US'] .footer-sitemap .footer-sitemap-branch.footer-sitemap-branch-1 {
         margin: 0;
         /* width: 170px; */
-        width: 258px;
-        float: left;
+        /* width: 258px; */
+        /* float: left; */
+        width: auto;
+        float: none;
     }
-    html[lang^='en-US'] .footer-sitemap .footer-sitemap-branch.footer-sitemap-branch-2 {}
-    html[lang^='en-US'] .footer-sitemap .footer-sitemap-branch.footer-sitemap-branch-3 {}
+    html[lang^='en-US'] .footer-sitemap .footer-sitemap-branch.footer-sitemap-branch-2 {
+        width: auto;
+        float: none;
+    }
+    html[lang^='en-US'] .footer-sitemap .footer-sitemap-branch.footer-sitemap-branch-3 {
+        float: none;
+    }
     .ehkd-logo-a {
         float: left;
         margin: 24px 0px 0px 10px;
