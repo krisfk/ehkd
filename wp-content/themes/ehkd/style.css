@@ -815,9 +815,12 @@ html[lang^='en-US'] .footer-sitemap .footer-sitemap-branch.footer-sitemap-branch
 
 html[lang^='en-US'] .footer-sitemap .footer-sitemap-branch.footer-sitemap-branch-2 {
     /* width: 203px; */
+    float: left;
 }
 
-html[lang^='en-US'] .footer-sitemap .footer-sitemap-branch.footer-sitemap-branch-3 {}
+html[lang^='en-US'] .footer-sitemap .footer-sitemap-branch.footer-sitemap-branch-3 {
+    float: left;
+}
 
 html[lang^='en-US'] .footer-phone-div {
     width: auto !important;
