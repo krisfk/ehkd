@@ -814,7 +814,7 @@ html[lang^='en-US'] .footer-sitemap .footer-sitemap-branch.footer-sitemap-branch
 }
 
 html[lang^='en-US'] .footer-sitemap .footer-sitemap-branch.footer-sitemap-branch-2 {
-    /* width: 203px; */
+    width: 203px;
     float: left;
 }
 
