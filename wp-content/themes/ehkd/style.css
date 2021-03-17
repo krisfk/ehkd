@@ -788,6 +788,10 @@ html[lang^='en-US'] .content-txt {
     text-align: justify;
 }
 
+html[lang^='en-US'] .contact-form-container {
+    font-size: 18px;
+}
+
 @media only screen and (max-width: 1920px) {
     .inner-msg-div-inner-div {
         width: 700px;
