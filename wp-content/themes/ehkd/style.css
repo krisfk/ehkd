@@ -770,6 +770,10 @@ html[lang^='en-US'] .large-point-txt .small {
     font-weight: normal;
 }
 
+html[lang^='en-US'] .large-point-txt .top-menu-submenu {
+    width: 300px;
+}
+
 @media only screen and (max-width: 1920px) {
     .inner-msg-div-inner-div {
         width: 700px;
