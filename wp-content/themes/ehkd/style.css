@@ -808,7 +808,8 @@ html[lang^='en-US'] .footer-sitemap .footer-sitemap-branch {
 
 html[lang^='en-US'] .footer-sitemap .footer-sitemap-branch.footer-sitemap-branch-1 {
     margin: 0;
-    width: 170px;
+    /* width: 170px; */
+    width: 258px;
 }
 
 html[lang^='en-US'] .footer-sitemap .footer-sitemap-branch.footer-sitemap-branch-2 {
