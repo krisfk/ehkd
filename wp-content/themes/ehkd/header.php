@@ -171,7 +171,7 @@ $langs= icl_get_languages('skip_missing=0&orderby=custom&order=asc&link_empty_to
                 <main id="main" class="site-main" role="main">
 
 
-                    <div class="container">
+                    <div class="container nav-container">
 
 
 

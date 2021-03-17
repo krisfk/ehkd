@@ -866,6 +866,9 @@ html[lang^='en-US'] .footer-under-phone-txt {
 }
 
 @media only screen and (max-width: 1200px) {
+    .nav-container {
+        max-width: 100% !important;
+    }
     html[lang^='en-US'] .footer-phone-div {
         width: 100% !important;
         margin: 0 0 20px 0;
