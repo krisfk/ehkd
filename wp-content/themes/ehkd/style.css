@@ -536,7 +536,7 @@ a.menu-products-a.level-1 {
 
 .contact-form-container {
     font-size: 20px;
-    /* max-width: 1000px !important; */
+    max-width: 1000px !important;
 }
 
 .contact-form-container-heading {
@@ -790,6 +790,11 @@ html[lang^='en-US'] .content-txt {
 
 html[lang^='en-US'] .contact-form-container {
     font-size: 18px;
+}
+
+html[lang^='en-US'] .contact-form-container {
+    font-size: 20px;
+    max-width: auto;
 }
 
 @media only screen and (max-width: 1920px) {
