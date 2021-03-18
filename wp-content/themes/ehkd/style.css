@@ -869,12 +869,12 @@ html[lang^='en-US'] #calculator .main .mainImgWrapper .output .title {
 
 @media only screen and (max-width: 1450px) {
     html[lang^='en-US'] .lang-div {
-        display: inline-block;
+        /* display: inline-block;
         background: rgb(0, 51, 161);
         color: rgb(255, 255, 255);
         border-radius: 25px;
         padding: 0px 10px 4px;
-        font-size: 19px;
+        font-size: 19px; */
     }
     html[lang^='en-US'] .top-menu li {
         display: inline-block;
