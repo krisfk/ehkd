@@ -997,6 +997,11 @@ html[lang^='en-US'] .footer-under-phone-txt {
         background-size: auto 58%;
         background-position: 0 center;
     }
+    html[lang^='en-US'] .big-point-ul li {
+        background: url(./assets/images/tick-checkbox.png) no-repeat;
+        background-size: auto 58%;
+        background-position: 0 center;
+    }
     .content-txt {
         font-size: 20px;
         /* padding: 0 20px; */
