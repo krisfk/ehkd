@@ -424,10 +424,9 @@ a.menu-products-a.level-1 {
 
 .big-point-ul {
     padding: 0 0 0 50px;
-    /* list-style-image: url(./assets/images/tick-checkbox.png); */
 }
 
-li {
+.big-point-ul li {
     list-style-type: none;
     font-size: 33px;
     color: #00a7e1;
@@ -436,8 +435,6 @@ li {
     background-size: auto 58%;
     background-position: 0 center;
 }
-
-.tick {}
 
 .blue-title .big {
     font-size: 45px;
