@@ -851,6 +851,10 @@ html[lang^='en-US'] #calculator .main .mainImgWrapper .input .calc_value .calc_u
     font-size: 18px;
 }
 
+html[lang^='en-US'] #calculator .main .mainImgWrapper .output .title {
+    font-size: 19px;
+}
+
 @media only screen and (max-width: 1920px) {
     .inner-msg-div-inner-div {
         width: 700px;
