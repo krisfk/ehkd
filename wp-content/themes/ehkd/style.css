@@ -868,8 +868,13 @@ html[lang^='en-US'] #calculator .main .mainImgWrapper .output .title {
 }
 
 @media only screen and (max-width: 1450px) {
+    html[lang^='en-US'] .top-menu li {
+        display: inline-block;
+        margin: 0px 0px 0px 20px;
+        position: relative;
+    }
     html[lang^='en-US'] .top-menu li a {
-        /* font-size: 25px; */
+        font-size: 16px;
     }
     .cal-img {
         position: absolute;
