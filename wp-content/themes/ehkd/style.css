@@ -438,6 +438,7 @@ a.menu-products-a.level-1 {
 
 html[lang^='en-US'] .big-point-ul li {
     background-size: auto 36px;
+    background-position: 0 18px;
 }
 
 .blue-title .big {
