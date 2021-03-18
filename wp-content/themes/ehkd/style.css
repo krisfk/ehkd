@@ -427,14 +427,14 @@ a.menu-products-a.level-1 {
     /* list-style-image: url(./assets/images/tick-checkbox.png); */
 }
 
-.big-point-ul li {
+li {
     list-style-type: none;
     font-size: 33px;
     color: #00a7e1;
     padding: 10px 0 10px 44px;
-    /* background: url(./assets/images/tick-checkbox.png) no-repeat; */
-    /* background-size: auto 58%; */
-    /* background-position: 0 center; */
+    background: url(./assets/images/tick-checkbox.png) no-repeat;
+    background-size: auto 58%;
+    background-position: 0 center;
 }
 
 .tick {}
