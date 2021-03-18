@@ -1110,6 +1110,11 @@ html[lang^='en-US'] .footer-under-phone-txt {
         background-size: auto 23px;
         background-position: 0 center;
     }
+    html[lang^='en-US'] .big-point-ul li {
+        background: url(./assets/images/tick-checkbox.png) no-repeat;
+        background-size: auto 23px;
+        background-position: 0 center;
+    }
     .ehkd-logo-a {
         float: left;
         margin: 20px 0px 0px 10px;
