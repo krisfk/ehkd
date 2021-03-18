@@ -436,6 +436,10 @@ a.menu-products-a.level-1 {
     background-position: 0 center;
 }
 
+html[lang^='en-US'] .big-point-ul li {
+    background-size: auto 36px;
+}
+
 .blue-title .big {
     font-size: 45px;
     font-weight: bold;
