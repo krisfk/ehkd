@@ -424,7 +424,7 @@ a.menu-products-a.level-1 {
 
 .big-point-ul {
     padding: 0 0 0 50px;
-    list-style-image: url(./assets/images/tick-checkbox.png);
+    /* list-style-image: url(./assets/images/tick-checkbox.png); */
 }
 
 .big-point-ul li {
