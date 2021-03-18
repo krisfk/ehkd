@@ -1108,7 +1108,7 @@ html[lang^='en-US'] .footer-under-phone-txt {
         padding: 5px 0 5px 32px;
         background: url(./assets/images/tick-checkbox.png) no-repeat;
         background-size: auto 23px;
-        background-position: 0 center;
+        background-position: 0px 5px !important;
     }
     html[lang^='en-US'] .big-point-ul li {
         background: url(./assets/images/tick-checkbox.png) no-repeat;
