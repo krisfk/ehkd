@@ -877,7 +877,7 @@ html[lang^='en-US'] #calculator .main .mainImgWrapper .output .title {
         font-size: 19px; */
     }
     html[lang^='en-US'] .top-menu li {
-        display: inline-block;
+        /* display: inline-block; */
         margin: 0px 0px 0px 20px;
         position: relative;
     }
