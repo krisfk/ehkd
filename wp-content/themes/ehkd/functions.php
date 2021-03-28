@@ -765,6 +765,7 @@ function custom_wp_title($title) {
     // if ( is_404() ) {
     //     $title = 'Custom 404 Title';
     // }
-    return $title;
+    // return $title;
+	return '...';
 }
 add_filter( 'wp_title', 'custom_wp_title', 10, 2 );
