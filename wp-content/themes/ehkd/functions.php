@@ -762,6 +762,6 @@ remove_filter( 'meta_content', 'shortcode_unautop' );
 
 add_filter( 'pre_get_document_title', function( $title ){
     // Make any changes here
-    // return $title;
-	return '111';
+    return $title;
+	// return '111';
 }, 999, 1 );
