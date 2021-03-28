@@ -760,12 +760,8 @@ if ($post_id) {
 remove_filter( 'the_content', 'shortcode_unautop' );
 remove_filter( 'meta_content', 'shortcode_unautop' );
 
-function custom_wp_title($title) {
-
-    // if ( is_404() ) {
-    //     $title = 'Custom 404 Title';
-    // }
+add_filter( 'pre_get_document_title', function( $title ){
+    // Make any changes here
     // return $title;
-	return '...';
-}
-add_filter( 'wp_title', 'custom_wp_title', 10, 2 );
+	return '111';
+}, 999, 1 );
