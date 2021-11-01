@@ -709,6 +709,19 @@ function apply_func($request)
 	$customer_id_full= $request->get_param( 'customer_id_full' );
 	$customer_dob= $request->get_param( 'customer_dob' );
 	$where_from= $request->get_param( 'where_from' );
+	$captcha_input = $request->get_param( 'captcha_input' );
+	
+
+
+	session_start();
+	if($_SESSION['captcha']['code']!=$captcha_input)
+	{
+	  echo json_encode(array("status"=>"-2", "msg"=>"captcha input is wrong"));
+	}
+	else
+	{
+		
+
 	// $submission_date_time= $request->get_param( 'submission_date_time' );
 
 
@@ -791,7 +804,7 @@ function apply_func($request)
 	 }
 
 
-	// }
+	}
 
 
 }

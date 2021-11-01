@@ -241,7 +241,8 @@ $(function() {
                     customer_id_full: customer_id_full,
                     customer_dob: customer_dob,
                     where_from: where_from,
-                    agree: agree
+                    agree: agree,
+                    captcha_input: $('#captcha-input').val()
                 },
                 dataType: "json",
             }).done(function(response) {
