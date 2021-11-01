@@ -100,7 +100,7 @@ $img_src=$img_arr[0];
             <div class="mt-5 form-div">
                 <?php echo get_field('content_4');?>
 
-                <div>
+                <div class="captcha-div">
 
                     <img class="captcha-img" src="" alt="">
                 </div>
