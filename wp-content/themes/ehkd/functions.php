@@ -759,13 +759,11 @@ function apply_func($request)
 		)
 	);
 	$my_query = new WP_Query($args);
-
-	// if ( $my_query->have_posts() ) {
-		// echo json_encode(array("status"=>"-2", "msg"=>"Can only submit 1 enquiry each day."));
-	// }
-	// else
-	// {
-
+	
+	if ( $my_query->have_posts() ) {
+		echo json_encode(array("status"=>"-2"));
+	}
+	
 
 	if (
 		(strpos(jsEscape($customer_name), 'hack') !== false) || 
