@@ -102,7 +102,7 @@ $img_src=$img_arr[0];
 
                 <div>
 
-                    <img class="captcha" src="" alt="">
+                    <img class="captcha-img" src="" alt="">
                 </div>
 
 
@@ -140,8 +140,8 @@ $(function() {
     load_code();
 
     function load_code() {
-        $.get("https://nextstepmedic.com/gen_captcha.php", {}, function(result) {
-            var img_url = 'https://nextstepmedic.com' + result;
+        $.get("https://www.ehkd.com/gen_captcha.php", {}, function(result) {
+            var img_url = 'https://www.ehkd.com' + result;
             $('.captcha-img').attr('src', img_url);
 
         });
