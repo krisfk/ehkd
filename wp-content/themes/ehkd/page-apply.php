@@ -102,7 +102,7 @@ $img_src=$img_arr[0];
 
                 <div class="captcha-div mt-5">
 
-                    <label for="where-from">驗証碼: </label>
+                    <label for="where-from">Vertification Code: </label>
 
                     <img class="captcha-img" src="" alt=""> <input id="captcha-input" maxlength="5" type="text"
                         class="form-control">
