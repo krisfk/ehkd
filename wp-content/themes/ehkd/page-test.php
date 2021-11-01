@@ -20,30 +20,31 @@ $clientIP = $_SERVER['HTTP_FORWARDED'];
 $clientIP = $_SERVER['REMOTE_ADDR'];
 }
 
-$today = get_the_date();
-echo $today;
+// $today = get_the_date('Y');
+
+// echo $today;
 // echo $today['year'];
 // echo $today['mon'];
 // echo $today['mday'];
 echo $clientIP;
 
-// $args = array(
-// 	'post_type'         => 'application',
-// 	'post_status'       => 'publish',
-// 	'meta_key'		=> 'customer_ip',
-// 	'meta_value'	=> $clientIP,
-// 	'date_query'        => array(
-// 		array(
-// 			'year'  =>
-// 			'month' =>
-// 			'day'   =>
-// 		)
-// 	)
-// );
-// $my_query = new WP_Query($args);
+$args = array(
+	'post_type'         => 'application',
+	'post_status'       => 'publish',
+	'meta_key'		=> 'customer_ip',
+	'meta_value'	=> $clientIP,
+	'date_query'        => array(
+		array(
+			'year'  => get_the_date('Y'),
+			'month' => get_the_date('m'),
+			'day'   => get_the_date('d')
+		)
+	)
+);
+$my_query = new WP_Query($args);
 
 if ( $my_query->have_posts() ) {
-	// echo 999;
+	echo 999;
 }
 
 ?>
