@@ -26,23 +26,23 @@ echo $today['mon'];
 echo $today['mday'];
 echo $clientIP;
 
-$args = array(
-	'post_type'         => 'application',
-	'post_status'       => 'publish',
-	'meta_key'		=> 'customer_ip',
-	'meta_value'	=> $clientIP,
-	'date_query'        => array(
-		array(
-			'year'  =>2021, //$today['year'],
-			'month' =>11, //$today['mon'],
-			'day'   =>2 //$today['mday']
-		)
-	)
-);
-$my_query = new WP_Query($args);
+// $args = array(
+// 	'post_type'         => 'application',
+// 	'post_status'       => 'publish',
+// 	'meta_key'		=> 'customer_ip',
+// 	'meta_value'	=> $clientIP,
+// 	'date_query'        => array(
+// 		array(
+// 			'year'  =>
+// 			'month' =>
+// 			'day'   =>
+// 		)
+// 	)
+// );
+// $my_query = new WP_Query($args);
 
 if ( $my_query->have_posts() ) {
-	echo 999;
+	// echo 999;
 }
 
 ?>
