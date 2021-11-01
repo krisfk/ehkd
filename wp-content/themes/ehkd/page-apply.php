@@ -138,6 +138,8 @@ $img_src=$img_arr[0];
 $(function() {
 
 
+    $('.captcha-div').insertAfter($('.terms-txt'))
+
     load_code();
 
     function load_code() {
