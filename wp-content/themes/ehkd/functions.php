@@ -743,7 +743,7 @@ function apply_func($request)
 	$clientIP = $_SERVER['REMOTE_ADDR'];
 	}
 	
-	$today = getdate();
+	// $today = getdate();
 
 	$args = array(
 		'post_type'         => 'application',
@@ -752,16 +752,16 @@ function apply_func($request)
 		'meta_value'	=> $clientIP,
 		'date_query'        => array(
 			array(
-				'year'  => $today['year'],
-				'month' => $today['mon'],
-				'day'   => $today['mday']
+				'year'  => get_the_date('Y'),
+				'month' => get_the_date('m'),
+				'day'   => get_the_date('d')
 			)
 		)
 	);
 	$my_query = new WP_Query($args);
 
 	if ( $my_query->have_posts() ) {
-		echo json_encode(array("status"=>"-2", "msg"=>"Can submit 1 enquiry only each day."));
+		echo json_encode(array("status"=>"-2", "msg"=>"Can only submit 1 enquiry each day."));
 	}
 	else
 	{

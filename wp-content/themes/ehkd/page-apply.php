@@ -219,7 +219,7 @@ $(function() {
                 if (response.status == -1) {
                     alert('What are you doing? Sir.');
                 } else if (response.status == -2) {
-                    alert('Can submit 1 enquiry only each day.');
+                    alert('Can only submit 1 enquiry each day.');
                 } else
                 if (response.status) {
 
