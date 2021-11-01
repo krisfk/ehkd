@@ -20,7 +20,7 @@ $clientIP = $_SERVER['HTTP_FORWARDED'];
 $clientIP = $_SERVER['REMOTE_ADDR'];
 }
 
-$today = getdate();
+$today = get_the_date();
 echo $today['year'];
 echo $today['mon'];
 echo $today['mday'];
