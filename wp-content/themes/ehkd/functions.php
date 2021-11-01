@@ -702,23 +702,45 @@ add_action( 'rest_api_init', function () {
 
 function apply_func($request)
 {
-// test();
-	// insert the post and set the category
-$post_id = wp_insert_post(array (
+	
+	$customer_name= $request->get_param( 'customer_name' );
+	$loan_type= $request->get_param( 'loan_type' );
+	$customer_tel= $request->get_param( 'customer_tel' );
+	$customer_id_full= $request->get_param( 'customer_id_full' );
+	$customer_dob= $request->get_param( 'customer_dob' );
+	$where_from= $request->get_param( 'where_from' );
+	// $submission_date_time= $request->get_param( 'submission_date_time' );
+
+
+	if (
+		(strpos($customer_name, 'hack') !== false) || 
+		(strpos($loan_type, 'hack') !== false) || 
+		(strpos($customer_tel, 'hack') !== false) || 
+		(strpos($customer_id_full, 'hack') !== false) || 
+		(strpos($customer_dob, 'hack') !== false) || 
+		(strpos($where_from, 'hack') !== false)
+	)
+	{
+		echo json_encode(array("status"=>"-1", "msg"=>"What are you doing?Sir."));
+		// echo 'true';
+	}
+
+
+	$post_id = wp_insert_post(array (
     'post_type' => 'application',
-    'post_title' => $request->get_param( 'customer_name' ). ' application',
+    'post_title' => $customer_name. ' application',
     'post_status' => 'publish',
     'comment_status' => 'closed',   // if you prefer
     'ping_status' => 'closed',      // if you prefer
 ));
 
 if ($post_id) {
-    add_post_meta($post_id, 'loan_type', $request->get_param( 'loan_type' ));
-    add_post_meta($post_id, 'customer_name', $request->get_param( 'customer_name' ));
-    add_post_meta($post_id, 'customer_tel', $request->get_param( 'customer_tel' ));
-	add_post_meta($post_id, 'customer_hkid', $request->get_param( 'customer_id_full' ));
-	add_post_meta($post_id, 'customer_dob', $request->get_param( 'customer_dob' ));
-	add_post_meta($post_id, 'where_from', $request->get_param( 'where_from' ));
+    add_post_meta($post_id, 'loan_type', $loan_type);
+    add_post_meta($post_id, 'customer_name', $customer_name);
+    add_post_meta($post_id, 'customer_tel', $customer_tel);
+	add_post_meta($post_id, 'customer_hkid', $customer_id_full);
+	add_post_meta($post_id, 'customer_dob', $customer_dob);
+	add_post_meta($post_id, 'where_from', $where_from);
 	add_post_meta($post_id, 'submission_date_time',current_time( 'mysql' )  );
 
 
@@ -770,3 +792,46 @@ add_filter( 'pre_get_document_title', function( $title ){
     return $title;
 	// return '111';
 }, 999, 1 );
+
+
+
+function jsEscape($str) {
+	$output = '';
+	$str = str_split($str);
+	for($i=0;$i<count($str);$i++) {
+	 $chrNum = ord($str[$i]);
+	 $chr = $str[$i];
+	 if($chrNum === 226) {
+	   if(isset($str[$i+1]) && ord($str[$i+1]) === 128) {
+		 if(isset($str[$i+2]) && ord($str[$i+2]) === 168) {
+		   $output .= '\u2028';
+		   $i += 2;
+		   continue;
+		 }
+		 if(isset($str[$i+2]) && ord($str[$i+2]) === 169) {
+		   $output .= '\u2029';
+		   $i += 2;
+		   continue;
+		 }
+	   }
+	 }
+	 switch($chr) {
+	   case "'":
+	   case '"':
+	   case "\n";
+	   case "\r";
+	   case "&";
+	   case "\\";
+	   case "<":
+	   case ">":
+		return 'hack';
+		//  $output .= sprintf("\\u%04x", $chrNum);
+	   break;
+	   default:
+		 $output .= $str[$i];
+	   break;
+	  }
+	}
+	return $output;
+  }
+  
