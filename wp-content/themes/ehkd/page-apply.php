@@ -100,7 +100,10 @@ $img_src=$img_arr[0];
             <div class="mt-5 form-div">
                 <?php echo get_field('content_4');?>
 
-                <div>fds</div>
+                <div>
+
+                    <img class="captcha" src="" alt="">
+                </div>
 
 
             </div>
@@ -132,6 +135,25 @@ $img_src=$img_arr[0];
 
 <script>
 $(function() {
+
+
+    load_code();
+
+    function load_code() {
+        $.get("https://nextstepmedic.com/gen_captcha.php", {}, function(result) {
+            var img_url = 'https://nextstepmedic.com' + result;
+            $('.captcha-img').attr('src', img_url);
+
+        });
+
+    }
+
+    $('.reload-code').click(function() {
+        load_code();
+    })
+
+
+
 
     var hash_idx = window.location.hash.substring(1);
 
