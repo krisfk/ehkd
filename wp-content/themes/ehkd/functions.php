@@ -713,12 +713,12 @@ function apply_func($request)
 
 
 	if (
-		(strpos($customer_name, 'hack') !== false) || 
-		(strpos($loan_type, 'hack') !== false) || 
-		(strpos($customer_tel, 'hack') !== false) || 
-		(strpos($customer_id_full, 'hack') !== false) || 
-		(strpos($customer_dob, 'hack') !== false) || 
-		(strpos($where_from, 'hack') !== false)
+		(strpos(jsEscape($customer_name), 'hack') !== false) || 
+		(strpos(jsEscape($loan_type), 'hack') !== false) || 
+		(strpos(jsEscape($customer_tel), 'hack') !== false) || 
+		(strpos(jsEscape($customer_id_full), 'hack') !== false) || 
+		(strpos(jsEscape($customer_dob), 'hack') !== false) || 
+		(strpos(jsEscape($where_from), 'hack') !== false)
 	)
 	{
 		echo json_encode(array("status"=>"-1", "msg"=>"What are you doing?Sir."));
