@@ -19,7 +19,9 @@ $clientIP = $_SERVER['HTTP_FORWARDED'];
 } elseif (isset($_SERVER['REMOTE_ADDR'])) {
 $clientIP = $_SERVER['REMOTE_ADDR'];
 }
-
+echo get_the_date('Y');
+echo get_the_date('m');
+echo get_the_date('d');
 // $today = get_the_date('Y');
 
 // echo $today;
