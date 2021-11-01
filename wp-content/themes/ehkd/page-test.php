@@ -33,9 +33,9 @@ $args = array(
 	'meta_value'	=> $clientIP,
 	'date_query'        => array(
 		array(
-			'year'  => $today['year'],
-			'month' => $today['mon'],
-			'day'   => $today['mday']
+			'year'  =>2021, //$today['year'],
+			'month' =>11, //$today['mon'],
+			'day'   =>2 //$today['mday']
 		)
 	)
 );
