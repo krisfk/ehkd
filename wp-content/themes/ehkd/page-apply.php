@@ -105,7 +105,8 @@ $img_src=$img_arr[0];
                     <label for="where-from">Vertification Code: </label>
 
                     <img class="captcha-img" src="" alt=""> <input id="captcha-input" maxlength="5" type="text"
-                        class="form-control">
+                        class="form-control"> <a href="javascript:void(0);" class="reload-code  ms-2">Reload
+                        Code</a>
                 </div>
 
 
