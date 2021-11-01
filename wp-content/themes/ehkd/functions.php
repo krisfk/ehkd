@@ -761,10 +761,10 @@ function apply_func($request)
 	$my_query = new WP_Query($args);
 
 	if ( $my_query->have_posts() ) {
-		echo json_encode(array("status"=>"-2", "msg"=>"Can only submit 1 enquiry each day."));
-	}
-	else
-	{
+		// echo json_encode(array("status"=>"-2", "msg"=>"Can only submit 1 enquiry each day."));
+	// }
+	// else
+	// {
 
 
 	if (
@@ -812,7 +812,7 @@ function apply_func($request)
 	 }
 
 
-	}
+	// }
 
 
 }
