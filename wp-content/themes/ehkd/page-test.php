@@ -21,7 +21,10 @@ $clientIP = $_SERVER['REMOTE_ADDR'];
 }
 
 $today = getdate();
-echo $today;
+echo $today['year'];
+echo $today['mon'];
+echo $today['mday'];
+
 $args = array(
 	'post_type'         => 'application',
 	'post_status'       => 'publish',
