@@ -761,7 +761,8 @@ function apply_func($request)
 	$my_query = new WP_Query($args);
 	
 	if ( $my_query->have_posts() ) {
-		echo json_encode(array("status"=>"-2"));
+		echo 999;
+		// echo json_encode(array("status"=>"-2"));
 	}
 	
 
