@@ -24,6 +24,7 @@ $today = getdate();
 echo $today['year'];
 echo $today['mon'];
 echo $today['mday'];
+echo $clientIP;
 
 $args = array(
 	'post_type'         => 'application',
