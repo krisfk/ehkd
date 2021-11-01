@@ -860,6 +860,12 @@ html[lang^='en-US'] #calculator .main .mainImgWrapper .output .title {
     width: 100px;
 }
 
+.captcha-img {
+    height: 40px;
+    position: relative;
+    top: -4px;
+}
+
 @media only screen and (max-width: 1920px) {
     .inner-msg-div-inner-div {
         width: 700px;
