@@ -216,6 +216,10 @@ $(function() {
                 dataType: "json",
             }).done(function(response) {
 
+                if (response.status == -1) {
+
+                } else
+
                 if (response.status) {
 
                     $('.form-div').fadeOut(0);

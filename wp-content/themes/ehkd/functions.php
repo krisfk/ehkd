@@ -722,64 +722,69 @@ function apply_func($request)
 	)
 	{
 		echo json_encode(array("status"=>"-1", "msg"=>"What are you doing?Sir."));
+		
 		// echo 'true';
 	}
+	else
+	{
 
-
-	$post_id = wp_insert_post(array (
-    'post_type' => 'application',
-    'post_title' => $customer_name. ' application',
-    'post_status' => 'publish',
-    'comment_status' => 'closed',   // if you prefer
-    'ping_status' => 'closed',      // if you prefer
-));
-
-if ($post_id) {
-    add_post_meta($post_id, 'loan_type', $loan_type);
-    add_post_meta($post_id, 'customer_name', $customer_name);
-    add_post_meta($post_id, 'customer_tel', $customer_tel);
-	add_post_meta($post_id, 'customer_hkid', $customer_id_full);
-	add_post_meta($post_id, 'customer_dob', $customer_dob);
-	add_post_meta($post_id, 'where_from', $where_from);
-	add_post_meta($post_id, 'submission_date_time',current_time( 'mysql' )  );
-
-
-	# PHP7+
-	$clientIP = $_SERVER['HTTP_CLIENT_IP'] 
-	?? $_SERVER["HTTP_CF_CONNECTING_IP"] # when behind cloudflare
-	?? $_SERVER['HTTP_X_FORWARDED'] 
-	?? $_SERVER['HTTP_X_FORWARDED_FOR'] 
-	?? $_SERVER['HTTP_FORWARDED'] 
-	?? $_SERVER['HTTP_FORWARDED_FOR'] 
-	?? $_SERVER['REMOTE_ADDR'] 
-	?? '0.0.0.0';
-
-	# Earlier than PHP7
-	$clientIP = '0.0.0.0';
-
-	if (isset($_SERVER['HTTP_CLIENT_IP'])) {
-	$clientIP = $_SERVER['HTTP_CLIENT_IP'];
-	} elseif (isset($_SERVER['HTTP_CF_CONNECTING_IP'])) {
-	# when behind cloudflare
-	$clientIP = $_SERVER['HTTP_CF_CONNECTING_IP']; 
-	} elseif (isset($_SERVER['HTTP_X_FORWARDED_FOR'])) {
-	$clientIP = $_SERVER['HTTP_X_FORWARDED_FOR'];
-	} elseif (isset($_SERVER['HTTP_X_FORWARDED'])) {
-	$clientIP = $_SERVER['HTTP_X_FORWARDED'];
-	} elseif (isset($_SERVER['HTTP_FORWARDED_FOR'])) {
-	$clientIP = $_SERVER['HTTP_FORWARDED_FOR'];
-	} elseif (isset($_SERVER['HTTP_FORWARDED'])) {
-	$clientIP = $_SERVER['HTTP_FORWARDED'];
-	} elseif (isset($_SERVER['REMOTE_ADDR'])) {
-	$clientIP = $_SERVER['REMOTE_ADDR'];
+		$post_id = wp_insert_post(array (
+			'post_type' => 'application',
+			'post_title' => $customer_name. ' application',
+			'post_status' => 'publish',
+			'comment_status' => 'closed',   // if you prefer
+			'ping_status' => 'closed',      // if you prefer
+		));
+		
+		if ($post_id) {
+			add_post_meta($post_id, 'loan_type', $loan_type);
+			add_post_meta($post_id, 'customer_name', $customer_name);
+			add_post_meta($post_id, 'customer_tel', $customer_tel);
+			add_post_meta($post_id, 'customer_hkid', $customer_id_full);
+			add_post_meta($post_id, 'customer_dob', $customer_dob);
+			add_post_meta($post_id, 'where_from', $where_from);
+			add_post_meta($post_id, 'submission_date_time',current_time( 'mysql' )  );
+		
+		
+			# PHP7+
+			$clientIP = $_SERVER['HTTP_CLIENT_IP'] 
+			?? $_SERVER["HTTP_CF_CONNECTING_IP"] # when behind cloudflare
+			?? $_SERVER['HTTP_X_FORWARDED'] 
+			?? $_SERVER['HTTP_X_FORWARDED_FOR'] 
+			?? $_SERVER['HTTP_FORWARDED'] 
+			?? $_SERVER['HTTP_FORWARDED_FOR'] 
+			?? $_SERVER['REMOTE_ADDR'] 
+			?? '0.0.0.0';
+		
+			# Earlier than PHP7
+			$clientIP = '0.0.0.0';
+		
+			if (isset($_SERVER['HTTP_CLIENT_IP'])) {
+			$clientIP = $_SERVER['HTTP_CLIENT_IP'];
+			} elseif (isset($_SERVER['HTTP_CF_CONNECTING_IP'])) {
+			# when behind cloudflare
+			$clientIP = $_SERVER['HTTP_CF_CONNECTING_IP']; 
+			} elseif (isset($_SERVER['HTTP_X_FORWARDED_FOR'])) {
+			$clientIP = $_SERVER['HTTP_X_FORWARDED_FOR'];
+			} elseif (isset($_SERVER['HTTP_X_FORWARDED'])) {
+			$clientIP = $_SERVER['HTTP_X_FORWARDED'];
+			} elseif (isset($_SERVER['HTTP_FORWARDED_FOR'])) {
+			$clientIP = $_SERVER['HTTP_FORWARDED_FOR'];
+			} elseif (isset($_SERVER['HTTP_FORWARDED'])) {
+			$clientIP = $_SERVER['HTTP_FORWARDED'];
+			} elseif (isset($_SERVER['REMOTE_ADDR'])) {
+			$clientIP = $_SERVER['REMOTE_ADDR'];
+			}
+		
+			add_post_meta($post_id, 'customer_ip', $clientIP);
+		
+			echo json_encode(array("status"=>"1", "msg"=>"Record was added"));
+		
+			
+		}
 	}
 
-	add_post_meta($post_id, 'customer_ip', $clientIP);
 
-	echo json_encode(array("status"=>"1", "msg"=>"Record was added"));
-
-	
-}
 
 }
 
