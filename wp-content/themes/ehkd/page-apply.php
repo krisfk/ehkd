@@ -250,7 +250,7 @@ $(function() {
                 if (response.status == -1) {
                     alert('What are you doing? Sir.');
                 } else if (response.status == -2) {
-                    alert('Can only submit 1 enquiry each day.');
+                    alert('Verification code is wrong.');
                 } else
                 if (response.status) {
 
