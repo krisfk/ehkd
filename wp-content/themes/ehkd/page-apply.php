@@ -217,9 +217,10 @@ $(function() {
             }).done(function(response) {
 
                 if (response.status == -1) {
-                    alert('what are you doing? sir');
+                    alert('What are you doing? Sir.');
+                } else if (response.status == -2) {
+                    alert('Can submit 1 enquiry only each day.');
                 } else
-
                 if (response.status) {
 
                     $('.form-div').fadeOut(0);
