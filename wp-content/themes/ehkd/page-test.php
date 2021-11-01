@@ -21,9 +21,10 @@ $clientIP = $_SERVER['REMOTE_ADDR'];
 }
 
 $today = get_the_date();
-echo $today['year'];
-echo $today['mon'];
-echo $today['mday'];
+echo $today;
+// echo $today['year'];
+// echo $today['mon'];
+// echo $today['mday'];
 echo $clientIP;
 
 // $args = array(
