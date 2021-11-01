@@ -105,7 +105,7 @@
         if($the_query->have_posts() ) {
                $the_query->the_post(); 
                $whatsapp =  get_field('whatsapp');
-                   wp_reset_postdata(); 
+                    wp_reset_postdata(); 
         }
         ?>
 
