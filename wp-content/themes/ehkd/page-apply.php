@@ -217,7 +217,7 @@ $(function() {
             }).done(function(response) {
 
                 if (response.status == -1) {
-
+                    alert('what are you doing? sir');
                 } else
 
                 if (response.status) {
