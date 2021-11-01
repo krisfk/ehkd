@@ -102,7 +102,8 @@ $img_src=$img_arr[0];
 
                 <div class="captcha-div">
 
-                    <img class="captcha-img" src="" alt=""> <input id="captcha-input" type="text" class="form-control">
+                    <img class="captcha-img" src="" alt=""> <input id="captcha-input" maxlength="5" type="text"
+                        class="form-control">
                 </div>
 
 
