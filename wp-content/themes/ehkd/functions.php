@@ -694,10 +694,15 @@ add_action( 'rest_api_init', function () {
 } );
 
 
+function test()
+{
+ echo 999;
+}
+
 
 function apply_func($request)
 {
-
+test();
 	// insert the post and set the category
 $post_id = wp_insert_post(array (
     'post_type' => 'application',
